@@ -1,0 +1,586 @@
+@media screen and (max-width: 2100px) and (min-width: 1366px){
+	.wrapper{
+		max-width: initial;
+	}
+	header{
+		background-size: 100% 100%;
+	}
+	.price_block{
+		background-size: 100% 100%;
+	}
+	.master_block{
+		background-size: 100% 100%;
+	}
+	.clients_block{
+		background-size: 100% 100%;
+	}
+	.gallery_block{
+		background-size: 100% 100%;
+	}
+	.gallery_block .m_image img{
+		width: 100%;
+		height: 100%;
+	}
+	.map_block{
+		height: initial;
+	}
+	.map_block img{
+		width: 100%;
+		height: 100%;
+	}
+	.service_page .wr_slider .slider{
+		max-width: initial;
+	}
+	.service_page .about_master{
+		padding-bottom: 450px!important;
+	}
+}
+@media screen and (max-width: 1365px) and (min-width: 1171px){
+	.service_page .about_master{
+		padding-bottom: 450px!important;
+	}
+}
+@media screen and (max-width: 1170px) and (min-width: 1024px){
+	.service_page .master .ttl{
+		font-size: 14px;
+	}
+	.service_page .about_master .category{
+		font-size: 54px;
+	}
+	.service_page .about_master{
+		padding-bottom: 450px!important;
+	}
+}
+@media screen and (max-width: 1023px) and (min-width: 768px){
+	.price_block .price_list .ttl{
+		font-size: 24px;
+	}
+	.price_block .price_list .line{
+		padding: 8px 0px;
+	}
+	.price_block .price_list .line .name{
+		font-size: 16px;
+		max-height: 64px;
+	}
+	.price_block .price_list .line .price{
+		font-size: 16px;
+		height: 16px;
+		margin-top: -8px;
+	}
+	.price_block .price_list .line .name span{
+		font-size: 12px;
+	}
+	.master_block .arrows a{
+		width: 53px;
+		height: 70px;
+		background-size: 100%;
+	}
+	.master_block .arrows .left{
+		left: -60px;
+	}
+	.master_block .arrows .right{
+		right: -60px;
+	}
+	.gallery_block .arrows a{
+		width: 53px;
+		height: 70px;
+		background-size: 100%;
+		bottom: 220px;
+	}
+	.gallery_block .arrows .left{
+		left: -60px;
+	}
+	.gallery_block .arrows .right{
+		right: -60px;
+	}
+	footer .inf{
+		width: 50%;
+	}
+	.master_page .about_master .otzivi .form .send{
+		font-size: 12px;
+	}
+	.master_page .about_master .otzivi .form .holder input[type="text"]:first-child{
+		width: 100%;
+	}
+	.master_page .about_master .otzivi .form .holder input[type="text"]{
+		width: 100%;
+	}
+	.master_page .about_master > .holder{
+		width: 95%;
+	}
+	.service_page .about_master .price{
+		margin-left: 7%;
+	}
+	.service_page .wr_slider .arrows .left{
+		left: 2px;
+	}
+	.service_page .wr_slider .arrows .right{
+		right: 2px;
+	}
+	.ms .menu{
+		top: 10px;
+		left: 10px;
+	}
+	.service_page .about_master{
+		padding-bottom: 450px!important;
+	}
+}
+
+
+
+
+@media screen and (max-width: 767px) and (min-width: 320px){
+	.menu{
+		display: none;
+	}
+	.menu_hover{
+		position: relative;
+	}
+	.m_menu{
+		width: 40px;
+		height: 40px;
+		background-image: url("../images/menu.png");
+		background-position: 0px 0px;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		position: absolute;
+		top: 20px;
+		left: 20px;
+		margin-left: 0px;
+		display: block;
+		z-index: 11;
+	}
+	.act_mn{
+		overflow: hidden;
+	}
+	.menu_hover{
+		cursor: pointer;
+		width: 90%;
+		height: 100%;
+		background: none;
+		position: fixed;
+		z-index: 1111;
+		background: rgba(0,0,0,0.9);
+		top: 0px;
+		left: 0px;
+		margin: 0px;
+		padding-top: 20px;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		overflow: auto;
+	}
+	.act_menu .menu_hover .items a{
+		color: #fff;
+	}
+	.act_menu .menu_hover .items a:hover{
+		text-decoration: underline;
+	}
+	.act_menu .menu_hover .tels div{
+		color: #fff;
+	}
+	.act_menu{
+		display: block;
+		background-image: none;
+	}
+	.act_menu .menu_hover{
+		display: block!important;
+	}
+	.x{
+		display: block;
+	}
+	.ms .menu_hover{
+		margin-left: 0px;
+		margin-top: 0px;
+	}
+}
+
+
+
+
+
+@media screen and (max-width: 767px) and (min-width: 480px){
+	.service_page .about_master{
+		padding-bottom: 50px;
+	}
+	header .header_top .menu{
+		margin-left: 0px;
+	}
+	header .header_top .loc{
+		margin-right: 0px;
+	}
+	header .header_middle .logo{
+		width: 100%;
+		margin: 0px;
+		padding-top: 10px;
+	}
+	header .header_middle .logo img{
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	header .header_bottom .text{
+		margin-left: 0px;
+	}
+	header .header_bottom .txt{
+		margin-left: 0px;
+		width: 100%;
+	}
+	.price_block .align{
+		width: 98%;
+	}
+	.price_block .price_list{
+		width: 49%;
+	}
+	.price_block .price_list .list{
+		padding: 10px;
+	}
+	.price_block .price_list .ttl{
+		font-size: 18px;
+	}
+	.price_block .price_list .line .name{
+		font-size: 14px;
+		max-height: 36px;
+	}
+	.price_block .price_list .line .price{
+		font-size: 14px;
+		margin-top: -7px;
+		height: 14px;
+	}
+	.price_block .price_list .line{
+		padding: 5px 0px;
+	}
+	.master_block .align{
+		padding-top: 110px;
+		padding-bottom: 0px;
+	}
+	.master_block .masters .holder{
+		height: initial;
+	}
+	.master_block .masters .master{
+		height: 482px;
+	}
+	.master_block .masters .master .image{
+		float: initial;
+		width: 50%;
+		margin: 0 auto;
+		height: initial;
+	}
+	.master_block .masters .master .about{
+		width: 95%;
+		margin: 0 auto;
+		float: initial;
+	}
+	.master_block .arrows a{
+		width: 40px;
+		height: 57px;
+		background-size: 100%;
+	}
+	.master_block .arrows .left{
+		left: -40px;
+	}
+	.master_block .arrows .right{
+		right: -40px;
+	}
+	.clients_block .align{
+		width: 95%;
+	}
+	.clients_block .title{
+		margin-left: 0px;
+	}
+	.clients_block .cl_wr{
+		width: 100%;
+		margin-left: 0px;
+		padding: 0px 30px;
+	}
+	.gallery_block .arrows a{
+		width: 40px;
+		height: 57px;
+		background-size: 100%;
+		bottom: 220px;
+	}
+	.gallery_block .arrows .left{
+		left: -40px;
+	}
+	.gallery_block .arrows .right{
+		right: -40px;
+	}
+	.infa .align{
+		width: 97%;
+	}
+	.infa .work{
+		margin-left: 0px;
+		font-size: 16px;
+	}
+	.infa .address{
+		margin-right: 0px;
+		font-size: 16px;
+	}
+	footer .inf{
+		width: 90%;
+	}
+	.master_page .master .align{
+		width: 96%;
+		margin: 0 auto;
+	}
+	.master_page .master .toadd{
+		width: 90%;
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+	.master_page .about_master .portfolio{
+		width: 100%;
+		float: initial;
+	}
+	.master_page .about_master .otzivi{
+		width: 100%;
+		float: initial;
+		margin-left: 0px;
+		margin-top: 30px;
+	}
+	.master_page .about_master > .holder{
+		width: 95%;
+	}
+	.service_page .about_master .price{
+		margin-left: 7%;
+	}
+	.service_page .about_master{
+		width: 100%;
+		padding-bottom: 30px!important;
+	}
+	.service_page .master{
+		width: 100%;
+		position: initial;
+		padding-bottom: 340px;
+	}
+	.service_page .wr_slider .arrows a{
+		width: 30px;
+		height: 75px;
+		background-size: 100%;
+		margin-top: -37px;
+	}
+	.service_page .wr_slider .arrows .left{
+		left: 2px;
+	}
+	.service_page .wr_slider .arrows .right{
+		right: 2px;
+	}
+}
+
+@media screen and (max-width: 479px) and (min-width: 320px){
+	header .header_top .menu{
+		margin-left: 0px;
+	}
+	header .header_top .loc{
+		margin-right: 0px;
+	}
+	header .header_middle .logo{
+		width: 100%;
+		margin: 0px;
+		padding-top: 10px;
+	}
+	header .header_middle .logo img{
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	header .header_bottom .text{
+		margin-left: 0px;
+		font-size: 18px;
+	}
+	header .header_bottom .txt{
+		margin-left: 0px;
+		width: 100%;
+		font-size: 14px;
+		height: initial;
+	}
+	.price_block .align{
+		width: 98%;
+	}
+	.price_block .price_list{
+		width: 49%;
+	}
+	.price_block .price_list .list{
+		padding: 5px;
+	}
+	.price_block .price_list .ttl{
+		font-size: 18px;
+	}
+	.price_block .price_list .line .name{
+		font-size: 14px;
+		max-height: 36px;
+	}
+	.price_block .price_list .line .price{
+		font-size: 14px;
+		margin-top: -7px;
+		height: 14px;
+	}
+	.price_block .price_list .line{
+		padding: 5px 0px;
+	}
+	.master_block .align{
+		padding-top: 110px;
+		padding-bottom: 0px;
+	}
+	.master_block .masters .master .about .name{
+		font-size: 24px;
+	}
+	.master_block .masters .master .about .spec{
+		font-size: 16px;
+	}
+	.master_block .masters .master .about .text{
+		font-size: 14px;
+		height: initial;
+	}
+	.master_block .masters .holder{
+		height: initial;
+	}
+	.master_block .masters .master{
+		height: 482px;
+	}
+	.master_block .masters .master .image{
+		float: initial;
+		width: 50%;
+		margin: 0 auto;
+		height: initial;
+	}
+	.master_block .masters .master .about{
+		width: 95%;
+		margin: 0 auto;
+		float: initial;
+	}
+	.master_block .arrows a{
+		width: 30px;
+		height: 47px;
+		background-size: 100%;
+	}
+	.master_block .arrows .left{
+		left: -27px;
+	}
+	.master_block .arrows .right{
+		right: -27px;
+	}
+	.clients_block .align{
+		width: 95%;
+	}
+	.clients_block .title{
+		margin-left: 0px;
+	}
+	.clients_block .cl_wr{
+		width: 100%;
+		margin-left: 0px;
+		padding: 0px 30px;
+	}
+	.gallery_block .arrows a{
+		width: 30px;
+		height: 47px;
+		background-size: 100%;
+		bottom: 220px;
+	}
+	.gallery_block .arrows .left{
+		left: -27px;
+	}
+	.gallery_block .arrows .right{
+		right: -27px;
+	}
+	.clients_block .cl_wr .clients .client .text{
+		font-size: 13px;
+	}
+	.infa .align{
+		width: 97%;
+	}
+	.infa .work{
+		margin-left: 0px;
+		font-size: 13px;
+		height: initial;
+		height: 68px;
+	}
+	.infa .address{
+		margin-right: 0px;
+		font-size: 13px;
+		height: 68px;
+	}
+	footer .inf{
+		width: 90%;
+	}
+	.master_page .master{
+		width: 100%;
+		margin: 0 auto;
+		float: initial;
+		position: initial;
+		padding-bottom: 30px;
+	}
+	.master_page .master .align{
+		width: 50%;
+		margin: 0 auto;
+	}
+	.master_page .master .toadd{
+		width: 70%;
+		margin: 0 auto;
+		margin-top: 30px;
+	}
+	.master_page .about_master{
+		width: 100%;
+		margin: 0 auto;
+		float: initial;
+	}
+	.master_page .about_master > .holder{
+		width: 95%;
+		margin-left: 2%;
+	}
+	.master_page .about_master .portfolio{
+		width: 100%;
+		float: initial;
+	}
+	.master_page .about_master .otzivi{
+		width: 100%;
+		margin-top: 30px;
+	}
+	.service_page .about_master .price{
+		margin-left: 7%;
+		margin-bottom: 20px;
+	}
+	.service_page .about_master{
+		width: 100%;
+		padding-bottom: 30px!important;
+	}
+	.service_page .master{
+		width: 100%;
+		position: initial;
+		padding-bottom: 340px;
+	}
+	.service_page .wr_slider .arrows a{
+		width: 20px;
+		height: 65px;
+		background-size: 100%;
+		margin-top: -27px;
+	}
+	.service_page .wr_slider .arrows .left{
+		left: 2px;
+	}
+	.service_page .wr_slider .arrows .right{
+		right: 2px;
+	}
+	.service_page .about_master .category{
+		font-size: 36px;
+	}
+	.service_page .master .align{
+		width: 90%;
+	}
+	.service_page .wr_slider .slider{
+		height: 182px;
+	}
+	.service_page .wr_slider .slider .holder{
+		height: 182px;
+	}
+	.service_page .wr_slider .slider a{
+		width: 272px;
+		height: 182px;
+		overflow: hidden;
+	}
+	.service_page .wr_slider .slider a img{
+		max-width: 100%;
+	}
+	.x{
+		top: 5px;
+		right: 5px;
+	}
+}

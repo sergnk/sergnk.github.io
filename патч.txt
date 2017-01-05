@@ -1,0 +1,5 @@
+1. Изменилась разметка .gallery_block в home.html
+
+2. Изменилась разметка .slider в service_page.html
+
+3. Заменить res.css и style.css

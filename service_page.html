@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>service page</title>
+		<meta charset="windows-1251">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+		<link href="css/style.css" rel="stylesheet" >
+		<link href="css/res.css" rel="stylesheet" >
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
+	</head>
+	<body>
+		<div class="wrapper ms">
+						<div class="menu" id="menu">
+							<div class="menu_hover">
+								<a href="#" class="x" id="x"></a>
+								<div class="line"></div>
+								<div class="items">
+									<a href="#">Услуги и цены Услуги и цены Услуги и цены</a>
+									<a href="#">Мастера</a>
+									<a href="#">Фото</a>
+									<a href="#">Контакты</a>
+								</div>
+								<div class="line"></div>
+								<div class="tels">
+									<div class="tel">(012) 34 56 789</div>
+									<div class="tel">(012) 34 56 789</div>
+								</div>
+								<div class="line"></div>
+								<div class="social">
+									<a href="#"><img src="images/fb.png"></a>
+									<a href="#"><img src="images/inst.png"></a>
+									<a href="#"><img src="images/vk.png"></a>
+								</div>
+							</div>
+						</div>
+						<div class="m_menu" id="m_menu"></div>
+			<div class="master_page service_page">
+				<div class="holder">
+					<div class="about_master">
+						<div class="category">Свадебный макияж</div>
+						<div class="txt">
+							Свадебный макияж невесты призван подчеркнуть естественность очарования молодости, свежесть, чистоту и романтику образа невесты, а значит, должен быть легким и естественным. Свадебный макияж - это нечто среднее между вечерним и дневным вариантом.
+							Повседневная практика показывает, что постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет выполнять важные задания по разработке существенных финансовых и административных условий. Таким образом постоянное информационно-пропагандистское обеспечение нашей деятельности способствует подготовки и реализации дальнейших направлений развития. С другой стороны постоянное информационно-пропагандистское обеспечение нашей деятельности требуют определения и уточнения новых предложений.
+						</div>
+						<!-- <div class="price">650 грн</div> -->
+						<a href="#" class="toadd">записаться на услугу</a>
+					</div>
+					<div class="master">
+						<div class="align">
+							<div class="ttl">ВАМ МОЖЕТ БЫТЬ ЭТО ИНТЕРЕСНО</div>
+							<div class="articles">
+								<a href="#" class="article">
+									<div class="art_image"><img src="images/work.png"></div>
+									<div class="name">ПРИЧЕСКИ * МАКИЯЖ</div>
+								</a>
+								<a href="#" class="article">
+									<div class="art_image"><img src="images/work.png"></div>
+									<div class="name">ПРИЧЕСКИ * МАКИЯЖ</div>
+								</a>
+								<a href="#" class="article">
+									<div class="art_image"><img src="images/work.png"></div>
+									<div class="name">ПРИЧЕСКИ * МАКИЯЖ</div>
+								</a>
+								<a href="#" class="article">
+									<div class="art_image"><img src="images/work.png"></div>
+									<div class="name">ПРИЧЕСКИ * МАКИЯЖ</div>
+								</a>
+								<a href="#" class="article">
+									<div class="art_image"><img src="images/work.png"></div>
+									<div class="name">ПРИЧЕСКИ * МАКИЯЖ</div>
+								</a>
+								<a href="#" class="article">
+									<div class="art_image"><img src="images/work.png"></div>
+									<div class="name">ПРИЧЕСКИ * МАКИЯЖ</div>
+								</a>
+								<a href="#" class="article">
+									<div class="art_image"><img src="images/work.png"></div>
+									<div class="name">ПРИЧЕСКИ * МАКИЯЖ</div>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="wr_slider">
+						<div class="arrows">
+							<a href="#" class="left prev3"></a>
+							<a href="#" class="right next3"></a>
+						</div>
+						<div class="slider jcarousel3">
+							<div class="holder">
+								<div><a href="#" class="img"><img src="images/image.png"></a></div>
+								<div><a href="#" class="img"><img src="images/image.png"></a></div>
+								<div><a href="#" class="img"><img src="images/image.png"></a></div>
+								<div><a href="#" class="img"><img src="images/image.png"></a></div>
+								<div><a href="#" class="img"><img src="images/image.png"></a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+				<script type="text/javascript">
+					$('.jcarousel3')
+					    .on('jcarousel:create jcarousel:reload', function() {
+					        var element = $(this),
+					            width = element.innerWidth();
+					            // alert (width);
+
+					        if (width >= 1460){
+					        	width = width /4;
+					        }else {
+					        	if ((width < 1460) && (width > 1094)){
+					        		width = width / 3
+					        	}else{
+					        		if ((width <= 1094) && (width > 729)){
+					        			width = width / 2;
+					        		}else {
+					        			width = width / 1;
+					        		}
+					        	}
+					        };
+					        
+					        element.jcarousel('items').css('width', width + 'px');
+					    })
+					    .jcarousel({});
+					    $('.prev3').jcarouselControl({
+					        target: '-=1'
+					    });
+					    $('.next3').jcarouselControl({
+					        target: '+=1'
+					    });
+				</script>
+		<footer>
+			<div class="inf">
+				<div>Bright</div>
+				<div>made by<a href="#">Respect Design</a></div>
+			</div>
+		</footer>
+		<script>
+			var elem = document.getElementById('m_menu');
+
+			elem.onclick = function() {
+				var menu = document.getElementById('menu');
+				menu.classList.add('act_menu');
+				document.body.classList.add('act_mn');
+			};
+
+			var x = document.getElementById('x');
+
+			x.onclick = function() {
+				menu.classList.remove('act_menu');
+				document.body.classList.remove('act_mn');
+			}
+
+		</script>
+	</body>
+</html>
