@@ -1,0 +1,1090 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+/*=========HEADER=========*//*=========HEADER=========*//*=========HEADER=========*//*=========HEADER=========*/
+/*=========HEADER=========*//*=========HEADER=========*//*=========HEADER=========*//*=========HEADER=========*/
+/*=========HEADER=========*//*=========HEADER=========*//*=========HEADER=========*//*=========HEADER=========*/
+/*=========HEADER=========*//*=========HEADER=========*//*=========HEADER=========*//*=========HEADER=========*/
+/*=========HEADER=========*//*=========HEADER=========*//*=========HEADER=========*//*=========HEADER=========*/
+header{
+	width: 100%;
+}
+header .logo{
+	display: block;
+	margin: 20px auto;
+	width: 141px;
+	height: 20px;
+	background-image: url("../images/1.png");
+	background-position: 0px 0px;
+}
+/*=======MENU======*//*=======MENU======*//*=======MENU======*//*=======MENU======*//*=======MENU======*/
+/*=======MENU======*//*=======MENU======*//*=======MENU======*//*=======MENU======*//*=======MENU======*/
+/*=======MENU======*//*=======MENU======*//*=======MENU======*//*=======MENU======*//*=======MENU======*/
+header .menu{
+	width: 100%;
+	border-top: 1px solid #bebebe;
+	border-bottom: 1px solid #bebebe;
+}
+header .menu > div {
+	margin: 0 auto;
+	width: 960px;
+	height: 57px;
+}
+header .menu > div .items{
+	margin:0;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+}
+header .menu > div .items > li{
+	float: left;
+	margin-right: 15px;
+} 
+header .menu > div .items > li a {
+	display: block;
+	text-decoration: none;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #a7a7a7;
+	font-weight: 600;
+	padding: 20px;
+	background-color: #ffffff;
+}
+header .menu > div .items > li a:hover{
+	background-color: #b5141d;
+	color: #ffffff;
+}
+header .menu > div .items > li .sub-items{
+	margin:0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	display: none;
+	padding-top: 1px;
+}
+header .menu > div .items > li .sub-items li{
+	width: 140px;
+	text-align: center;
+	border-bottom: 1px solid #a3a3a3;
+}
+header .menu > div .items > li .sub-items li a {
+	font-size: 12px;
+	font-weight: 400!important;
+	padding: 15px 0;
+}
+header .menu > div .items > li:hover .sub-items{
+	display: block;
+	z-index: 1;
+}
+header .menu > div .search{
+	display: inline-block;
+	float: right;
+	margin-right: 10px;
+}
+header .menu > div .search input[type="text"]{
+	background-color: #f5f5f5;
+	color: #a7a7a7;
+	font-size: 14px;
+	font-style: italic;
+	outline: none;
+	border: none;
+	width: 185px;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	padding: 20px 0;
+	height: 57px;
+	padding-left: 20px;
+}
+header .menu > div .search a{
+	display: block;
+	float: right;
+	width: 60px;
+	height: 57px;
+	background-color: #b5141d;
+	background-image: url("../images/1.png");
+	background-position: -342px 14px;
+}
+header .menu > div .search a:hover{
+	opacity: 0.8;
+}
+/*======SLIDE======*//*======SLIDE======*//*======SLIDE======*//*======SLIDE======*//*======SLIDE======*/
+/*======SLIDE======*//*======SLIDE======*//*======SLIDE======*//*======SLIDE======*//*======SLIDE======*/
+/*======SLIDE======*//*======SLIDE======*//*======SLIDE======*//*======SLIDE======*//*======SLIDE======*/
+.slide{
+	width: 100%;
+	height: 640px;
+	background-image: url("../images/slide.png");
+	background-size: 100% 640px;
+}
+.slide > div{
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+.slide > div .free{
+	width: 490px;
+	display: inline-block;
+	margin-top: 135px;
+	margin-left: 10px;
+}
+.slide > div .free .title{
+	font-weight: bold;
+	font-size: 36px;
+	color: #ffffff;
+	margin-bottom: 20px;
+}
+.slide > div .free .text{
+	font-size: 14px;
+	font-weight: 600;
+	color: #d7dde6;
+}
+.slide > div .write-us{
+	position: absolute;
+	top: 45px;
+	right: 10px;
+	padding: 10px;
+	background: rgba(255,255,255,0.8); 
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	width: 380px;
+}
+.slide > div .write-us .inputs{
+	background-color: #ffffff;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+.slide > div .write-us .inputs input[type="text"]{
+	outline: 0;
+	border: 1px solid #ebeced;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	padding: 16px 0;
+	padding-left: 15px;
+	margin-left: 20px;
+	width: 320px;
+	border-radius: 4px;
+	font-style: italic;
+	font-size: 14px;
+	color: #a7a7a7;
+	margin-bottom: 10px;
+}
+.slide > div .write-us .inputs textarea{
+	outline: 0;
+	border: 1px solid #ebeced;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	padding-left: 15px;
+	padding-top: 20px;
+	width: 320px;
+	border-radius: 4px;
+	font-style: italic;
+	font-size: 14px;
+	color: #a7a7a7;
+	margin-left: 20px;
+	resize:none;
+	height: 130px;
+	margin-bottom: 20px;
+}
+.slide > div .write-us .inputs a{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 16px 0;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 600;
+	border-radius: 5px;
+	background-color: #b5141d;
+	margin-left: 20px;
+	width: 320px;
+	letter-spacing: 2px;
+}
+.slide > div .write-us .inputs a:hover{
+	opacity: 0.8;
+}
+/*======MAIN-CONTENT======*//*======MAIN-CONTENT======*//*======MAIN-CONTENT======*//*======MAIN-CONTENT======*/
+/*======MAIN-CONTENT======*//*======MAIN-CONTENT======*//*======MAIN-CONTENT======*//*======MAIN-CONTENT======*/
+/*======MAIN-CONTENT======*//*======MAIN-CONTENT======*//*======MAIN-CONTENT======*//*======MAIN-CONTENT======*/
+/*======MAIN-CONTENT======*//*======MAIN-CONTENT======*//*======MAIN-CONTENT======*//*======MAIN-CONTENT======*/
+/*======MAIN-CONTENT======*//*======MAIN-CONTENT======*//*======MAIN-CONTENT======*//*======MAIN-CONTENT======*/
+.main-content{
+	width: 100%;
+}
+.main-content > div {
+	width: 960px;
+	margin: 0 auto;
+}
+.main-content > div .main-content-holder{
+	display: inline-block;
+	width: 100%;
+}
+/*=========LEFT-COL========*//*=========LEFT-COL========*//*=========LEFT-COL========*/
+/*=========LEFT-COL========*//*=========LEFT-COL========*//*=========LEFT-COL========*/
+/*=========LEFT-COL========*//*=========LEFT-COL========*//*=========LEFT-COL========*/
+.main-content > div .main-content-holder .left-col{
+	width: 630px;
+	float: left;
+	margin-right: 20px;
+}
+.main-content > div .main-content-holder .left-col .service{
+	display: inline-block;
+	width: 620px;
+	margin-top: 55px;
+	margin-left: 10px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #a3a3a3;
+}
+.main-content > div .main-content-holder .left-col .service .title{
+	font-size: 18px;
+	color: #292929;
+	width: 120px;
+	border-bottom: 2px solid #acacac;
+	padding-bottom: 3px;
+	margin-bottom: 40px;
+}
+.main-content > div .main-content-holder .left-col .service .left{
+	width: 300px;
+	float: left;
+	margin-right: 20px;
+}
+.main-content > div .main-content-holder .left-col .service a {
+	display: block;
+	padding: 5px 0;
+	color: #b5141d;
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+}
+.main-content > div .main-content-holder .left-col .service a:hover{
+	opacity: 0.7;
+}
+.main-content > div .main-content-holder .left-col .service .right{
+	width: 300px;
+	float: left;
+}
+.main-content > div .main-content-holder .left-col .partners{
+	display: inline-block;
+	width: 620px;
+	margin-top: 55px;
+	margin-left: 10px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #a3a3a3;
+	position: relative;
+}
+.main-content > div .main-content-holder .left-col .partners .all{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	color: #292929;
+	font-size: 12px;
+	text-decoration: none;
+	letter-spacing: 2px;
+	text-transform: uppercase; 
+}
+.main-content > div .main-content-holder .left-col .partners .all:hover{
+	text-decoration: underline;
+}
+.main-content > div .main-content-holder .left-col .partners .title{
+	font-size: 18px;
+	color: #292929;
+	width: 120px;
+	border-bottom: 2px solid #acacac;
+	padding-bottom: 3px;
+	margin-bottom: 40px;
+}
+.main-content > div .main-content-holder .left-col .partners .partner{
+	text-decoration: none;
+	width: 300px;
+	display: block;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 30px;
+}
+.main-content > div .main-content-holder .left-col .partners .partner:nth-child(2n+3){
+	margin-right: 0px;
+}
+.main-content > div .main-content-holder .left-col .partners .partner:hover{
+	opacity: 0.8;
+}
+.main-content > div .main-content-holder .left-col .partners .partner:hover .name{
+	text-decoration: underline;
+}
+.main-content > div .main-content-holder .left-col .partners .partner img{
+	display: block;
+}
+.main-content > div .main-content-holder .left-col .partners .partner .name{
+	font-size: 14px;
+	color: #b5141d;
+	font-weight: 600;
+	overflow: hidden;
+	height: 38px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.main-content > div .main-content-holder .left-col .partners .partner .client{
+	font-size: 13px;
+	color: #292929;
+	overflow: hidden;
+	height: 18px;
+}
+.main-content > div .main-content-holder .left-col .team{
+	display: inline-block;
+	width: 620px;
+	margin-top: 55px;
+	margin-left: 10px;
+	padding-bottom: 50px;
+	position: relative;
+}
+.main-content > div .main-content-holder .left-col .team .all{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	color: #292929;
+	font-size: 12px;
+	text-decoration: none;
+	letter-spacing: 2px;
+	text-transform: uppercase; 
+}
+.main-content > div .main-content-holder .left-col .team .all:hover{
+	text-decoration: underline;
+}
+.main-content > div .main-content-holder .left-col .team .title{
+	font-size: 18px;
+	color: #292929;
+	width: 120px;
+	border-bottom: 2px solid #acacac;
+	padding-bottom: 3px;
+	margin-bottom: 40px;
+}
+.main-content > div .main-content-holder .left-col .team .member{
+	text-decoration: none;
+	width: 140px;
+	display: block;
+	float: left;
+	margin-right: 20px;
+}
+.main-content > div .main-content-holder .left-col .team .member:last-child{
+	margin-right: 0px;
+}
+.main-content > div .main-content-holder .left-col .team .member .name{
+	font-size: 14px;
+	color: #b5141d;
+	height: 18px;
+	width: 140px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	display: block;
+}
+.main-content > div .main-content-holder .left-col .team .member .name:hover{
+	opacity: 0.7;
+	text-decoration: none;
+}
+.main-content > div .main-content-holder .left-col .team .member .who{
+	color: #313131;
+	font-size: 12px;
+	height: 18px;
+	overflow: hidden;
+}
+/*=========RIGHT-COL========*//*=========RIGHT-COL========*//*=========RIGHT-COL========*/
+/*=========RIGHT-COL========*//*=========RIGHT-COL========*//*=========RIGHT-COL========*/
+/*=========RIGHT-COL========*//*=========RIGHT-COL========*//*=========RIGHT-COL========*/
+.main-content > div .main-content-holder .right-col{
+	float: left;
+	width: 300px;
+}
+.main-content > div .main-content-holder .right-col .news{
+	margin-top: 55px;
+	position: relative;
+	border-bottom: 1px solid #a3a3a3;
+	margin-bottom: 60px;
+}
+.main-content > div .main-content-holder .right-col .news .all{
+	position: absolute;
+	bottom: -40px;
+	right: 10px;
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #292929;
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+.main-content > div .main-content-holder .right-col .news .all:hover{
+	text-decoration: underline;
+}
+.main-content > div .main-content-holder .right-col .news .title{
+	font-size: 18px;
+	color: #292929;
+	width: 120px;
+	border-bottom: 2px solid #acacac;
+	padding-bottom: 3px;
+	margin-bottom: 40px;
+}
+.main-content > div .main-content-holder .right-col .news .new{
+	display: block;
+	width: 300px;
+	margin-bottom: 40px;
+	text-decoration: none;
+}
+.main-content > div .main-content-holder .right-col .news .new:hover{
+	opacity: 0.8;
+}
+.main-content > div .main-content-holder .right-col .news .new:hover .name{
+	text-decoration: underline;
+}
+.main-content > div .main-content-holder .right-col .news .new .name{
+	color: #282828;
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+.main-content > div .main-content-holder .right-col .news .new .text{
+	color: #282828;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.main-content > div .main-content-holder .right-col .news .new .date{
+	color: #a7a7a7;
+	font-size: 14px;
+}
+/*======RSS========*//*======RSS========*//*======RSS========*//*======RSS========*//*======RSS========*/
+/*======RSS========*//*======RSS========*//*======RSS========*//*======RSS========*//*======RSS========*/
+/*======RSS========*//*======RSS========*//*======RSS========*//*======RSS========*//*======RSS========*/
+.rss{
+	width: 100%;
+	margin: 0;
+	height: 160px;
+	background-image: url("../images/rss.png");
+	background-size: 100% 160px;
+}
+.rss > div{
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+.rss > div .title{
+	display: inline-block;
+	color: #ffffff;
+	font-size: 48px;
+	margin-top: 40px;
+	font-weight: bold;
+}
+.rss > div .opis{
+	font-size: 18px;
+	color: #d7dde6;
+	font-weight: 600;
+}
+.rss > div .podpis{
+	position: absolute;
+	top: 0px;
+	right: 10px;
+	width: 300px;
+}
+.rss > div .podpis input[type="text"]{
+	width: 300px;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	color: #a7a7a7;
+	font-size: 14px;
+	font-style: italic;
+	border: none;
+	border-radius: 4px;
+	padding: 20px 0;
+	padding-left: 20px;
+	margin-top: 20px;
+	outline: none;	
+}
+.rss > div .podpis a {
+	width: 300px;
+	display: block;
+	padding: 19px 0;
+	letter-spacing: 2px;
+	background-color: #b5141d;
+	color: #ffffff;
+	text-align: center;
+	font-size: 14px;
+	border-radius: 4px;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-top: 10px;
+}
+.rss > div .podpis a:hover{
+	opacity: 0.95;
+	text-decoration: underline;
+}
+/*=====ABOUT-US=====*//*=====ABOUT-US=====*//*=====ABOUT-US=====*//*=====ABOUT-US=====*/
+/*=====ABOUT-US=====*//*=====ABOUT-US=====*//*=====ABOUT-US=====*//*=====ABOUT-US=====*/
+/*=====ABOUT-US=====*//*=====ABOUT-US=====*//*=====ABOUT-US=====*//*=====ABOUT-US=====*/
+.about-us{
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 60px;
+	margin-bottom: 35px;
+}
+.about-us .about-us-holder{
+	display: inline-block;
+	width: 100%;
+}
+.about-us .about-us-holder .about{
+	width: 100%;
+}
+.about-us .about-us-holder .about .name{
+	display: block;
+	font-size: 18px;
+	color: #b5141d;
+	font-weight: bold;
+	text-decoration: none;
+}
+.about-us .about-us-holder .about .name:hover{
+	text-decoration: underline;
+}
+.about-us .about-us-holder .about .text{
+	font-size: 14px;
+	color: #222327;
+	margin-top: 25px;
+}
+.about-us .about-us-holder .about .text a{
+	color: #b5141d;
+}
+.about-us .about-us-holder .about .more{
+	display: inline-block;
+	margin-top: 30px;
+	float: right;
+	color: #b5141d;
+	font-size: 14px;
+}
+.about-us .about-us-holder .about .more:hover{
+	opacity: 0.7;
+	text-decoration: none;
+}
+/*=====CONTACTS=====*//*=====CONTACTS=====*//*=====CONTACTS=====*//*=====CONTACTS=====*/
+/*=====CONTACTS=====*//*=====CONTACTS=====*//*=====CONTACTS=====*//*=====CONTACTS=====*/
+/*=====CONTACTS=====*//*=====CONTACTS=====*//*=====CONTACTS=====*//*=====CONTACTS=====*/
+.contacts {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+	height: 235px;
+}
+.contacts .contacts-holder{
+	display: inline-block;
+	width: 100%;
+}
+.contacts .contacts-holder .map{
+	position: absolute;
+	width: 835px;
+	height: 235px;
+	left: 50%;
+	background-color: silver;
+	margin-left: -760px;
+}
+.contacts .contacts-holder .address{
+	margin-left: 570px;
+	width: 380px;
+	margin-top: 55px;
+}
+.contacts .contacts-holder .address div{
+	width: 380px;
+	color: #292929;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.contacts .contacts-holder .address div .n{
+	width: 80px;
+	display: inline-block;
+	vertical-align: top;
+	font-weight: 600;
+}
+.contacts .contacts-holder .address div .a{
+	width: 290px;
+	display: inline-block;
+}
+/*=========FOOTER=========*//*=========FOOTER=========*//*=========FOOTER=========*//*=========FOOTER=========*/
+/*=========FOOTER=========*//*=========FOOTER=========*//*=========FOOTER=========*//*=========FOOTER=========*/
+/*=========FOOTER=========*//*=========FOOTER=========*//*=========FOOTER=========*//*=========FOOTER=========*/
+/*=========FOOTER=========*//*=========FOOTER=========*//*=========FOOTER=========*//*=========FOOTER=========*/
+/*=========FOOTER=========*//*=========FOOTER=========*//*=========FOOTER=========*//*=========FOOTER=========*/
+footer{
+	width: 100%;
+	background-color: #292929;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+footer .logo{
+	display: block;
+	margin-left: 13%;
+	width: 110px;
+	height: 12px;
+	background-image: url("../images/1.png");
+	background-position: -184px -4px;
+}
+/*============================================================================================================*/
+/*============================================================================================================*/
+/*============================================================================================================*/
+/*============================================================================================================*/
+/*============================================================================================================*/
+/*========================ABOUT=======================*//*=====================ABOUT============================*/
+/*========================ABOUT=======================*//*=====================ABOUT============================*/
+/*========================ABOUT=======================*//*=====================ABOUT============================*/
+/*========================ABOUT=======================*//*=====================ABOUT============================*/
+/*========================ABOUT=======================*//*=====================ABOUT============================*/
+/*========================ABOUT=======================*//*=====================ABOUT============================*/
+/*============================================================================================================*/
+/*============================================================================================================*/
+/*============================================================================================================*/
+/*============================================================================================================*/
+/*============================================================================================================*/
+.main-content > div .main-content-holder .left-col .selected-member{
+	display: inline-block;
+	width: 620px;
+	margin-top: 55px;
+	margin-left: 10px;
+	padding-bottom: 30px;
+}
+.main-content > div .main-content-holder .left-col .selected-member .title{
+	font-size: 18px;
+	color: #292929;
+	width: 160px;
+	border-bottom: 2px solid #acacac;
+	padding-bottom: 3px;
+	margin-bottom: 40px;
+}
+.main-content > div .main-content-holder .left-col .selected-member img{
+	display: block;
+	float: left;
+	margin-right: 20px;
+}
+.main-content > div .main-content-holder .left-col .selected-member .about-member{
+	float: left;
+	width: 430px;
+	margin-top: 20px;
+}
+.main-content > div .main-content-holder .left-col .selected-member .about-member a{
+	color: #b5141d;
+	display: block;
+	font-size: 14px;
+}
+.main-content > div .main-content-holder .left-col .selected-member .about-member a:hover{
+	text-decoration: none;
+	opacity: 0.8;
+}
+.main-content > div .main-content-holder .left-col .selected-member .about-member .who{
+	color: #313131;
+	font-size: 14px;
+}
+.main-content > div .main-content-holder .left-col .selected-member .about-member .tel{
+	margin-top: 15px;
+	color: #313131;
+	font-size: 14px;
+}
+.main-content > div .main-content-holder .left-col .selected-member .about-member .tel span{
+	color: #8a8a8a;
+	margin-right: 5px;
+}
+.main-content > div .main-content-holder .left-col .selected-member .about-member .email{
+	margin-top: 5px;
+	color: #313131;
+	font-size: 14px;
+}
+.main-content > div .main-content-holder .left-col .selected-member .about-member .email span{
+	color: #8a8a8a;
+	margin-right: 5px;
+}
+.main-content > div .main-content-holder .left-col .selected-member .about-member .pract{
+	margin-top: 5px;
+	font-size: 14px;
+}
+.main-content > div .main-content-holder .left-col .selected-member .about-member .pract span{
+	color: #8a8a8a;
+	margin-right: 5px;	
+	font-weight: 400;
+}
+.main-content > div .main-content-holder .left-col .selected-member .about-member .pract span + span{
+	font-weight: 600;
+	text-decoration: underline;
+	color: #010101;
+}
+.main-content > div .main-content-holder .left-col .selected-member .about-member .about{
+	margin-top: 20px;
+	font-size: 14px;
+	color: #313131;
+}
+/*ДЛЯ ПРОЕКТОВ РАМКУ УБИРАЕМ*/
+.main-content > div .main-content-holder .left-col .no-b{
+	border-bottom: none;
+}
+/*============RIGHT-COL============*//*============RIGHT-COL============*//*============RIGHT-COL============*/
+/*============RIGHT-COL============*//*============RIGHT-COL============*//*============RIGHT-COL============*/
+/*============RIGHT-COL============*//*============RIGHT-COL============*//*============RIGHT-COL============*/
+.main-content > div .main-content-holder .right-col .partners{
+	margin-top: 55px;
+	position: relative;
+	margin-bottom: 60px;
+}
+.main-content > div .main-content-holder .right-col .partners .title{
+	font-size: 18px;
+	color: #292929;
+	width: 160px;
+	border-bottom: 2px solid #acacac;
+	padding-bottom: 3px;
+	margin-bottom: 40px;
+}
+.main-content > div .main-content-holder .right-col .partners a{
+	display: block;
+	color: #b5141d;
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+.main-content > div .main-content-holder .right-col .partners a:hover{
+	opacity: 0.8;
+	text-decoration: none;
+	overflow: hidden;
+	width: 100%;
+}
+.main-content > div .main-content-holder .right-col .administration{
+	position: relative;
+	margin-bottom: 60px;
+}
+.main-content > div .main-content-holder .right-col .administration .title{
+	font-size: 18px;
+	color: #292929;
+	width: 120px;
+	border-bottom: 2px solid #acacac;
+	padding-bottom: 3px;
+	margin-bottom: 40px;
+}
+.main-content > div .main-content-holder .right-col .administration .admin{
+	display: inline-block;
+	width: 100%;
+}
+.main-content > div .main-content-holder .right-col .administration .admin img{
+	display: block;
+	float: left;
+	margin-right: 20px;
+}
+.main-content > div .main-content-holder .right-col .administration .admin .about{
+	width: 200px;
+	float: left;
+}
+.main-content > div .main-content-holder .right-col .administration .admin .about .name{
+	display: block;
+	width: 200px;
+	overflow: hidden;
+	color: #b5141d;
+	font-size: 14px;
+}
+.main-content > div .main-content-holder .right-col .administration .admin .about .who{
+	font-weight: 600;
+	color: #282828;
+	font-size: 14px;
+}
+.main-content > div .main-content-holder .right-col .administration .admin .about .text{
+	font-size: 14px;
+	color: #222327;
+	margin-top: 5px;
+	height: 114px;
+	width: 200px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+/*============================================================================================================*/
+/*============================================================================================================*/
+/*============================================================================================================*/
+/*============================================================================================================*/
+/*============================================================================================================*/
+/*========================NEWS=======================*//*=====================NEWS============================*/
+/*========================NEWS=======================*//*=====================NEWS============================*/
+/*========================NEWS=======================*//*=====================NEWS============================*/
+/*========================NEWS=======================*//*=====================NEWS============================*/
+/*========================NEWS=======================*//*=====================NEWS============================*/
+/*============================================================================================================*/
+/*============================================================================================================*/
+/*============================================================================================================*/
+/*============================================================================================================*/
+/*============================================================================================================*/
+.main-content > div .main-content-holder .left-col .new{
+	margin-top: 20px;
+	width: 620px;
+	margin-left: 10px;
+}
+.main-content > div .main-content-holder .left-col .new:first-child{
+	margin-top: 55px;
+}
+.main-content > div .main-content-holder .left-col .new .title{
+	color: #292929;
+	font-size: 18px;
+	text-decoration: none;
+}
+.main-content > div .main-content-holder .left-col .new .title:hover{
+	opacity: 0.9;
+	text-decoration: underline;
+}
+.main-content > div .main-content-holder .left-col .new .top{
+	color: #b5141d;
+	font-weight: bold;
+}
+.main-content > div .main-content-holder .left-col .new .text{
+	font-size: 14px;
+	color: #222327;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.main-content > div .main-content-holder .left-col .new .text a {
+	color: #b5141d;
+}
+/*============================================================================================================*/
+/*============================================================================================================*/
+/*============================================================================================================*/
+/*============================================================================================================*/
+/*============================================================================================================*/
+/*======================SERVICES====================*//*======================SERVICES====================*/
+/*======================SERVICES====================*//*======================SERVICES====================*/
+/*======================SERVICES====================*//*======================SERVICES====================*/
+/*======================SERVICES====================*//*======================SERVICES====================*/
+/*======================SERVICES====================*//*======================SERVICES====================*/
+/*============================================================================================================*/
+/*============================================================================================================*/
+/*============================================================================================================*/
+/*============================================================================================================*/
+/*============================================================================================================*/
+.main-content > div .main-content-holder .l-col-serv{
+	width: 550px;
+	float: left;
+	margin-right: 20px;
+}
+.main-content > div .main-content-holder .l-col-serv .law{
+	display: inline-block;
+	width: 540px;
+	margin-top: 55px;
+	margin-left: 10px;
+	padding-bottom: 50px;
+}
+.main-content > div .main-content-holder .l-col-serv .law .title{
+	font-size: 18px;
+	color: #292929;
+	padding-bottom: 3px;
+	margin-bottom: 40px;
+}
+.main-content > div .main-content-holder .l-col-serv .law .line{
+	width: 120px;
+	border-bottom: 2px solid #acacac;
+	margin-top: -40px;
+	margin-bottom: 40px;
+}
+.main-content > div .main-content-holder .l-col-serv .law .text{
+	color: #222327;
+	font-size: 14px;
+}
+.main-content > div .main-content-holder .l-col-serv .law .text a{
+	color: #b5141d;
+}
+.main-content > div .main-content-holder .l-col-serv .law ul {
+	margin: 0;
+	padding: 0;
+}
+.main-content > div .main-content-holder .l-col-serv .law ul li{
+	color: #b5141d;
+	margin-left: 30px;
+	margin-bottom: 5px;
+}
+.main-content > div .main-content-holder .l-col-serv .law ul li a{
+	text-decoration: none;
+}
+.main-content > div .main-content-holder .l-col-serv .law ul li a:hover{
+	opacity: 0.7;
+}
+.main-content > div .main-content-holder .l-col-serv .law ul li span{
+	font-size: 14px;
+	color: #2d2d2d;
+}
+/*=======RIGHT-COL========*//*=======RIGHT-COL========*//*=======RIGHT-COL========*//*=======RIGHT-COL========*/
+/*=======RIGHT-COL========*//*=======RIGHT-COL========*//*=======RIGHT-COL========*//*=======RIGHT-COL========*/
+/*=======RIGHT-COL========*//*=======RIGHT-COL========*//*=======RIGHT-COL========*//*=======RIGHT-COL========*/
+
+.main-content > div .main-content-holder .r-col-serv{
+	width: 380px;
+	position: relative;
+}
+.main-content > div .main-content-holder .r-col-serv .news .new{
+	width: 380px;
+}
+.main-content > div .main-content-holder .r-col-serv .write-us{
+	margin-top: 55px;
+	padding: 10px;
+	/*background: rgba(255,255,255,0.8); */
+	background-color: #f8f8f8;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	width: 380px;
+}
+.main-content > div .main-content-holder .r-col-serv .write-us .inputs{
+	background-color: #ffffff;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+.main-content > div .main-content-holder .r-col-serv .write-us .inputs input[type="text"]{
+	outline: 0;
+	border: 1px solid #ebeced;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	padding: 16px 0;
+	padding-left: 15px;
+	margin-left: 20px;
+	width: 320px;
+	border-radius: 4px;
+	font-style: italic;
+	font-size: 14px;
+	color: #a7a7a7;
+	margin-bottom: 10px;
+}
+.main-content > div .main-content-holder .r-col-serv .write-us .inputs textarea{
+	outline: 0;
+	border: 1px solid #ebeced;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	padding-left: 15px;
+	padding-top: 20px;
+	width: 320px;
+	border-radius: 4px;
+	font-style: italic;
+	font-size: 14px;
+	color: #a7a7a7;
+	margin-left: 20px;
+	resize:none;
+	height: 130px;
+	margin-bottom: 20px;
+}
+.main-content > div .main-content-holder .r-col-serv .write-us .inputs a{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 16px 0;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 600;
+	border-radius: 5px;
+	background-color: #b5141d;
+	margin-left: 20px;
+	width: 320px;
+	letter-spacing: 2px;
+}
+.main-content > div .main-content-holder .r-col-serv .write-us .inputs a:hover{
+	opacity: 0.8;
+}
+/*===========RSS-list.html=========*//*===========RSS-list.html=========*//*===========RSS-list.html=========*/
+/*===========RSS-list.html=========*//*===========RSS-list.html=========*//*===========RSS-list.html=========*/
+/*===========RSS-list.html=========*//*===========RSS-list.html=========*//*===========RSS-list.html=========*/
+/*===========RSS-list.html=========*//*===========RSS-list.html=========*//*===========RSS-list.html=========*/
+/*===========RSS-list.html=========*//*===========RSS-list.html=========*//*===========RSS-list.html=========*/
+/*===========RSS-list.html=========*//*===========RSS-list.html=========*//*===========RSS-list.html=========*/
+/*===========RSS-list.html=========*//*===========RSS-list.html=========*//*===========RSS-list.html=========*/
+.main-content > div .main-content-holder .rss-list{
+	display: inline-block;
+	width: 100%;
+	margin-top: 30px;
+}
+.main-content > div .main-content-holder .rss-list .partner{
+	text-decoration: none;
+	width: 300px;
+	display: block;
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+.main-content > div .main-content-holder .rss-list .partner:nth-child(3n+3){
+	margin-right: 0px;
+}
+.main-content > div .main-content-holder .rss-list .partner:hover{
+	opacity: 0.8;
+}
+.main-content > div .main-content-holder .rss-list .partner:hover .name{
+	text-decoration: underline;
+}
+.main-content > div .main-content-holder .rss-list .partner img{
+	display: block;
+}
+.main-content > div .main-content-holder .rss-list .partner .name{
+	font-size: 14px;
+	color: #b5141d;
+	font-weight: 600;
+	overflow: hidden;
+	height: 38px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.main-content > div .main-content-holder .rss-list .partner .client{
+	font-size: 13px;
+	color: #292929;
+	overflow: hidden;
+	height: 18px;
+}
+
+.main-content > div .main-content-holder .simple-page{
+	margin-top: 20px;
+	font-size: 14px;
+	color: #222327;
+	margin-bottom: 50px;
+}
+.main-content > div .main-content-holder .krohi{
+	margin-top: 20px;
+}
+.main-content > div .main-content-holder .krohi a{
+	font-size: 13px;
+	color: #222327;
+	text-decoration: none;
+	margin-right: 5px;
+}
+.main-content > div .main-content-holder .krohi a:hover{
+	text-decoration: underline;
+}
+.main-content > div .main-content-holder .list-services .title{
+	text-align: center;
+	font-size: 18px;
+	color: #292929;
+	margin-bottom: 40px;
+}
+.main-content > div .main-content-holder .list-services .list-services-holder{
+	display: inline-block;
+	width: 100%;
+}
+.main-content > div .main-content-holder .list-services .list-services-holder .sel-service{
+	width: 470px;
+	float: left;
+	margin-right: 20px;
+	height: 152px;
+	margin-bottom: 20px;
+}
+.main-content > div .main-content-holder .list-services .list-services-holder .sel-service:nth-child(2n){
+	margin-right: 0px;
+}
+.main-content > div .main-content-holder .list-services .list-services-holder .sel-service .name{
+	display: block;
+	width: 470px;
+	text-decoration: underline;
+	color: #000000;
+	margin-bottom: 10px;
+	max-height: 66px;
+	overflow: hidden;
+}
+.main-content > div .main-content-holder .list-services .list-services-holder .sel-service .name:hover{
+	color: #b5141d;
+}
+.main-content > div .main-content-holder .list-services .list-services-holder .sel-service .text{
+	width: 470px;
+	font-size: 14px;
+	max-height: 76px;
+	overflow: hidden;
+}
