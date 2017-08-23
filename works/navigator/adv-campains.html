@@ -1,0 +1,1614 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+		<meta name = "format-detection" content = "telephone=no" />
+		<meta name="viewport" content="width=960, initial-scale=1">
+		<title>Campains</title>
+		<meta name="Description" content="">
+		<meta name="Keywords" content="">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.theme.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/customSelectBox.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/media-queries.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet"> 
+
+    <script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>  
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/jquery.datepicker.extension.range.min.js"></script>
+    <script type="text/javascript" src="js/slick.js"></script>
+    <script type="text/javascript" src="js/SelectBox.js"></script>  
+    <script type="text/javascript" src="js/highcharts.js"></script> 
+    <script type="text/javascript" src="js/jquery.mCustomScrollbar.js"></script>  
+    <script type="text/javascript" src="js/jquery.formstyler.min.js"></script> 
+    <script type="text/javascript" src="js/scripts.js"></script>  
+	</head>
+  
+  <body class="campains_page scale-page">
+ 		<div class="b-page">
+    	
+      <div class="mobile_menu_toggle"><span></span></div>
+ 			
+ 			<header class="b-header">
+      	<div class="b-wrap-account">
+        	
+          <div class="b-header-left">
+            <div class="account_menu_toggle"><span></span></div>
+            
+            <a href="#" class="b-header__logo"><img src="img/logo_temp_2.png" alt="" class="b-header__logo-image"></a>
+          </div>
+          
+          <div class="b-page__tools-select">
+          	<select class="custom">
+            	<option>Рекламодатель</option>
+              <option>Вебмастера</option>
+            </select>
+          </div>
+          
+          <div class="b-page__tools-select account-lang">
+          	<select class="custom">
+            	<option>Russian</option>
+              <option>English</option>
+              <option>Spain</option>
+            </select>
+          </div>
+          
+          <div class="b-header-left__user-wrap">
+            <div class="b-header-left__user">
+              <div class="b-header-left__user-settings">
+                <b>nagibator666@mail.com</b> <span class="b-header-left__user-mail__inbox">11</span>
+              </div>
+              <div class="b-header-left__user-settings__tools">
+                <a href="#" class="settings__tools-info"><span>Информация</span></a>
+                <a href="#" class="settings__tools-logout"><span>Выход</span></a>
+              </div>
+            </div>
+            
+            <div class="b-header-left__balance">$ 2370.23</div>
+          </div>
+          
+ 				</div>
+ 			</header>
+      
+      <div class="b-wrap-account">
+      
+        <aside class="b-sidebar close" id="sidebar_nav">
+          <ul class="b-sidebar__nav-list">
+            <li class="b-sidebar__nav"><a href="#" class="b-sidebar__nav-link nav-link__panel"><span>Панель управления</span></a><span class="b-sidebar__ivents">27</span></li>
+            <li class="b-sidebar__nav active"><a href="#" class="b-sidebar__nav-link nav-link__companies"><span>Кампании</span> </a><span class="b-sidebar__ivents">19</span></li>
+            <li class="b-sidebar__nav"><a href="#" class="b-sidebar__nav-link nav-link__new-company"><span>Новая кампания</span></a></li>
+            <li class="b-sidebar__nav"><a href="#" class="b-sidebar__nav-link nav-link__stat"><span>Статистика</span></a></li>
+            <li class="b-sidebar__nav"><a href="#" class="b-sidebar__nav-link nav-link__traffic"><span>Объем трафика</span></a></li>
+            <li class="b-sidebar__nav"><a href="#" class="b-sidebar__nav-link nav-link__payment"><span>Оплата</span></a></li>
+          </ul>
+        </aside>
+        
+        <div class="b-content active">
+        	<div class="b-content-title">
+            <span class="b-content-title-text">Кампании</span>
+          </div>
+          <div class="content-top-filter">
+            <div class="box-form box-form_top-filter">
+              <form>
+                <div class="box-field box-field_top-filter">
+                  <div class="box-field__input box-field__input_date">
+                    <input type="text" placeholder="Выберите период" id="datepicker" class="form-control">
+                  </div>
+                  <div class="box-field__input box-field__input_hidden">
+                    <input type="text" placeholder="Выберите период" id="datepicker11" class="form-control">
+                  </div>
+                  <div class="box-field__input box-field__input_hidden">
+                    <input type="text" placeholder="Выберите период" id="datepicker12" class="form-control">
+                  </div>
+                </div>
+                <div class="box-field box-field_top-filter">
+                  <div class="box-field__input">
+                    <select class="custom">
+                      <option>Показать все группы</option>
+                      <option>Не показаывать группы</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="box-field box-field_top-filter">
+                  <div class="box-field__input">
+                    <select class="custom">
+                      <option>Скрыть удаленные кампании</option>
+                      <option>Показать удаленные кампании</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="box-field box-field_button">
+                  <input type="submit" value="Применить" class="button button_apply">
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="campains-table">
+            <div class="table-list">
+              <div class="table-list__item table-list__item-titles">
+                  <div class="col col_1">
+                    <select class="custom">
+                      <option>ID</option>
+                      <option>ID1</option>
+                    </select>
+                  </div>
+                  <div class="col col_2">
+                    <select class="custom">
+                      <option>Имя</option>
+                      <option>1</option>
+                      <option>2</option>
+                    </select>
+                  </div>
+                  <div class="col col_3">
+                    <select class="custom">
+                      <option>Тип</option>
+                      <option>1</option>
+                      <option>2</option>
+                    </select>
+                  </div>
+                  <div class="col col_4">
+                    <select class="custom">
+                      <option>Показы</option>
+                      <option>1</option>
+                      <option>2</option>
+                    </select>
+                  </div>
+                  <div class="col col_5">
+                    <select class="custom">
+                      <option>Клики</option>
+                      <option>1</option>
+                      <option>2</option>
+                    </select>
+                  </div>
+                  <div class="col col_6">
+                    <select class="custom">
+                      <option>CTR</option>
+                      <option>1</option>
+                      <option>2</option>
+                    </select>
+                  </div>
+                  <div class="col col_7">
+                    <select class="custom">
+                      <option>CPM</option>
+                      <option>1</option>
+                      <option>2</option>
+                    </select>
+                  </div>
+                  <div class="col col_8">
+                    <select class="custom">
+                      <option>Цена</option>
+                      <option>1</option>
+                      <option>2</option>
+                    </select>
+                  </div>
+                  <div class="col col_9">
+                    <select class="custom">
+                      <option>Статус</option>
+                      <option>1</option>
+                      <option>2</option>
+                    </select>
+                  </div>
+              </div>
+              <div class="table-list__item-group">
+                <span>Группа 1</span>
+              </div>
+              <div class="table-list__item table-list__item_first">
+                  <div class="cols">
+                    <div class="col col_1">1234567</div>
+                    <div class="col col_2">Mobile popunder test 1</div>
+                    <div class="col col_3">Popunder</div>
+                    <div class="col col_4">476 476 476</div>
+                    <div class="col col_5">123 123 123</div>
+                    <div class="col col_6">% 100.000</div>
+                    <div class="col col_7">% 100.000</div>
+                    <div class="col col_8">$ 231.00</div>
+                    <div class="col col_9">
+                      <a href="#" class="col-play js-play-campain"></a>
+                      <a href="#" class="col-edit"></a>
+                      <a href="#" class="col-graph js-open-stat"></a>
+                      <a href="#" class="col-delete js-delete-row"></a>
+                      <span class="col-satus"></span>
+                    </div>
+                  </div>
+                  <div class="table-list__item-statictic">
+                    <div class="table-list__item-statictic-block">
+                      <div class="statistic-left">
+                              <div class="statistic-left__title">
+                                <span class="statistic-left__title-text">Категории</span>
+                              </div>
+                              <div class="box-form">
+                                <form>
+                                  <div class="box-field">
+                                    <select class="custom">
+                                      <option>Категории</option>
+                                      <option>Категории</option>
+                                    </select>
+                                  </div>
+                                  <div class="box-field">
+                                    <select class="custom">
+                                      <option>Filter 1</option>
+                                      <option>Filter 11</option>
+                                    </select>
+                                  </div>
+                                  <div class="box-field">
+                                    <select class="custom">
+                                      <option>Filter 2</option>
+                                      <option>Filter 21</option>
+                                    </select>
+                                  </div>
+                                </form>
+                              </div>
+                              <ul class="nav-tab-list tabs">
+                                <li class="nav-tab-list__item icon-graph">
+                                  <a href="#tab_1-1" class="nav-tab-list__link">График</a>
+                                </li>
+                                <li class="nav-tab-list__item active icon-table">
+                                  <a href="#tab_2-1" class="nav-tab-list__link">Таблица</a>
+                                </li>
+                              </ul>
+                      </div>
+                      <div class="statistic-content">
+                        <div class="box-tab-cont">
+                          <div class="tab-cont" id="tab_2-1">
+                            <div class="table-list-stat-wrapper">
+                              <ul class="table-list-stat">
+                                <li class="table-list-stat__item table-list-stat__item-titles">
+                                  <div class="col-stat col-stat_1">Категории</div>
+                                  <div class="col-stat col-stat_2">Клики</div>
+                                  <div class="col-stat col-stat_3">CTR</div>
+                                  <div class="col-stat col-stat_4">Показы</div>
+                                  <div class="col-stat col-stat_5">Средний CPC</div>
+                                  <div class="col-stat col-stat_6">Средний CPM</div>
+                                  <div class="col-stat col-stat_7">Расходы</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category1</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category2</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category3</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category4</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category5</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category6</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category7</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category8</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category9</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category10</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="tab-cont hide" id="tab_1-1">
+                            <div id="line-chart"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="table-list__item-statictic-block">
+                      <div class="statistic-left">
+                              <div class="statistic-left__title">
+                                <span class="statistic-left__title-text">Статистика 2</span>
+                              </div>
+                              <div class="box-form">
+                                <form>
+                                  <div class="box-field">
+                                    <select class="custom">
+                                      <option>Статистика 2</option>
+                                      <option>Статистика 21</option>
+                                    </select>
+                                  </div>
+                                  <div class="box-field">
+                                    <select class="custom">
+                                      <option>Filter 1</option>
+                                      <option>Filter 11</option>
+                                    </select>
+                                  </div>
+                                  <div class="box-field">
+                                    <select class="custom">
+                                      <option>Filter 2</option>
+                                      <option>Filter 21</option>
+                                    </select>
+                                  </div>
+                                </form>
+                              </div>
+                              <ul class="nav-tab-list tabs">
+                                <li class="nav-tab-list__item active icon-graph">
+                                  <a href="#tab_1-2" class="nav-tab-list__link">График</a>
+                                </li>
+                                <li class="nav-tab-list__item icon-table">
+                                  <a href="#tab_2-2" class="nav-tab-list__link">Таблица</a>
+                                </li>
+                              </ul>
+                      </div>
+                      <div class="statistic-content">
+                        <div class="box-tab-cont">
+                          <div class="tab-cont hide" id="tab_2-2">
+                            <div class="table-list-stat-wrapper">
+                              <ul class="table-list-stat">
+                                <li class="table-list-stat__item table-list-stat__item-titles">
+                                  <div class="col-stat col-stat_1">Категории</div>
+                                  <div class="col-stat col-stat_2">Клики</div>
+                                  <div class="col-stat col-stat_3">CTR</div>
+                                  <div class="col-stat col-stat_4">Показы</div>
+                                  <div class="col-stat col-stat_5">Средний CPC</div>
+                                  <div class="col-stat col-stat_6">Средний CPM</div>
+                                  <div class="col-stat col-stat_7">Расходы</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category1</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category2</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category3</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category4</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category5</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category6</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category7</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category8</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category9</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category10</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="tab-cont" id="tab_1-2">
+                            <div id="pie-chart"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="table-list__item-statictic-block">
+                      <div class="statistic-left">
+                              <div class="statistic-left__title">
+                                <span class="statistic-left__title-text">Статистика 2</span>
+                              </div>
+                              <div class="box-form">
+                                <form>
+                                  <div class="box-field">
+                                    <select class="custom">
+                                      <option>Статистика 2</option>
+                                      <option>Статистика 21</option>
+                                    </select>
+                                  </div>
+                                  <div class="box-field">
+                                    <select class="custom">
+                                      <option>Filter 1</option>
+                                      <option>Filter 11</option>
+                                    </select>
+                                  </div>
+                                  <div class="box-field">
+                                    <select class="custom">
+                                      <option>Filter 2</option>
+                                      <option>Filter 21</option>
+                                    </select>
+                                  </div>
+                                </form>
+                              </div>
+                              <ul class="nav-tab-list tabs">
+                                <li class="nav-tab-list__item active icon-graph">
+                                  <a href="#tab_1-3" class="nav-tab-list__link">График</a>
+                                </li>
+                                <li class="nav-tab-list__item icon-table">
+                                  <a href="#tab_2-3" class="nav-tab-list__link">Таблица</a>
+                                </li>
+                              </ul>
+                      </div>
+                      <div class="statistic-content">
+                        <div class="box-tab-cont">
+                          <div class="tab-cont hide" id="tab_2-3">
+                            <div class="table-list-stat-wrapper">
+                              <ul class="table-list-stat">
+                                <li class="table-list-stat__item table-list-stat__item-titles">
+                                  <div class="col-stat col-stat_1">Категории</div>
+                                  <div class="col-stat col-stat_2">Клики</div>
+                                  <div class="col-stat col-stat_3">CTR</div>
+                                  <div class="col-stat col-stat_4">Показы</div>
+                                  <div class="col-stat col-stat_5">Средний CPC</div>
+                                  <div class="col-stat col-stat_6">Средний CPM</div>
+                                  <div class="col-stat col-stat_7">Расходы</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category1</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category2</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category3</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category4</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category5</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category6</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category7</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category8</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category9</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category10</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="tab-cont" id="tab_1-3">
+                            <div id="line-chart1"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="table-list__item">
+                  <div class="cols">
+                    <div class="col col_1">1234567</div>
+                    <div class="col col_2">Mobile popunder test 1</div>
+                    <div class="col col_3">Popunder</div>
+                    <div class="col col_4">476 476 476</div>
+                    <div class="col col_5">123 123 123</div>
+                    <div class="col col_6">% 100.000</div>
+                    <div class="col col_7">% 100.000</div>
+                    <div class="col col_8">$ 231.00</div>
+                    <div class="col col_9">
+                      <a href="#" class="col-play js-play-campain"></a>
+                      <a href="#" class="col-edit"></a>
+                      <a href="#" class="col-graph js-open-stat"></a>
+                      <a href="#" class="col-delete js-delete-row"></a>
+                      <span class="col-satus col-satus_waiting"></span>
+                    </div>
+                  </div>
+                  <div class="table-list__item-statictic">
+                    <div class="table-list__item-statictic-block">
+                      <div class="statistic-left">
+                              <div class="statistic-left__title">
+                                <span class="statistic-left__title-text">Категории</span>
+                              </div>
+                              <div class="box-form">
+                                <form>
+                                  <div class="box-field">
+                                    <select class="custom">
+                                      <option>Категории</option>
+                                      <option>Категории</option>
+                                    </select>
+                                  </div>
+                                  <div class="box-field">
+                                    <select class="custom">
+                                      <option>Filter 1</option>
+                                      <option>Filter 11</option>
+                                    </select>
+                                  </div>
+                                  <div class="box-field">
+                                    <select class="custom">
+                                      <option>Filter 2</option>
+                                      <option>Filter 21</option>
+                                    </select>
+                                  </div>
+                                </form>
+                              </div>
+                              <ul class="nav-tab-list tabs">
+                                <li class="nav-tab-list__item icon-graph">
+                                  <a href="#tab_1-4" class="nav-tab-list__link">График</a>
+                                </li>
+                                <li class="nav-tab-list__item active icon-table">
+                                  <a href="#tab_2-4" class="nav-tab-list__link">Таблица</a>
+                                </li>
+                              </ul>
+                      </div>
+                      <div class="statistic-content">
+                        <div class="box-tab-cont">
+                          <div class="tab-cont" id="tab_2-4">
+                            <div class="table-list-stat-wrapper">
+                              <ul class="table-list-stat">
+                                <li class="table-list-stat__item table-list-stat__item-titles">
+                                  <div class="col-stat col-stat_1">Категории</div>
+                                  <div class="col-stat col-stat_2">Клики</div>
+                                  <div class="col-stat col-stat_3">CTR</div>
+                                  <div class="col-stat col-stat_4">Показы</div>
+                                  <div class="col-stat col-stat_5">Средний CPC</div>
+                                  <div class="col-stat col-stat_6">Средний CPM</div>
+                                  <div class="col-stat col-stat_7">Расходы</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category1</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category2</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category3</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category4</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category5</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category6</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category7</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category8</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category9</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category10</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="tab-cont hide" id="tab_1-4">
+                            <div id="line-chart2"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="table-list__item-statictic-block">
+                      <div class="statistic-left">
+                              <div class="statistic-left__title">
+                                <span class="statistic-left__title-text">Статистика 2</span>
+                              </div>
+                              <div class="box-form">
+                                <form>
+                                  <div class="box-field">
+                                    <select class="custom">
+                                      <option>Статистика 2</option>
+                                      <option>Статистика 21</option>
+                                    </select>
+                                  </div>
+                                  <div class="box-field">
+                                    <select class="custom">
+                                      <option>Filter 1</option>
+                                      <option>Filter 11</option>
+                                    </select>
+                                  </div>
+                                  <div class="box-field">
+                                    <select class="custom">
+                                      <option>Filter 2</option>
+                                      <option>Filter 21</option>
+                                    </select>
+                                  </div>
+                                </form>
+                              </div>
+                              <ul class="nav-tab-list tabs">
+                                <li class="nav-tab-list__item active icon-graph">
+                                  <a href="#tab_1-5" class="nav-tab-list__link">График</a>
+                                </li>
+                                <li class="nav-tab-list__item icon-table">
+                                  <a href="#tab_2-5" class="nav-tab-list__link">Таблица</a>
+                                </li>
+                              </ul>
+                      </div>
+                      <div class="statistic-content">
+                        <div class="box-tab-cont">
+                          <div class="tab-cont hide" id="tab_2-5">
+                            <div class="table-list-stat-wrapper">
+                              <ul class="table-list-stat">
+                                <li class="table-list-stat__item table-list-stat__item-titles">
+                                  <div class="col-stat col-stat_1">Категории</div>
+                                  <div class="col-stat col-stat_2">Клики</div>
+                                  <div class="col-stat col-stat_3">CTR</div>
+                                  <div class="col-stat col-stat_4">Показы</div>
+                                  <div class="col-stat col-stat_5">Средний CPC</div>
+                                  <div class="col-stat col-stat_6">Средний CPM</div>
+                                  <div class="col-stat col-stat_7">Расходы</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category1</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category2</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category3</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category4</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category5</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category6</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category7</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category8</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category9</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category10</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="tab-cont" id="tab_1">
+                            <div id="pie-chart2"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="table-list__item-statictic-block">
+                      <div class="statistic-left">
+                              <div class="statistic-left__title">
+                                <span class="statistic-left__title-text">Статистика 2</span>
+                              </div>
+                              <div class="box-form">
+                                <form>
+                                  <div class="box-field">
+                                    <select class="custom">
+                                      <option>Статистика 2</option>
+                                      <option>Статистика 21</option>
+                                    </select>
+                                  </div>
+                                  <div class="box-field">
+                                    <select class="custom">
+                                      <option>Filter 1</option>
+                                      <option>Filter 11</option>
+                                    </select>
+                                  </div>
+                                  <div class="box-field">
+                                    <select class="custom">
+                                      <option>Filter 2</option>
+                                      <option>Filter 21</option>
+                                    </select>
+                                  </div>
+                                </form>
+                              </div>
+                              <ul class="nav-tab-list tabs">
+                                <li class="nav-tab-list__item active icon-graph">
+                                  <a href="#tab_1" class="nav-tab-list__link">График</a>
+                                </li>
+                                <li class="nav-tab-list__item icon-table">
+                                  <a href="#tab_2" class="nav-tab-list__link">Таблица</a>
+                                </li>
+                              </ul>
+                      </div>
+                      <div class="statistic-content">
+                        <div class="box-tab-cont">
+                          <div class="tab-cont hide" id="tab_2">
+                            <div class="table-list-stat-wrapper">
+                              <ul class="table-list-stat">
+                                <li class="table-list-stat__item table-list-stat__item-titles">
+                                  <div class="col-stat col-stat_1">Категории</div>
+                                  <div class="col-stat col-stat_2">Клики</div>
+                                  <div class="col-stat col-stat_3">CTR</div>
+                                  <div class="col-stat col-stat_4">Показы</div>
+                                  <div class="col-stat col-stat_5">Средний CPC</div>
+                                  <div class="col-stat col-stat_6">Средний CPM</div>
+                                  <div class="col-stat col-stat_7">Расходы</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category1</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category2</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category3</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category4</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category5</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category6</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category7</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category8</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category9</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                                <li class="table-list-stat__item">
+                                  <div class="col-stat col-stat_1">Category10</div>
+                                  <div class="col-stat col-stat_2">576 876 376</div>
+                                  <div class="col-stat col-stat_3">% 100.00</div>
+                                  <div class="col-stat col-stat_4">22 768</div>
+                                  <div class="col-stat col-stat_5">$ 3.961</div>
+                                  <div class="col-stat col-stat_6">$ 4.961</div>
+                                  <div class="col-stat col-stat_7">$ 2.961</div>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="tab-cont" id="tab_1">
+                            <div id="line-chart12"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="table-list__item">
+                  <div class="cols">
+                    <div class="col col_1">1234567</div>
+                    <div class="col col_2">Mobile popunder test 1</div>
+                    <div class="col col_3">Popunder</div>
+                    <div class="col col_4">476 476 476</div>
+                    <div class="col col_5">123 123 123</div>
+                    <div class="col col_6">% 100.000</div>
+                    <div class="col col_7">% 100.000</div>
+                    <div class="col col_8">$ 231.00</div>
+                    <div class="col col_9">
+                      <a href="#" class="col-play js-play-campain"></a>
+                      <a href="#" class="col-edit"></a>
+                      <a href="#" class="col-graph js-open-stat"></a>
+                      <a href="#" class="col-delete js-delete-row"></a>
+                      <span class="col-satus col-satus_warning"></span>
+                    </div>
+                  </div>
+              </div>
+              <div class="table-list__item">
+                  <div class="cols">
+                    <div class="col col_1">1234567</div>
+                    <div class="col col_2">Mobile popunder test 1</div>
+                    <div class="col col_3">Popunder</div>
+                    <div class="col col_4">476 476 476</div>
+                    <div class="col col_5">123 123 123</div>
+                    <div class="col col_6">% 100.000</div>
+                    <div class="col col_7">% 100.000</div>
+                    <div class="col col_8">$ 231.00</div>
+                    <div class="col col_9">
+                      <a href="#" class="col-play js-play-campain"></a>
+                      <a href="#" class="col-edit"></a>
+                      <a href="#" class="col-graph js-open-stat"></a>
+                      <a href="#" class="col-delete js-delete-row"></a>
+                      <span class="col-satus col-satus_disabled"></span>
+                    </div>
+                  </div>
+              </div>
+              <div class="table-list__item">
+                  <div class="cols">
+                    <div class="col col_1">1234567</div>
+                    <div class="col col_2">Mobile popunder test 1</div>
+                    <div class="col col_3">Popunder</div>
+                    <div class="col col_4">476 476 476</div>
+                    <div class="col col_5">123 123 123</div>
+                    <div class="col col_6">% 100.000</div>
+                    <div class="col col_7">% 100.000</div>
+                    <div class="col col_8">$ 231.00</div>
+                    <div class="col col_9">
+                      <a href="#" class="col-play js-play-campain"></a>
+                      <a href="#" class="col-edit"></a>
+                      <a href="#" class="col-graph js-open-stat"></a>
+                      <a href="#" class="col-delete js-delete-row"></a>
+                      <span class="col-satus"></span>
+                    </div>
+                  </div>
+              </div>
+              <div class="table-list__item">
+                  <div class="cols">
+                    <div class="col col_1">1234567</div>
+                    <div class="col col_2">Mobile popunder test 1</div>
+                    <div class="col col_3">Popunder</div>
+                    <div class="col col_4">476 476 476</div>
+                    <div class="col col_5">123 123 123</div>
+                    <div class="col col_6">% 100.000</div>
+                    <div class="col col_7">% 100.000</div>
+                    <div class="col col_8">$ 231.00</div>
+                    <div class="col col_9">
+                      <a href="#" class="col-play js-play-campain"></a>
+                      <a href="#" class="col-edit"></a>
+                      <a href="#" class="col-graph js-open-stat"></a>
+                      <a href="#" class="col-delete js-delete-row"></a>
+                      <span class="col-satus"></span>
+                    </div>
+                  </div>
+              </div>
+              <div class="table-list__item">
+                  <div class="cols">
+                    <div class="col col_1">1234567</div>
+                    <div class="col col_2">Mobile popunder test 1</div>
+                    <div class="col col_3">Popunder</div>
+                    <div class="col col_4">476 476 476</div>
+                    <div class="col col_5">123 123 123</div>
+                    <div class="col col_6">% 100.000</div>
+                    <div class="col col_7">% 100.000</div>
+                    <div class="col col_8">$ 231.00</div>
+                    <div class="col col_9">
+                      <a href="#" class="col-play js-play-campain"></a>
+                      <a href="#" class="col-edit"></a>
+                      <a href="#" class="col-graph js-open-stat"></a>
+                      <a href="#" class="col-delete js-delete-row"></a>
+                      <span class="col-satus"></span>
+                    </div>
+                  </div>
+              </div>
+              <div class="table-list__item">
+                  <div class="cols">
+                    <div class="col col_1">1234567</div>
+                    <div class="col col_2">Mobile popunder test 1</div>
+                    <div class="col col_3">Popunder</div>
+                    <div class="col col_4">476 476 476</div>
+                    <div class="col col_5">123 123 123</div>
+                    <div class="col col_6">% 100.000</div>
+                    <div class="col col_7">% 100.000</div>
+                    <div class="col col_8">$ 231.00</div>
+                    <div class="col col_9">
+                      <a href="#" class="col-play js-play-campain"></a>
+                      <a href="#" class="col-edit"></a>
+                      <a href="#" class="col-graph js-open-stat"></a>
+                      <a href="#" class="col-delete js-delete-row"></a>
+                      <span class="col-satus"></span>
+                    </div>
+                  </div>
+              </div>
+              <div class="table-list__item">
+                  <div class="cols">
+                    <div class="col col_1">1234567</div>
+                    <div class="col col_2">Mobile popunder test 1</div>
+                    <div class="col col_3">Popunder</div>
+                    <div class="col col_4">476 476 476</div>
+                    <div class="col col_5">123 123 123</div>
+                    <div class="col col_6">% 100.000</div>
+                    <div class="col col_7">% 100.000</div>
+                    <div class="col col_8">$ 231.00</div>
+                    <div class="col col_9">
+                      <a href="#" class="col-play js-play-campain"></a>
+                      <a href="#" class="col-edit"></a>
+                      <a href="#" class="col-graph js-open-stat"></a>
+                      <a href="#" class="col-delete js-delete-row"></a>
+                      <span class="col-satus"></span>
+                    </div>
+                  </div>
+              </div>
+              <div class="table-list__item">
+                  <div class="cols">
+                    <div class="col col_1">1234567</div>
+                    <div class="col col_2">Mobile popunder test 1</div>
+                    <div class="col col_3">Popunder</div>
+                    <div class="col col_4">476 476 476</div>
+                    <div class="col col_5">123 123 123</div>
+                    <div class="col col_6">% 100.000</div>
+                    <div class="col col_7">% 100.000</div>
+                    <div class="col col_8">$ 231.00</div>
+                    <div class="col col_9">
+                      <a href="#" class="col-play js-play-campain"></a>
+                      <a href="#" class="col-edit"></a>
+                      <a href="#" class="col-graph js-open-stat"></a>
+                      <a href="#" class="col-delete js-delete-row"></a>
+                      <span class="col-satus"></span>
+                    </div>
+                  </div>
+              </div>
+              <div class="table-list__item">
+                  <div class="cols">
+                    <div class="col col_1">1234567</div>
+                    <div class="col col_2">Mobile popunder test 1</div>
+                    <div class="col col_3">Popunder</div>
+                    <div class="col col_4">476 476 476</div>
+                    <div class="col col_5">123 123 123</div>
+                    <div class="col col_6">% 100.000</div>
+                    <div class="col col_7">% 100.000</div>
+                    <div class="col col_8">$ 231.00</div>
+                    <div class="col col_9">
+                      <a href="#" class="col-play js-play-campain"></a>
+                      <a href="#" class="col-edit"></a>
+                      <a href="#" class="col-graph js-open-stat"></a>
+                      <a href="#" class="col-delete js-delete-row"></a>
+                      <span class="col-satus"></span>
+                    </div>
+                  </div>
+              </div>
+              <div class="table-list__item">
+                  <div class="cols">
+                    <div class="col col_1">1234567</div>
+                    <div class="col col_2">Mobile popunder test 1</div>
+                    <div class="col col_3">Popunder</div>
+                    <div class="col col_4">476 476 476</div>
+                    <div class="col col_5">123 123 123</div>
+                    <div class="col col_6">% 100.000</div>
+                    <div class="col col_7">% 100.000</div>
+                    <div class="col col_8">$ 231.00</div>
+                    <div class="col col_9">
+                      <a href="#" class="col-play js-play-campain"></a>
+                      <a href="#" class="col-edit"></a>
+                      <a href="#" class="col-graph js-open-stat"></a>
+                      <a href="#" class="col-delete js-delete-row"></a>
+                      <span class="col-satus"></span>
+                    </div>
+                  </div>
+              </div>
+              <div class="table-list__item">
+                  <div class="cols">
+                    <div class="col col_1">1234567</div>
+                    <div class="col col_2">Mobile popunder test 1</div>
+                    <div class="col col_3">Popunder</div>
+                    <div class="col col_4">476 476 476</div>
+                    <div class="col col_5">123 123 123</div>
+                    <div class="col col_6">% 100.000</div>
+                    <div class="col col_7">% 100.000</div>
+                    <div class="col col_8">$ 231.00</div>
+                    <div class="col col_9">
+                      <a href="#" class="col-play js-play-campain"></a>
+                      <a href="#" class="col-edit"></a>
+                      <a href="#" class="col-graph js-open-stat"></a>
+                      <a href="#" class="col-delete js-delete-row"></a>
+                      <span class="col-satus"></span>
+                    </div>
+                  </div>
+              </div>
+              <div class="table-list__item">
+                  <div class="cols">
+                    <div class="col col_1">1234567</div>
+                    <div class="col col_2">Mobile popunder test 1</div>
+                    <div class="col col_3">Popunder</div>
+                    <div class="col col_4">476 476 476</div>
+                    <div class="col col_5">123 123 123</div>
+                    <div class="col col_6">% 100.000</div>
+                    <div class="col col_7">% 100.000</div>
+                    <div class="col col_8">$ 231.00</div>
+                    <div class="col col_9">
+                      <a href="#" class="col-play js-play-campain"></a>
+                      <a href="#" class="col-edit"></a>
+                      <a href="#" class="col-graph js-open-stat"></a>
+                      <a href="#" class="col-delete js-delete-row"></a>
+                      <span class="col-satus"></span>
+                    </div>
+                  </div>
+              </div>
+              <div class="table-list__item-group">
+                <span>Группа 2</span>
+              </div>
+              <div class="table-list__item">
+                  <div class="cols cols_border">
+                    <div class="col col_1">1234567</div>
+                    <div class="col col_2">Mobile popunder test 1</div>
+                    <div class="col col_3">Popunder</div>
+                    <div class="col col_4">476 476 476</div>
+                    <div class="col col_5">123 123 123</div>
+                    <div class="col col_6">% 100.000</div>
+                    <div class="col col_7">% 100.000</div>
+                    <div class="col col_8">$ 231.00</div>
+                    <div class="col col_9">
+                      <a href="#" class="col-play js-play-campain"></a>
+                      <a href="#" class="col-edit"></a>
+                      <a href="#" class="col-graph js-open-stat"></a>
+                      <a href="#" class="col-delete js-delete-row"></a>
+                      <span class="col-satus"></span>
+                    </div>
+                  </div>
+              </div>
+              <div class="table-list__item">
+                  <div class="cols">
+                    <div class="col col_1">1234567</div>
+                    <div class="col col_2">Mobile popunder test 1</div>
+                    <div class="col col_3">Popunder</div>
+                    <div class="col col_4">476 476 476</div>
+                    <div class="col col_5">123 123 123</div>
+                    <div class="col col_6">% 100.000</div>
+                    <div class="col col_7">% 100.000</div>
+                    <div class="col col_8">$ 231.00</div>
+                    <div class="col col_9">
+                      <a href="#" class="col-play js-play-campain"></a>
+                      <a href="#" class="col-edit"></a>
+                      <a href="#" class="col-graph js-open-stat"></a>
+                      <a href="#" class="col-delete js-delete-row"></a>
+                      <span class="col-satus"></span>
+                    </div>
+                  </div>
+              </div>
+              <div class="table-list__item">
+                  <div class="cols">
+                    <div class="col col_1">1234567</div>
+                    <div class="col col_2">Mobile popunder test 1</div>
+                    <div class="col col_3">Popunder</div>
+                    <div class="col col_4">476 476 476</div>
+                    <div class="col col_5">123 123 123</div>
+                    <div class="col col_6">% 100.000</div>
+                    <div class="col col_7">% 100.000</div>
+                    <div class="col col_8">$ 231.00</div>
+                    <div class="col col_9">
+                      <a href="#" class="col-play js-play-campain"></a>
+                      <a href="#" class="col-edit"></a>
+                      <a href="#" class="col-graph js-open-stat"></a>
+                      <a href="#" class="col-delete js-delete-row"></a>
+                      <span class="col-satus"></span>
+                    </div>
+                  </div>
+              </div>
+              <div class="table-list__item">
+                  <div class="cols">
+                    <div class="col col_1">1234567</div>
+                    <div class="col col_2">Mobile popunder test 1</div>
+                    <div class="col col_3">Popunder</div>
+                    <div class="col col_4">476 476 476</div>
+                    <div class="col col_5">123 123 123</div>
+                    <div class="col col_6">% 100.000</div>
+                    <div class="col col_7">% 100.000</div>
+                    <div class="col col_8">$ 231.00</div>
+                    <div class="col col_9">
+                      <a href="#" class="col-play js-play-campain"></a>
+                      <a href="#" class="col-edit"></a>
+                      <a href="#" class="col-graph js-open-stat"></a>
+                      <a href="#" class="col-delete js-delete-row"></a>
+                      <span class="col-satus"></span>
+                    </div>
+                  </div>
+              </div>
+              <div class="table-list__item">
+                  <div class="cols">
+                    <div class="col col_1">1234567</div>
+                    <div class="col col_2">Mobile popunder test 1</div>
+                    <div class="col col_3">Popunder</div>
+                    <div class="col col_4">476 476 476</div>
+                    <div class="col col_5">123 123 123</div>
+                    <div class="col col_6">% 100.000</div>
+                    <div class="col col_7">% 100.000</div>
+                    <div class="col col_8">$ 231.00</div>
+                    <div class="col col_9">
+                      <a href="#" class="col-play js-play-campain"></a>
+                      <a href="#" class="col-edit"></a>
+                      <a href="#" class="col-graph js-open-stat"></a>
+                      <a href="#" class="col-delete js-delete-row"></a>
+                      <span class="col-satus"></span>
+                    </div>
+                  </div>
+              </div>
+              <div class="table-list__item">
+                  <div class="cols">
+                    <div class="col col_1">1234567</div>
+                    <div class="col col_2">Mobile popunder test 1</div>
+                    <div class="col col_3">Popunder</div>
+                    <div class="col col_4">476 476 476</div>
+                    <div class="col col_5">123 123 123</div>
+                    <div class="col col_6">% 100.000</div>
+                    <div class="col col_7">% 100.000</div>
+                    <div class="col col_8">$ 231.00</div>
+                    <div class="col col_9">
+                      <a href="#" class="col-play js-play-campain"></a>
+                      <a href="#" class="col-edit"></a>
+                      <a href="#" class="col-graph js-open-stat"></a>
+                      <a href="#" class="col-delete js-delete-row"></a>
+                      <span class="col-satus"></span>
+                    </div>
+                  </div>
+              </div>
+              <div class="table-list__item">
+                  <div class="cols">
+                    <div class="col col_1">1234567</div>
+                    <div class="col col_2">Mobile popunder test 1</div>
+                    <div class="col col_3">Popunder</div>
+                    <div class="col col_4">476 476 476</div>
+                    <div class="col col_5">123 123 123</div>
+                    <div class="col col_6">% 100.000</div>
+                    <div class="col col_7">% 100.000</div>
+                    <div class="col col_8">$ 231.00</div>
+                    <div class="col col_9">
+                      <a href="#" class="col-play js-play-campain"></a>
+                      <a href="#" class="col-edit"></a>
+                      <a href="#" class="col-graph js-open-stat"></a>
+                      <a href="#" class="col-delete js-delete-row"></a>
+                      <span class="col-satus"></span>
+                    </div>
+                  </div>
+              </div>
+              <div class="table-list__item">
+                  <div class="cols">
+                    <div class="col col_1">1234567</div>
+                    <div class="col col_2">Mobile popunder test 1</div>
+                    <div class="col col_3">Popunder</div>
+                    <div class="col col_4">476 476 476</div>
+                    <div class="col col_5">123 123 123</div>
+                    <div class="col col_6">% 100.000</div>
+                    <div class="col col_7">% 100.000</div>
+                    <div class="col col_8">$ 231.00</div>
+                    <div class="col col_9">
+                      <a href="#" class="col-play js-play-campain"></a>
+                      <a href="#" class="col-edit"></a>
+                      <a href="#" class="col-graph js-open-stat"></a>
+                      <a href="#" class="col-delete js-delete-row"></a>
+                      <span class="col-satus"></span>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      	<div class="clear"></div>
+        
+      </div>
+ 			
+ 			
+ 			<div class="b-push"></div>
+ 		</div>
+
+
+      <div class="modal">
+        <div class="modal-box error-modal">
+          <div class="modal-box-wrapper">
+            <span class="modal-box-text modal-box-text_left">Вы не заполнили поля:</span>
+            <span class="modal-box-text modal-box-text_right">Категории, Формат рекламы, Страны</span>
+            <a href="#" class="modal-box-close js-close-modal"></a>
+          </div>
+        </div>
+        <div class="modal-box success-modal">
+          <div class="modal-box-wrapper">
+            <span class="modal-box-text modal-box-text_left">Ваша кампания сохранена</span>
+            <a href="#" class="modal-box-close js-close-modal"></a>
+          </div>
+        </div>
+        <div class="modal-box advice-modal">
+          <div class="modal-box-wrapper">
+            <span class="modal-box-text modal-box-text_left">Совет:</span>
+            <span class="modal-box-text modal-box-text_right">бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла</span>
+            <a href="#" class="modal-box-close js-close-modal"></a>
+          </div>
+        </div>
+      </div>
+  	
+  	<footer class="b-footer active">
+    	<div class="b-wrap">
+      	
+        <div class="b-footer-wrap-in">
+			
+          <div class="b-footer__nav">
+            <a href="#" class="b-footer__nav-logo"><img src="img/logo_temp_2.png" alt="" class="b-footer__nav-logo__img"></a>
+            <div class="b-footer__nav-links">
+              <a href="mailto:companyname@mail.com" class="nav-links__mail">companyname@mail.com</a>
+              <a href="#" class="nav-links__skype">skypename</a>
+            </div>
+            <span class="copy">&copy; Copyright 2016 example.com<br> All rights reserved</span>
+          </div>
+          
+          <div class="b-footer__nav">
+            <h4 class="b-footer__nav-hd">О компании</h4>
+            <ul class="b-footer__nav-list">
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Рекламодатели</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Вебмастера</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Объем трафика</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Контакты</a></li>
+            </ul>
+          </div>
+          
+          <div class="b-footer__nav">
+            <h4 class="b-footer__nav-hd">Рекламодатель</h4>
+            <ul class="b-footer__nav-list">
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Панель управления</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Кампании</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Новая кампания</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Статистика</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Объем трафика</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Оплата</a></li>
+            </ul>
+          </div>
+          
+          <div class="b-footer__nav">
+            <h4 class="b-footer__nav-hd">Вебмастер</h4>
+            <ul class="b-footer__nav-list">
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Панель управления</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Сайты и рекламные зоны</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Новый сайт и рекламная зона</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Статистика</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Оплата</a></li>
+            </ul>
+          </div>
+          
+        </div>
+      
+      </div>
+  	</footer>
+    
+        
+		
+		
+  </body>
+</html>
+

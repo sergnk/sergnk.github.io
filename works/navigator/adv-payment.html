@@ -1,0 +1,582 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+		<meta name = "format-detection" content = "telephone=no" />
+		<meta name="viewport" content="width=960, initial-scale=1">
+		<title>ADV Payment</title>
+		<meta name="Description" content="">
+		<meta name="Keywords" content="">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.theme.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/customSelectBox.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/media-queries.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet"> 
+	</head>
+  
+  <body class="adv-payment_page scale-page">
+ 		<div class="b-page">
+    	
+      <div class="mobile_menu_toggle"><span></span></div>
+ 			
+ 			<header class="b-header">
+      	<div class="b-wrap-account">
+        	
+          <div class="b-header-left">
+            <div class="account_menu_toggle"><span></span></div>
+            
+            <a href="#" class="b-header__logo"><img src="img/logo_temp_2.png" alt="" class="b-header__logo-image"></a>
+          </div>
+          
+          <div class="b-page__tools-select">
+          	<select class="custom">
+            	<option>Рекламодатель</option>
+              <option>Вебмастера</option>
+            </select>
+          </div>
+          
+          <div class="b-page__tools-select account-lang">
+          	<select class="custom">
+            	<option>Russian</option>
+              <option>English</option>
+              <option>Spain</option>
+            </select>
+          </div>
+          
+          <div class="b-header-left__user-wrap">
+            <div class="b-header-left__user">
+              <div class="b-header-left__user-settings">
+                <b>nagibator666@mail.com</b> <span class="b-header-left__user-mail__inbox">11</span>
+              </div>
+              <div class="b-header-left__user-settings__tools">
+                <a href="#" class="settings__tools-info"><span>Информация</span></a>
+                <a href="#" class="settings__tools-logout"><span>Выход</span></a>
+              </div>
+            </div>
+            
+            <div class="b-header-left__balance">$ 2370.23</div>
+          </div>
+          
+ 				</div>
+ 			</header>
+      
+      <div class="b-wrap-account">
+      
+        <aside class="b-sidebar close" id="sidebar_nav">
+          <ul class="b-sidebar__nav-list">
+            <li class="b-sidebar__nav"><a href="#" class="b-sidebar__nav-link nav-link__panel"><span>Панель управления</span></a><span class="b-sidebar__ivents">27</span></li>
+            <li class="b-sidebar__nav"><a href="#" class="b-sidebar__nav-link nav-link__companies"><span>Кампании</span> </a><span class="b-sidebar__ivents">19</span></li>
+            <li class="b-sidebar__nav"><a href="#" class="b-sidebar__nav-link nav-link__new-company"><span>Новая кампания</span></a></li>
+            <li class="b-sidebar__nav"><a href="#" class="b-sidebar__nav-link nav-link__stat"><span>Статистика</span></a></li>
+            <li class="b-sidebar__nav"><a href="#" class="b-sidebar__nav-link nav-link__traffic"><span>Объем трафика</span></a></li>
+            <li class="b-sidebar__nav active"><a href="#" class="b-sidebar__nav-link nav-link__payment"><span>Оплата</span></a></li>
+          </ul>
+        </aside>
+        
+        <div class="b-content active">
+        	<div class="b-content-title">
+            <span class="b-content-title-text">Оплата</span>
+          </div>
+          <div class="payment-method">
+            <div class=" payment-method__item payment-method__title">
+              Выбор метода оплаты
+              <b class="label-note have-tooltip">
+                <span class="tooltip tooltip-top">
+                  I'm a tooltip!
+                  <i class="tooltip-arrow"></i>
+                </span>
+              </b>
+            </div>
+            <div class="payment-method__item payment-method__item_one">
+              <a href="#">
+                <span class="payment-method__active-img">
+                  <img src="img/paymant-method_img1.png" alt="">
+                </span>
+                <span class="payment-method__hover-img">
+                  <img src="img/paymant-method_img1-h.png" alt="">
+                </span>
+              </a>
+            </div>
+            <div class="payment-method__item payment-method__item_two">
+              <a href="#">
+                <span class="payment-method__active-img">
+                  <img src="img/paymant-method_img2.png" alt="">
+                </span>
+                <span class="payment-method__hover-img">
+                  <img src="img/paymant-method_img2-h.png" alt="">
+                </span>
+              </a>
+            </div>
+            <div class="payment-method__item payment-method__item_three">
+              <a href="#">
+                <span class="payment-method__active-img">
+                  <img src="img/paymant-method_img3.png" alt="">
+                </span>
+                <span class="payment-method__hover-img">
+                  <img src="img/paymant-method_img3-h.png" alt="">
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="t-payment">
+              <div class="t-payment-innerwrap">
+                <div class="t-payment-row t-payment-row__heading">
+                  <div class="t-payment-cell col-1">Дата инвойса</div>
+                  <div class="t-payment-cell col-2">Opening balance</div>
+                  <div class="t-payment-cell col-3">Ежемесячные транзакции</div>
+                  <div class="t-payment-cell col-4">
+                    <span class="table-btn table-btn__close">Скрыть все</span>
+                    <span class="table-btn table-btn__open">Раскрыть все</span>
+                    <span class="details">
+                      Платежные детали
+                      <b class="label-note have-tooltip">
+                        <span class=" tooltip tooltip-right">
+                          I'm a tooltip!
+                          <i class="tooltip-arrow"></i>
+                        </span>
+                      </b>
+                    </span>
+                  </div>
+                </div>
+                 
+                <div class="holder-table-content">
+                  <div class="t-payment-row__subheading">
+                    <p>2016</p>
+                  </div>
+                  
+                  <div class="t-payment-row js-col-show">
+                    <div class="t-payment-cell col-1">Сентябрь</div>
+                    <div class="t-payment-cell col-2"><span class="sum-sign">$</span> 8 346.79</div>
+                    <div class="t-payment-cell col-3"><span class="sum-sign">$</span> 34 346.79</div>
+                    <div class="t-payment-cell col-4">
+                      <span class="show-details">Показать детали</span>
+                      <span class="close-details">Скрыть детали</span>
+                    </div>
+                  </div>
+
+                  <!-- subtable -->
+
+                  <div class="t-payment-row holder-sub-table">
+
+                    <div class="t-payment-row sub-table-row ">
+                      <div class="t-payment-cell col-1"></div>
+                      <div class="t-payment-cell col-2"></div>
+                      <div class="t-payment-cell col-3"></div>
+                      <div class="t-payment-cell col-4">
+                        <div class="t-payment-row sub-table t-payment-row__title">
+                          <div class="t-payment-cell col-1">Тип</div>
+                          <div class="t-payment-cell col-2">Дата инвойса</div>
+                          <div class="t-payment-cell col-3">Date funded</div>
+                          <div class="t-payment-cell col-4">Сумма</div>
+                          <div class="t-payment-cell col-5">Баланс</div>
+                          <div class="t-payment-cell col-6">Статус</div>
+                          <div class="t-payment-cell col-7">Инвойс</div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="t-payment-row sub-table-row">
+                      <div class="t-payment-cell col-1"></div>
+                      <div class="t-payment-cell col-2"></div>
+                      <div class="t-payment-cell col-3"></div>
+                      <div class="t-payment-cell col-4">
+                        <div class="t-payment-row sub-table">
+                          <div class="t-payment-cell col-1">PayPal</div>
+                          <div class="t-payment-cell col-2">2016-09-17</div>
+                          <div class="t-payment-cell col-3">2016-09-17</div>
+                          <div class="t-payment-cell col-4">$ 2000</div>
+                          <div class="t-payment-cell col-5">$ 2000</div>
+                          <div class="t-payment-cell col-6"><span class="paid">Оплачен</span></div>
+                          <div class="t-payment-cell col-7"><a class="payment-view" href="#">View</a></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="t-payment-row sub-table-row">
+                      <div class="t-payment-cell col-1"></div>
+                      <div class="t-payment-cell col-2"></div>
+                      <div class="t-payment-cell col-3"></div>
+                      <div class="t-payment-cell col-4">
+                        <div class="t-payment-row sub-table">
+                          <div class="t-payment-cell col-1">PayPal</div>
+                          <div class="t-payment-cell col-2">2016-09-17</div>
+                          <div class="t-payment-cell col-3">2016-09-17</div>
+                          <div class="t-payment-cell col-4">$ 2000</div>
+                          <div class="t-payment-cell col-5">$ 2000</div>
+                          <div class="t-payment-cell col-6"><span class="paid">Оплачен</span></div>
+                          <div class="t-payment-cell col-7"><a class="payment-view" href="#">View</a></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="t-payment-row sub-table-row">
+                      <div class="t-payment-cell col-1"></div>
+                      <div class="t-payment-cell col-2"></div>
+                      <div class="t-payment-cell col-3"></div>
+                      <div class="t-payment-cell col-4">
+                        <div class="t-payment-row sub-table">
+                          <div class="t-payment-cell col-1">PayPal</div>
+                          <div class="t-payment-cell col-2">2016-09-17</div>
+                          <div class="t-payment-cell col-3">2016-09-17</div>
+                          <div class="t-payment-cell col-4">$ 2000</div>
+                          <div class="t-payment-cell col-5">$ 2000</div>
+                          <div class="t-payment-cell col-6"><span class="paid">Оплачен</span></div>
+                          <div class="t-payment-cell col-7"><a class="payment-view" href="#">View</a></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="t-payment-row sub-table-row">
+                      <div class="t-payment-cell col-1"></div>
+                      <div class="t-payment-cell col-2"></div>
+                      <div class="t-payment-cell col-3"></div>
+                      <div class="t-payment-cell col-4">
+                        <div class="t-payment-row sub-table">
+                          <div class="t-payment-cell col-1">PayPal</div>
+                          <div class="t-payment-cell col-2">2016-09-17</div>
+                          <div class="t-payment-cell col-3">2016-09-17</div>
+                          <div class="t-payment-cell col-4">$ 2000</div>
+                          <div class="t-payment-cell col-5">$ 2000</div>
+                          <div class="t-payment-cell col-6"><span class="unpaid">Неоплачен</span></div>
+                          <div class="t-payment-cell col-7"><a class="payment-view" href="#">View</a></div>
+                        </div>
+                      </div>
+                    </div>  
+
+                  </div>
+                    <!-- end subtable -->
+
+                  <div class="t-payment-row js-col-show">
+                    <div class="t-payment-cell col-1">Август</div>
+                    <div class="t-payment-cell col-2"><span class="sum-sign">$</span> 7 346.791</div>
+                    <div class="t-payment-cell col-3"><span class="sum-sign">$</span> 32 678.00</div>
+                    <div class="t-payment-cell col-4">
+                      <span class="show-details">Показать детали</span>
+                      <span class="close-details">Скрыть детали</span>
+                    </div>
+                  </div>
+
+                  <!-- subtable -->
+
+                  <div class="t-payment-row holder-sub-table">
+
+                    <div class="t-payment-row sub-table-row ">
+                      <div class="t-payment-cell col-1"></div>
+                      <div class="t-payment-cell col-2"></div>
+                      <div class="t-payment-cell col-3"></div>
+                      <div class="t-payment-cell col-4">
+                        <div class="t-payment-row sub-table t-payment-row__title">
+                          <div class="t-payment-cell col-1">Тип</div>
+                          <div class="t-payment-cell col-2">Дата инвойса</div>
+                          <div class="t-payment-cell col-3">Date funded</div>
+                          <div class="t-payment-cell col-4">Сумма</div>
+                          <div class="t-payment-cell col-5">Баланс</div>
+                          <div class="t-payment-cell col-6">Статус</div>
+                          <div class="t-payment-cell col-7">Инвойс</div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="t-payment-row sub-table-row">
+                      <div class="t-payment-cell col-1"></div>
+                      <div class="t-payment-cell col-2"></div>
+                      <div class="t-payment-cell col-3"></div>
+                      <div class="t-payment-cell col-4">
+                        <div class="t-payment-row sub-table">
+                          <div class="t-payment-cell col-1">PayPal</div>
+                          <div class="t-payment-cell col-2">2016-09-17</div>
+                          <div class="t-payment-cell col-3">2016-09-17</div>
+                          <div class="t-payment-cell col-4">$ 2000</div>
+                          <div class="t-payment-cell col-5">$ 2000</div>
+                          <div class="t-payment-cell col-6"><span class="paid">Оплачен</span></div>
+                          <div class="t-payment-cell col-7"><a class="payment-view" href="#">View</a></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="t-payment-row sub-table-row">
+                      <div class="t-payment-cell col-1"></div>
+                      <div class="t-payment-cell col-2"></div>
+                      <div class="t-payment-cell col-3"></div>
+                      <div class="t-payment-cell col-4">
+                        <div class="t-payment-row sub-table">
+                          <div class="t-payment-cell col-1">PayPal</div>
+                          <div class="t-payment-cell col-2">2016-09-17</div>
+                          <div class="t-payment-cell col-3">2016-09-17</div>
+                          <div class="t-payment-cell col-4">$ 2000</div>
+                          <div class="t-payment-cell col-5">$ 2000</div>
+                          <div class="t-payment-cell col-6"><span class="paid">Оплачен</span></div>
+                          <div class="t-payment-cell col-7"><a class="payment-view" href="#">View</a></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="t-payment-row sub-table-row">
+                      <div class="t-payment-cell col-1"></div>
+                      <div class="t-payment-cell col-2"></div>
+                      <div class="t-payment-cell col-3"></div>
+                      <div class="t-payment-cell col-4">
+                        <div class="t-payment-row sub-table">
+                          <div class="t-payment-cell col-1">PayPal</div>
+                          <div class="t-payment-cell col-2">2016-09-17</div>
+                          <div class="t-payment-cell col-3">2016-09-17</div>
+                          <div class="t-payment-cell col-4">$ 2000</div>
+                          <div class="t-payment-cell col-5">$ 2000</div>
+                          <div class="t-payment-cell col-6"><span class="paid">Оплачен</span></div>
+                          <div class="t-payment-cell col-7"><a class="payment-view" href="#">View</a></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="t-payment-row sub-table-row">
+                      <div class="t-payment-cell col-1"></div>
+                      <div class="t-payment-cell col-2"></div>
+                      <div class="t-payment-cell col-3"></div>
+                      <div class="t-payment-cell col-4">
+                        <div class="t-payment-row sub-table">
+                          <div class="t-payment-cell col-1">PayPal</div>
+                          <div class="t-payment-cell col-2">2016-09-17</div>
+                          <div class="t-payment-cell col-3">2016-09-17</div>
+                          <div class="t-payment-cell col-4">$ 2000</div>
+                          <div class="t-payment-cell col-5">$ 2000</div>
+                          <div class="t-payment-cell col-6"><span class="unpaid">Неоплачен</span></div>
+                          <div class="t-payment-cell col-7"><a class="payment-view" href="#">View</a></div>
+                        </div>
+                      </div>
+                    </div>  
+
+                  </div>
+                    <!-- end subtable -->
+
+                  <div class="t-payment-row js-col-show">
+                    <div class="t-payment-cell col-1">Июль</div>
+                    <div class="t-payment-cell col-2"><span class="sum-sign">$</span> 3 346.79</div>
+                    <div class="t-payment-cell col-3"><span class="sum-sign">$</span> 7 137.00</div>
+                    <div class="t-payment-cell col-4">
+                      <span class="show-details">Показать детали</span>
+                      <span class="close-details">Скрыть детали</span>
+                    </div>
+                  </div>
+                  <div class="t-payment-row js-col-show">
+                    <div class="t-payment-cell col-1">Июнь</div>
+                    <div class="t-payment-cell col-2"><span class="sum-sign">$</span> 12 346.79</div>
+                    <div class="t-payment-cell col-3"><span class="sum-sign">$</span> 43 185.00</div>
+                    <div class="t-payment-cell col-4">
+                      <span class="show-details">Показать детали</span>
+                      <span class="close-details">Скрыть детали</span>
+                    </div>
+                  </div>
+                  <div class="t-payment-row js-col-show">
+                    <div class="t-payment-cell col-1">Май</div>
+                    <div class="t-payment-cell col-2"><span class="sum-sign">$</span> 7 346.79</div>
+                    <div class="t-payment-cell col-3"><span class="sum-sign">$</span> 34 346.79</div>
+                    <div class="t-payment-cell col-4">
+                      <span class="show-details">Показать детали</span>
+                      <span class="close-details">Скрыть детали</span>
+                    </div>
+                  </div>
+                  <div class="t-payment-row js-col-show">
+                    <div class="t-payment-cell col-1">Апрель</div>
+                    <div class="t-payment-cell col-2"><span class="sum-sign">$</span> 3 346.79</div>
+                    <div class="t-payment-cell col-3"><span class="sum-sign">$</span> 32 678.00</div>
+                    <div class="t-payment-cell col-4">
+                      <span class="show-details">Показать детали</span>
+                      <span class="close-details">Скрыть детали</span>
+                    </div>
+                  </div>
+                  <div class="t-payment-row js-col-show">
+                    <div class="t-payment-cell col-1">Март</div>
+                    <div class="t-payment-cell col-2"><span class="sum-sign">$</span> 12 346.79</div>
+                    <div class="t-payment-cell col-3"><span class="sum-sign">$</span> 7 137.00</div>
+                    <div class="t-payment-cell col-4">
+                      <span class="show-details">Показать детали</span>
+                      <span class="close-details">Скрыть детали</span>
+                    </div>
+                  </div>
+                  <div class="t-payment-row js-col-show">
+                    <div class="t-payment-cell col-1">Февраль</div>
+                    <div class="t-payment-cell col-2"><span class="sum-sign">$</span> 8 346.79</div>
+                    <div class="t-payment-cell col-3"><span class="sum-sign">$</span> 43 185.00</div>
+                    <div class="t-payment-cell col-4">
+                      <span class="show-details">Показать детали</span>
+                      <span class="close-details">Скрыть детали</span>
+                    </div>
+                  </div>
+                  <div class="t-payment-row js-col-show">
+                    <div class="t-payment-cell col-1">Январь</div>
+                    <div class="t-payment-cell col-2"><span class="sum-sign">$</span> 3 346.79</div>
+                    <div class="t-payment-cell col-3"><span class="sum-sign">$</span> 7 137.00</div>
+                    <div class="t-payment-cell col-4">
+                      <span class="show-details">Показать детали</span>
+                      <span class="close-details">Скрыть детали</span>
+                    </div>
+                  </div>
+
+                  <!-- 2015  -->
+                  <div class="t-payment-row__subheading">
+                    <p>2015</p>
+                  </div>
+                  
+                  <div class="payment-second-year">
+                    <div class="t-payment-row js-col-show">
+                      <div class="t-payment-cell col-1">Декабрь</div>
+                      <div class="t-payment-cell col-2"><span class="sum-sign">$</span> 7 346.791</div>
+                      <div class="t-payment-cell col-3"><span class="sum-sign">$</span> 32 678.00</div>
+                      <div class="t-payment-cell col-4">
+                        <span class="show-details">Показать детали</span>
+                        <span class="close-details">Скрыть детали</span>
+                      </div>
+                    </div>
+
+                    <div class="t-payment-row js-col-show">
+                      <div class="t-payment-cell col-1">Ноябрь</div>
+                      <div class="t-payment-cell col-2"><span class="sum-sign">$</span> 3 346.79</div>
+                      <div class="t-payment-cell col-3"><span class="sum-sign">$</span> 7 137.00</div>
+                      <div class="t-payment-cell col-4">
+                        <span class="show-details">Показать детали</span>
+                        <span class="close-details">Скрыть детали</span>
+                      </div>
+                    </div>
+                    <div class="t-payment-row js-col-show">
+                      <div class="t-payment-cell col-1">Октябрь</div>
+                      <div class="t-payment-cell col-2"><span class="sum-sign">$</span> 12 346.79</div>
+                      <div class="t-payment-cell col-3"><span class="sum-sign">$</span> 43 185.00</div>
+                      <div class="t-payment-cell col-4">
+                        <span class="show-details">Показать детали</span>
+                        <span class="close-details">Скрыть детали</span>
+                      </div>
+                    </div>
+                    <div class="t-payment-row js-col-show">
+                      <div class="t-payment-cell col-1">Сентябрь</div>
+                      <div class="t-payment-cell col-2"><span class="sum-sign">$</span> 7 346.79</div>
+                      <div class="t-payment-cell col-3"><span class="sum-sign">$</span> 34 346.79</div>
+                      <div class="t-payment-cell col-4">
+                        <span class="show-details">Показать детали</span>
+                        <span class="close-details">Скрыть детали</span>
+                      </div>
+                    </div>
+                    <div class="t-payment-row js-col-show">
+                      <div class="t-payment-cell col-1">Август</div>
+                      <div class="t-payment-cell col-2"><span class="sum-sign">$</span> 3 346.79</div>
+                      <div class="t-payment-cell col-3"><span class="sum-sign">$</span> 32 678.00</div>
+                      <div class="t-payment-cell col-4">
+                        <span class="show-details">Показать детали</span>
+                        <span class="close-details">Скрыть детали</span>
+                      </div>
+                    </div>
+                    <div class="t-payment-row js-col-show">
+                      <div class="t-payment-cell col-1">Июль</div>
+                      <div class="t-payment-cell col-2"><span class="sum-sign">$</span> 12 346.79</div>
+                      <div class="t-payment-cell col-3"><span class="sum-sign">$</span>  7 137.00</div>
+                      <div class="t-payment-cell col-4">
+                        <span class="show-details">Показать детали</span>
+                        <span class="close-details">Скрыть детали</span>
+                      </div>
+                    </div>
+                    <div class="t-payment-row js-col-show">
+                      <div class="t-payment-cell col-1">Июнь</div>
+                      <div class="t-payment-cell col-2"><span class="sum-sign">$</span> 8 346.79</div>
+                      <div class="t-payment-cell col-3"><span class="sum-sign">$</span>  43 185.00</div>
+                      <div class="t-payment-cell col-4">
+                        <span class="show-details">Показать детали</span>
+                        <span class="close-details">Скрыть детали</span>
+                      </div>
+                    </div>
+                    <div class="t-payment-row js-col-show">
+                      <div class="t-payment-cell col-1">Май</div>
+                      <div class="t-payment-cell col-2"><span class="sum-sign">$</span> 3 346.79</div>
+                      <div class="t-payment-cell col-3"><span class="sum-sign">$</span>  7 137.00</div>
+                      <div class="t-payment-cell col-4">
+                        <span class="show-details">Показать детали</span>
+                        <span class="close-details">Скрыть детали</span>
+                      </div>
+                    </div>
+                    <div class="t-payment-row payment-sum">
+                      <div class="t-payment-cell col-1">Всего</div>
+                      <div class="t-payment-cell col-2"></div>
+                      <div class="t-payment-cell col-3"><span class="sum-sign">$</span> 449 312.00</div>
+                      <div class="t-payment-cell col-4">
+                      </div>
+                    </div>
+                  </div>         
+                </div>
+              </div>
+            </div>                     
+          </div>                
+        <div class="clear"></div>       
+      </div>    
+      <div class="b-push"></div>
+    </div>
+  	
+  	<footer class="b-footer active">
+    	<div class="b-wrap">
+      	
+        <div class="b-footer-wrap-in">
+			
+          <div class="b-footer__nav">
+            <a href="#" class="b-footer__nav-logo"><img src="img/logo_temp_2.png" alt="" class="b-footer__nav-logo__img"></a>
+            <div class="b-footer__nav-links">
+              <a href="mailto:companyname@mail.com" class="nav-links__mail">companyname@mail.com</a>
+              <a href="#" class="nav-links__skype">skypename</a>
+            </div>
+            <span class="copy">&copy; Copyright 2016 example.com<br> All rights reserved</span>
+          </div>
+          
+          <div class="b-footer__nav">
+            <h4 class="b-footer__nav-hd">О компании</h4>
+            <ul class="b-footer__nav-list">
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Рекламодатели</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Вебмастера</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Объем трафика</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Контакты</a></li>
+            </ul>
+          </div>
+          
+          <div class="b-footer__nav">
+            <h4 class="b-footer__nav-hd">Рекламодатель</h4>
+            <ul class="b-footer__nav-list">
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Панель управления</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Кампании</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Новая кампания</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Статистика</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Объем трафика</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Оплата</a></li>
+            </ul>
+          </div>
+          
+          <div class="b-footer__nav">
+            <h4 class="b-footer__nav-hd">Вебмастер</h4>
+            <ul class="b-footer__nav-list">
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Панель управления</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Сайты и рекламные зоны</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Новый сайт и рекламная зона</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Статистика</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Оплата</a></li>
+            </ul>
+          </div>
+          
+        </div>
+      
+      </div>
+  	</footer>
+    
+        
+		<script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>  
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/jquery.datepicker.extension.range.min.js"></script>
+		<script type="text/javascript" src="js/slick.js"></script>
+    <script type="text/javascript" src="js/SelectBox.js"></script>  
+    <script type="text/javascript" src="js/highcharts.js"></script> 
+    <script type="text/javascript" src="js/jquery.mCustomScrollbar.js"></script>  
+    <script type="text/javascript" src="js/jquery.formstyler.min.js"></script> 
+    <script type="text/javascript" src="js/scripts.js"></script>  
+		
+  </body>
+</html>
+

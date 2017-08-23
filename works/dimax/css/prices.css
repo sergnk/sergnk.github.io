@@ -1,0 +1,1856 @@
+body{
+  font-family: 'MyriadProregular', 'MyriadProBold', 'MyriadProSemiBoldItalic', 'MyriadProSemiBold', 'MyriadProItalic', sans-serif;
+  font-weight: 400;
+}
+/* line 1, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+.prices-content {
+  padding-bottom: 25px; }
+
+/* line 5, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+
+
+/* line 6, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+.single-content .prices button {
+  border: 0;
+  outline: 0; }
+
+/* line 7, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+.single-content .prices__mainheading {
+  margin-top: 25px;
+  margin-bottom: 9px; 
+  padding-bottom: 9px;
+}
+  /* line 8, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+  .single-content .prices__mainheading span:after {
+    display: none; }
+
+/* line 10, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+.single-content .prices__headingtext {
+  font-size: 18px;
+  text-align: center;
+  -webkit-margin-before: 7px;
+  text-indent: 0; }
+
+/* line 11, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+.single-content .prices__categories {
+  margin-right: -15px;
+  display: block;
+  display: inline-block;
+  width: 100%;
+  -webkit-margin-before: 0;
+  list-style: none;
+  padding: 0;
+  margin-top: 5px;
+  margin-bottom: 0px; }
+  /* line 12, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+  .single-content .prices__categories-item {
+    color: #303030;
+    border: 1px solid #e0e0e0;
+    padding: 21px 16px 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    min-height: 154px;
+    margin-right: 15px;
+    display: block;
+    float: left;
+    width: 32%;
+    margin-right: 2%;
+    position: relative;
+    background-image: url("../content/prices--category-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: all .25s ease-in-out;
+    cursor: pointer;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    -moz-filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale"); }
+    .single-content .prices__categories-item:last-child{
+      margin-right: 0px;
+    }
+    /* line 16, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+    .single-content .prices__categories-item:hover, .single-content .prices__categories-item.active {
+      filter: none;
+      -webkit-filter: none;
+      -moz-filter: none;
+      -ms-filter: none;
+      -o-filter: none;
+      filter: none;
+      filter: none;
+      -webkit-filter: none; }
+    /* line 18, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+    .single-content .prices__categories-item.active {
+      color: white; }
+      /* line 19, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+      .single-content .prices__categories-item.active:before {
+        opacity: 1; }
+      /* line 20, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+      .single-content .prices__categories-item.active:after {
+        opacity: 1; }
+    /* line 23, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+    .single-content .prices__categories-item * {
+      text-indent: 0;
+      z-index: 3;
+      position: relative; }
+    /* line 24, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+    .single-content .prices__categories-item:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      background-image: url("../content/prices--category-bgactive.jpg");
+      background-size: cover;
+      background-position: center;
+      opacity: 0;
+      transition: all .25s ease-in-out; }
+    /* line 25, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+    .single-content .prices__categories-item:after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      margin: auto;
+      z-index: 1;
+      opacity: 0;
+      transition: all .25s ease-in-out;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 22px 31.5px 0 31.5px;
+      border-color: #d83f00 transparent transparent transparent; }
+    /* line 26, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+    .single-content .prices__categories-item h1, .single-content .prices__categories-item h2, .single-content .prices__categories-item h3, .single-content .prices__categories-item h4, .single-content .prices__categories-item h5 {
+      font-size: 24px;
+      -webkit-margin-before: 0;
+      -webkit-margin-after: 0;
+      text-transform: uppercase;
+      font-weight: 600; }
+    /* line 27, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+    .single-content .prices__categories-item p {
+      font-size: 16px;
+      margin-top: 5px; }
+
+/* line 30, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+.single-content .prices__tabs {
+  border-top: 1px dotted black;
+  border-bottom: 1px dotted black;
+  display: block;
+  -webkit-margin-before: 0;
+  list-style: none;
+  padding: 16px 0;
+  text-align: center;
+  margin-top: 55px;
+  margin-bottom: 2px; }
+  /* line 31, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+  .single-content .prices__tabs li {
+    font-size: 18px;
+    color: #717171;
+    text-transform: uppercase;
+    transition: all .25s ease-in-out;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px 10px;
+    border-bottom: 1px solid transparent;
+    letter-spacing: -0.025em;
+    cursor: pointer;
+    line-height: 1em; }
+    .single-content .prices__tabs li a{
+      color: #717171;
+      text-decoration: none;
+    }
+    /* line 32, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+    .single-content .prices__tabs li:hover {
+      color: #e64d00; }
+    /* line 33, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+    .single-content .prices__tabs li.active{
+      border-color: #e64d00;
+    }
+    .single-content .prices__tabs li.active a{
+      color: #e64d00;
+      }
+.single-content .prices__tabs li.active a:hover{
+  cursor: default;
+}
+/* line 38, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+.single-content .prices__form {
+  width: 100%;
+  transition: height .7s ease-in-out; }
+  /* line 39, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+  .single-content .prices__form-checkboxes {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding-left: 0; 
+    margin-bottom: 20px;
+    margin-top: -12px;}
+  /* line 40, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+  .single-content .prices__form-heading {
+    text-align: center;
+    font-size: 24px;
+    color: #3a3a3a;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 0px;
+    margin-top: 28px; }
+  /* line 41, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+  .single-content .prices__form-slide {
+    width: 100%; }
+  /* line 42, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+  .single-content .prices__form-secondslidemargin {
+    padding: 17px 0 34px; }
+  /* line 43, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+  .single-content .prices__form-wrapper {
+    width: 100%;
+    display: block;
+    transition: transform .5s ease-in-out; }
+  /* line 44, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+  .single-content .prices__form [data-slide="next"].disabled {
+    opacity: .4;
+    pointer-events: none; }
+
+/* line 46, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+.single-content .prices__checkradio {
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  width: 148px;
+  margin: 0px 6px; 
+}
+  /* line 47, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+  .single-content .prices__checkradio input {
+    opacity: 0;
+    pointer-events: none;
+    width: 0;
+    height: 0;
+    left: 0;
+    top: 0; }
+    /* line 48, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+    .single-content .prices__checkradio input:checked + label:after {
+      opacity: 1; }
+    /* line 49, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+    .single-content .prices__checkradio input:checked + label {
+      border:3px solid #ff6600!important; }
+  /* line 51, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+  .single-content .prices__checkradio label {
+    padding-bottom: 46px;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+    border: 3px solid transparent;
+     }
+    .prices__checkradio label:hover{  
+      border: 1px solid #b2b2b2;
+      padding-top: 20px;
+      padding-bottom: 60px!important;
+    }
+    .prices__checkradio label:hover:after{
+      bottom: 20px!important;
+    }
+    .prices__checkradio label:hover:before{
+      bottom: 15px!important;
+    }
+    .single-content .prices__checkradio input:checked + label:hover{
+      padding-top: 18px;
+      padding-bottom: 58px!important;
+    }
+    .single-content .prices__checkradio input:checked + label:hover:after{
+      bottom: 18px!important;
+    } 
+    .single-content .prices__checkradio input:checked + label:hover:before{
+      bottom: 13px!important;
+    }
+    /* line 52, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+    .single-content .prices__checkradio label:before, .single-content .prices__checkradio label:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 13px;
+      margin: auto;
+      border-radius: 100%; }
+    /* line 53, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+    .single-content .prices__checkradio label:before {
+      border: 2px solid #b8b8b8;
+      width: 29px;
+      height: 29px; }
+    /* line 54, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+    .single-content .prices__checkradio label:after {
+      width: 23px;
+      height: 23px;
+      bottom: 18px;
+      background-color: #e44b00;
+      background-image: url("../content/prices--checkbox.png");
+      background-size: cover;
+      background-position: center;
+      transition: opacity .25s ease-in-out;
+      opacity: 0; }
+  /* line 56, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+  .single-content .prices__checkradio_image-text {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 18px;
+    padding-bottom: 58px !important; }
+    /* line 57, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+    .single-content .prices__checkradio_image-text span {
+      font-size: 18px;
+      color: #3a3a3a;
+      text-indent: 0;
+      display: block;
+      -webkit-margin-before: 0;
+      -webkit-margin-after: 0;
+      margin-top: 6px; }
+
+/* line 60, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+.single-content .prices__button {
+  font-size: 18px;
+  color: white;
+  height: 47px;
+  line-height: 47px;
+  padding: 0 25px;
+  min-width: 146px;
+  text-transform: uppercase;
+  font-weight: 400;
+  background-color: #ed5400;
+  background-image: url("../content/prices--category-bgactive.jpg");
+  display: inline-block;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  transition: all .25s ease-in-out;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  border: 1px solid transparent;
+  text-decoration: none; }
+  /* line 61, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+  .single-content .prices__button:hover {
+    background-image: url('../content/prices--category-bg.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 0px;
+    color: #545454;
+    border: 1px solid #e3e3e3;
+  }
+
+/* line 63, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+.single-content .prices__inputblock {
+  position: relative;
+  padding-right: 21px;
+  display: inline-block;
+  padding-bottom: 18px;
+  margin-right: -20px; }
+  .prices__last-slide-column .prices__inputblock.prices__inputblock_small{
+    padding-right: 0px!important;
+  }
+  .prices__last-slide-column .prices__inputblock.prices__inputblock_small:after{
+    right: -15px!important;
+  }
+  .prices__last-slide-column .prices__inputblock.prices__inputblock_small:before{
+    right: -15px!important;
+  }
+  /* line 64, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+  .single-content .prices__inputblock input, .single-content .prices__inputblock select, .single-content .prices__inputblock textarea {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    color: #3a3a3a;
+    font-size: 24px;
+    text-align: center;
+    border: 2px solid #cdcdcd;
+    width: 142px;
+    transition: border-color .25s ease-in-out;
+    height: 40px;
+    line-height: 34px;
+    outline: none; }
+  /* line 65, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+  .single-content .prices__inputblock:before, .single-content .prices__inputblock:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: opacity .25s ease-in-out; }
+  /* line 66, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+  .single-content .prices__inputblock:before {
+    content: "*";
+    color: #c63232;
+    opacity: 1;
+    right: 5px;
+    top: -5px;
+    font-size: 24px; }
+  /* line 67, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+  .single-content .prices__inputblock:after {
+    background-image: url("../content/prices--tick.png");
+    background-size: 14px 12px;
+    width: 14px;
+    height: 12px;
+    opacity: 0; }
+  /* line 68, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+  .single-content .prices__inputblock .prices__inputblock-error {
+    font-size: 14px;
+    color: #bd3a1b;
+    opacity: 0;
+    transition: opacity .25s ease-in-out;
+    position: absolute;
+    bottom: 0;
+    left: 2px;
+    letter-spacing: -0.025em; }
+  /* line 70, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+  .single-content .prices__inputblock.active:before {
+    opacity: 0; }
+  /* line 71, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+  .single-content .prices__inputblock.active:after {
+    opacity: 1; }
+  /* line 74, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+  .single-content .prices__inputblock.error input, .single-content .prices__inputblock.error select, .single-content .prices__inputblock.error textarea {
+    border-color: #d97c7c; }
+  /* line 75, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+  .single-content .prices__inputblock.error:before {
+    opacity: 0; }
+  /* line 76, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+  .single-content .prices__inputblock.error:after {
+    opacity: 0; }
+  /* line 77, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+  .single-content .prices__inputblock.error span {
+    opacity: 1; }
+  /* line 80, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+  .single-content .prices__inputblock_small input {
+    font-size: 18px;
+    text-align: left;
+    padding: 0 15px;
+    font-style: italic; }
+
+/* line 84, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+.single-content .prices__table {
+  border: 1px solid #dfdfdf;
+  border-bottom: 0; }
+  /* line 85, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+  .single-content .prices__table-row {
+    border-bottom: 1px solid #dfdfdf;
+    display: block; 
+    width: 100%;
+    overflow: hidden;
+    -moz-margin-bottom: -3px;
+  }
+    /* line 86, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+    .single-content .prices__table-row p {
+      font-size: 18px;
+      color: #3f3f3f;
+      -webkit-margin-before: 0;
+      -webkit-margin-after: 0;
+      text-indent: 0; }
+    /* line 88, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+    .single-content .prices__table-row_final .prices__table-column:first-child {
+      background-color: #ff6600; 
+      display: table-cell;
+      min-height: 32px;
+    }
+    .prices__forms_prom .prices__table-row_final,
+    .prices__forms_screed .prices__table-row_final{
+      min-height: 33px;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+    }
+
+    .prices__table-row_final .prices__table-column{
+      padding-top: 1px!important;
+    }
+      /* line 89, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+      .single-content .prices__table-row_final .prices__table-column:first-child p {
+        font-weight: 600;
+        text-transform: uppercase;
+        color: white; }
+    /* line 92, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+    .single-content .prices__table-row_final .prices__table-column:last-child p {
+      font-size: 24px;
+      color: #ff6600; }
+  /* line 96, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+  .single-content .prices__table-column {
+    padding-top: 6px;
+    width: 50%;
+    display: block;
+    float: left;
+    align-items: center;
+    height: 32px;
+    padding-right: 30px;
+    box-sizing: border-box; }
+    /* line 97, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+    .single-content .prices__table-column:first-child {
+      background-color: #d2d2d2;
+      padding-left: 35px; }
+      /* line 98, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+      .single-content .prices__table-column:first-child p {
+        font-weight: 600; }
+    /* line 100, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+    .single-content .prices__table-column:last-child {
+      padding-left: 29px; }
+
+/* line 103, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+.single-content .prices__last-slide-container {
+  max-width: 640px;
+  margin: 0 auto;
+  padding-bottom: 15px; }
+
+/* line 104, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+.single-content .prices__last-slide-columns {
+  width: 100%;
+  display: inline-block;
+  width: 100%;
+  margin-top: 40px; }
+  /* line 105, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+  .single-content .prices__last-slide-columns .prices__button {
+    margin-top: 19px;
+    width: 100%; }
+  /* line 106, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+  .single-content .prices__last-slide-columns .prices__inputblock {
+    width: 100%; }
+    /* line 107, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+    .single-content .prices__last-slide-columns .prices__inputblock input, .single-content .prices__last-slide-columns .prices__inputblock select, .single-content .prices__last-slide-columns .prices__inputblock textarea {
+      width: 100%;
+      box-sizing: border-box;
+      height: 38px;
+      line-height: 38px; }
+
+/* line 110, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+.single-content .prices__last-slide-column {
+  width: 50%;
+  float: left;
+  box-sizing: border-box; 
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;}
+  /* line 111, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+  .single-content .prices__last-slide-column:nth-of-type(2n+1) {
+    padding-right: 93px; }
+
+/* line 113, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+.single-content .prices__simplecheckbox {
+  position: relative;
+  margin-top: 14px; }
+  /* line 114, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+  .single-content .prices__simplecheckbox input {
+    opacity: 0;
+    pointer-events: none;
+    width: 0;
+    height: 0;
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%; }
+    /* line 115, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+    .single-content .prices__simplecheckbox input:checked + label:after {
+      opacity: 1; }
+  /* line 117, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+  .single-content .prices__simplecheckbox label {
+    position: relative;
+    font-size: 18px;
+    color: #3f3f3f;
+    cursor: pointer;
+    display: block;
+    padding-left: 37px; 
+    padding-top: 1px;}
+    /* line 118, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+    .single-content .prices__simplecheckbox label:before, .single-content .prices__simplecheckbox label:after {
+      content: "";
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      left: 0;
+      top: 0;
+      border: 2px solid transparent; }
+    /* line 119, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+    .single-content .prices__simplecheckbox label:before {
+      border-color: #cdcdcd; }
+    /* line 120, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+    .single-content .prices__simplecheckbox label:after {
+      background-size: 92%;
+      background-position: right center;
+      background-repeat: no-repeat;
+      transition: all .25s ease-in-out;
+      opacity: 0;
+      background-image: url("../content/prices--checkbox-tick.png"); }
+
+/* line 124, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+.single-content .prices__inputblock + .prices__simplecheckbox {
+  margin-top: 0; }
+
+/* line 127, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+.single-content .prices__actionsblock {
+  border-top: 1px dotted black;
+  padding-top: 30px; }
+  /* line 128, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+  .single-content .prices__actionsblock-cols {
+    padding: 0 50px;
+    display: flex;
+    margin-top: 30px; }
+  /* line 129, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+  .single-content .prices__actionsblock-col {
+    width: 33.333%;
+    text-align: center; }
+  /* line 130, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+  .single-content .prices__actionsblock-hexagon {
+    width: 220px;
+    min-height: 250px;
+    background-color: #fa6100;
+    color: white;
+    box-sizing: border-box;
+    padding: 60px 20px 30px;
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("../content/prices--category-bgactive.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden; }
+    /* line 131, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+    .single-content .prices__actionsblock-hexagon:after {
+      content: "";
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 12px 19px 0 19px;
+      border-color: #ffffff transparent transparent transparent;
+      display: inline-block;
+      margin-top: 6px; }
+    /* line 132, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+    .single-content .prices__actionsblock-hexagon h4 {
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: bold; }
+    /* line 133, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+    .single-content .prices__actionsblock-hexagon p {
+      font-size: 14px; }
+    /* line 134, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+    .single-content .prices__actionsblock-hexagon-top, .single-content .prices__actionsblock-hexagon-bottom {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none; }
+    /* line 136, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+    .single-content .prices__actionsblock-hexagon-top:after {
+      content: "";
+      position: absolute;
+      bottom: 100%;
+      height: 100px;
+      left: 50%;
+      width: 100%;
+      transform-origin: left bottom;
+      transform: rotate(30deg);
+      background-color: white; }
+    /* line 137, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+    .single-content .prices__actionsblock-hexagon-top:before {
+      content: "";
+      position: absolute;
+      bottom: 100%;
+      height: 100px;
+      right: 50%;
+      width: 100%;
+      transform-origin: right bottom;
+      transform: rotate(-30deg);
+      background-color: white; }
+    /* line 140, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+    .single-content .prices__actionsblock-hexagon-bottom:after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      height: 100px;
+      left: 50%;
+      width: 100%;
+      transform-origin: left top;
+      transform: rotate(-30deg);
+      background-color: white; }
+    /* line 141, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+    .single-content .prices__actionsblock-hexagon-bottom:before {
+      content: "";
+      position: absolute;
+      top: 100%;
+      height: 100px;
+      right: 50%;
+      width: 100%;
+      transform-origin: right top;
+      transform: rotate(30deg);
+      background-color: white; }
+  /* line 144, C:/Projects/home/dimax/www/wp-content/themes/mydimax/css/prices.scss */
+  .single-content .prices__actionsblock .prices__button {
+    margin-top: 32px; }
+
+/*# sourceMappingURL=prices.css.map */
+
+
+
+
+
+
+
+
+
+
+
+/*============21.03.17  -  new =============*//*============21.03.17  -  new =============*/
+/*============21.03.17  -  new =============*//*============21.03.17  -  new =============*/
+/*============21.03.17  -  new =============*//*============21.03.17  -  new =============*/
+
+
+
+
+
+
+
+.wrapper_w{
+  max-width: 995px;
+  overflow: hidden;
+}
+.prices__forms{
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  display: block!important;
+}
+.prices__forms.active{
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.prices__categories-item a{
+  color: #303030;
+  text-decoration: none;
+}
+.prices__categories-item.active a{
+  color: #fff;
+}
+.prices__inputblock-label{
+  display: block;
+  font-size: 17px;
+  color: #3a3a3a;
+}
+.prices__forms_prom .prices__form-secondslidemargin, .prices__forms_screed .prices__form-secondslidemargin{
+  text-align: left;
+  display: inline-block;
+  width: 100%;
+}
+.prices__forms_prom .prices__inputblock_left, .prices__forms_screed .prices__inputblock_left{
+  text-align: left;
+  float: left;
+  width: 245px;
+  padding-right: 0px;
+  margin-right: 0px;
+}
+.prices__forms_prom .prices__inputblock_left:last-child{
+  width: auto;
+}
+.prices__forms_prom .prices__checkradio{
+  margin: 0px;
+  margin-right: -4px;
+  width: auto;
+}
+.prices__forms_prom .prices__checkradio_image-text:hover{
+  position: relative;
+  border: 1px solid #b8b8b8;
+  margin-right: 2px;
+  margin-left: 2px;
+  left: -2px;
+  padding-top: 2px;
+  padding-bottom: 64px!important;
+  background-color: #fff;
+}
+.prices__forms_prom .prices__checkradio_image-text:hover:before{
+  bottom: 15px;
+}
+.prices__forms_prom .prices__checkradio_image-text:hover:after{
+  bottom: 20px;
+}
+.prices__forms_prom .prices__checkradio input:checked + label:hover {
+  padding-bottom: 62px!important;
+  padding-top: 0px;
+}
+.prices__forms_prom .prices__checkradio input:checked + label:hover:after{
+  bottom: 18px;
+}
+.prices__forms_prom .prices__checkradio input:checked + label:hover:before{
+  bottom: 13px;
+}
+.prices__forms_prom .prices__checkradio input:checked + label{
+  left: 0px;
+  margin: 0px;
+}
+.prices__forms_prom .prices__checkradio_image-text span{
+  font-size: 17px;
+  letter-spacing: -0.25px;
+}
+.prices__forms_prom .prices__checkradio_image-text{
+  padding: 0px 4px;
+  padding-bottom: 58px;
+}
+.jq-selectbox:hover{
+  cursor: pointer;
+}
+.jq-selectbox__select{
+  color: #3a3a3a;
+  font-size: 24px;
+  text-align: center;
+  border: 2px solid #cdcdcd;
+  width: 142px;
+  transition: border-color .25s ease-in-out;
+  height: 36px;
+  line-height: 34px;
+  outline: none;
+
+}
+.jq-selectbox__select:after{
+  position: absolute;
+  top: 13px;
+  right: 9px;
+  width: 15px;
+  height: 10px;
+  display: block;
+  background-image: url("../content/arrow-dawn.png");
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  content: "";
+}
+.jq-selectbox__dropdown{
+  width: 100%;
+  text-align: center;
+  border: 2px solid #cdcdcd;
+  border-top: 0px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  background-color: #fff;
+}
+.jq-selectbox__dropdown ul{
+  padding: 5px 0px;
+  margin: 0px;
+}
+.jq-selectbox__dropdown ul li{
+  color: #3a3a3a;
+  font-size: 20px;
+}
+.jq-selectbox__dropdown ul li.sel{
+  color: #e64d00;
+}
+.jq-selectbox__dropdown ul li:hover{
+  opacity: 0.7;
+  cursor: default;
+}
+.jq-selectbox__select-text{
+  width: auto!important;
+  padding-top: 1px;
+}
+.burden-holder{
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 14px;
+}
+.burden-radio-block{
+  width: 71.6%;
+  float: left;
+}
+.burden-radio-block__title{
+  font-size: 17px;
+  color: #3a3a3a;
+}
+.burden-radio-block__title:after{
+  content: "*";
+  color: #c63232;
+  opacity: 1;
+  right: 5px;
+  top: -5px;
+  font-size: 24px;
+}
+.prices__forms_prom .list-radio{
+  list-style: none;
+  border-top: 1px dotted #000;
+  padding-left: 0px;
+  overflow: hidden;
+  padding: 15px 0px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin: 0px;
+}
+.prices__forms_prom .list-radio__item{
+  float: left;
+  width: 32%;
+  margin-right: 2%;
+  height: 149px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border: 3px solid transparent;
+  padding: 10px 5px 0px 14px;
+  position: relative;
+}
+.list-radio__item:hover, .list-radio__label:hover{
+  cursor: pointer;
+}
+.burden-radio-block .list-radio__item:hover:after{
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #cdcdcd;
+  z-index: -11;
+}
+.burden-radio-block .list-radio__item.active:hover:after{
+  display: none;
+}
+.prices__forms_prom .list-radio__item.active{
+  border: 3px solid #ff6600;
+}
+.jq-radio{
+  position: absolute!important;
+  width: 33px;
+  height: 33px;
+  border: 2px solid #cdcdcd;
+  border-radius: 50%;
+  bottom: 13px;
+  left: 50%;
+  margin-left: -16px;
+}
+.jq-radio__div{
+  display: block;
+  width: 23px;
+  height: 23px;
+  bottom: 18px;
+  background-color: #e44b00;
+  background-image: url(../content/prices--checkbox.png);
+  background-size: cover;
+  background-position: center;
+  transition: opacity .25s ease-in-out;
+  opacity: 0;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+.jq-radio.checked .jq-radio__div{
+  opacity: 1;
+}
+.list-radio__item.selected{
+  border-color: #ff6600;
+}
+.list-radio__label{
+  display: block;
+  padding-bottom: 50px;
+}
+.list-radio__item:nth-child(3n){
+  margin-right: 0px;
+}
+.label-text{
+  font-size: 15px;
+  color: #3a3a3a;
+}
+.label-text strong{
+  display: block;
+  font-size: 17px;
+  color: #3a3a3a;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.burden-checkboxes-block{
+  float: left;
+  margin-left: 0.15%;
+  width: 24.1%;
+  margin-top: 5px;
+}
+.prices__forms_prom .list-check{
+  list-style: none;
+  text-align: center;
+  padding-left: 0px;
+  margin: 0px;
+}
+.prices__forms_prom .list-check__item{
+  margin-bottom: 24px;
+  position: relative;
+  padding-bottom: 56px;
+}
+.prices__forms_prom .list-check__label:hover{
+  cursor: pointer;
+}
+.list-check__item .label-text{
+  font-size: 17px;
+}
+.jq-checkbox{
+  display: block;
+  width: 39px;
+  height: 39px;
+  border: 2px solid #cdcdcd;
+  position: absolute!important;
+  bottom: 0px;
+  left: 50%;
+  margin-left: -19px;
+}
+.jq-checkbox.checked:after{
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 6px;
+  width: 32px;
+  height: 26px;
+  display: block;
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-image: url("../content/prices--checkbox-tick.png");
+} 
+.prices__forms_prom .prices__last-slide-container, .prices__forms_screed .prices__last-slide-container{
+  width: 100%;
+  display: inline-block;
+  max-width: 100%;
+}
+.prices__forms_prom .prices__table, .prices__forms_screed .prices__table{
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.prices__forms_prom .prices__last-slide-columns, .prices__forms_screed .prices__last-slide-columns{
+  float: left;
+  width: 100%;
+}
+.prices__forms_prom .prices__last-slide-column, .prices__forms_screed .prices__last-slide-column{
+  width: 50%;
+  float: left;
+}
+.prices__forms_prom .prices__last-slide-column:first-child, .prices__forms_screed .prices__last-slide-column:first-child{
+  padding-left: 160px;
+}
+.prices__forms_prom .prices__last-slide-column:last-child, .prices__forms_screed .prices__last-slide-column:last-child{
+  padding-right: 160px;
+}
+.prices__forms_screed .prices__inputblock_left:last-child{
+  width: auto;
+}
+.prices__forms_screed .list-check{
+  list-style: none;
+  padding-left: 0px;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-bottom: 63px;
+}
+.prices__forms_screed .list-check__item{
+  float: left;
+  width: 245px;
+}
+.prices__forms_screed .list-check__item:last-child{
+  width: auto;
+}
+.prices__forms_screed .jq-checkbox{
+  display: block;
+  width: 39px;
+  height: 39px;
+  border: 2px solid #cdcdcd;
+  position: relative!important;
+  margin-left: 0px;
+  vertical-align: middle;
+  left: auto;
+  bottom: auto;
+}
+.prices__forms_screed .prices__inputblock:before, .prices__forms_prom .prices__inputblock:before{
+  left: 150px;
+  top: 20px;
+}
+.prices__forms_screed .prices__inputblock:after, .prices__forms_prom .prices__inputblock:after{
+  left: 150px;
+  top: 20px;
+}
+.prices__forms_screed .prices__last-slide-columns .prices__inputblock:before,
+.prices__forms_prom .prices__last-slide-columns .prices__inputblock:before{
+  left: auto;
+  top: -5px!important;
+  right: -15px!important;
+}
+.prices__forms_screed .prices__last-slide-columns .prices__inputblock:after,
+.prices__forms_prom .prices__last-slide-columns .prices__inputblock:after{
+  left: auto;
+  top: -5px!important;
+  right: -15px!important;
+}
+.last-slide-actions{
+  width: 100%;
+  display: none;
+  min-height: 360px;
+  background-image: url('../content/actions_bg.png');
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.last-slide-actions h3{
+  font-size: 24px;
+  color: #3a3a3a;
+  text-align: center;
+  line-height: 24px;
+  letter-spacing: -0.25px;
+  text-transform: uppercase;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.h3_line{
+  padding: 0px 40px;
+  display: inline-block;
+  position: relative;
+}
+.h3_line:after, .h3_line:before{
+  width: 1000px;
+  position: absolute;
+  height: 1px;
+  background-color: #ff6600;
+  top: 50%;
+  content: "";
+  right: 100%;
+  display: block;
+}
+.h3_line:before{
+  left: 100%;
+}
+.last-slide-actions__title{
+  font-size: 24px;
+  color: #3a3a3a;
+  line-height: 24px;
+  letter-spacing: -0.25px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.last-slide-actions-list{
+  list-style: none!important;
+  padding-left: 0px;
+  display: inline-block;
+  width: 100%;
+}
+.last-slide-actions-list__item {
+  width: 33.333%;
+  float: left;
+  text-align: center;
+}
+.prices__button{
+    font-size: 18px;
+    color: white;
+    height: 47px;
+    line-height: 47px;
+    padding: 0 25px;
+    min-width: 146px;
+    text-transform: uppercase;
+    font-weight: 400;
+    background-color: #ed5400;
+    background-image: url(../content/prices--category-bgactive.jpg);
+    display: inline-block;
+    box-sizing: border-box;
+    transition: all .25s ease-in-out;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+}
+.last-slide-actions-list__item-text{
+  font-size: 21px;
+  color: #3a3a3a;
+  padding: 0px 20px;
+  margin-bottom: 40px;
+}
+.last-slide-actions-list__item-text span{
+  font-weight: 600;
+  margin: 5px;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.last-slide-actions-list__item-text strong{
+  font-size: 42px;
+  color: #f25900;
+  font-weight: bold;
+}
+.popup{
+  position:absolute;
+  left:-9999px;top:-9999px;
+  opacity:0;
+}
+.window-open{
+   max-width:100%;
+   background:#FFF;
+   position:relative;
+   min-height: 350px;
+}
+.colors-title{
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.list-radio_colors{
+  display: inline-block;
+  width: 100%;
+}
+.list-radio_colors .list-radio__label{
+  padding-bottom: 0px;
+  position: relative;
+  width: 51px;
+  height: 51px;
+  border-radius: 50%;
+  border: 4px solid #e4e4e4;
+  text-align: center;
+}
+.list-radio_colors .list-radio__label:hover{
+  border-color: #ff6600;
+}
+.list-radio_colors .list-radio__item{
+  float: left;
+}
+.list-radio_colors .jq-radio{
+  display: none!important;
+}
+.list-radio_colors .jq-radio__div{
+  display: none;
+}.prices__forms_prom .prices__checkradio
+.list-radio_colors .label-text{
+  display: block;
+  padding-top: 24px;
+  font-size: 10px;
+  margin-top: -3px;
+}
+.prices__inputblock .button-color{
+    color: #3a3a3a;
+    font-size: 24px;
+    text-align: center;
+    border: 2px solid #cdcdcd;
+    width: 142px;
+    transition: border-color .25s ease-in-out;
+    height: 36px;
+    line-height: 36px;
+    outline: none;
+    background-color: #c8ba80;
+    text-decoration: none;
+    display: inline-block;
+}
+.size-squre{
+  text-transform: none;
+}
+.size-squre sup{
+  font-size: 14px;
+}
+.size-square sup{
+  font-size: 11px;
+}
+.prices__form-secondslidemargin{
+  padding: 30px 0px!important;
+  padding-bottom: 52px!important;
+}
+.single-content .prices__inputblock{
+  padding-bottom: 0px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.prices__last-slide-container{
+  padding-top: 50px;
+}
+.prices__last-slide-columns{
+  margin-top: 44px;
+}
+.single-content .prices__last-slide-columns .prices__inputblock{
+  margin-bottom: 15px;
+}
+.single-content .prices__simplecheckbox_new label:before, .single-content .prices__simplecheckbox_new label:after{
+  display: none;
+}
+.prices__simplecheckbox_new .jq-checkbox{
+  border: 2px solid #cdcdcd;
+  width: 20px;
+  height: 20px;
+  top: 0px;
+  left: 0px;
+  margin-left: 0px;
+  overflow: visible!important;
+  z-index: 99;
+  position: absolute!important;
+}
+.prices__simplecheckbox_new .jq-checkbox:after{
+  top: -8px;
+  left: 0px;
+}
+.single-content .prices__inputblock .prices__inputblock-error{
+  bottom: -14px;
+}
+.prices__forms_prom .prices__checkradio:first-child{
+  width: 148px;
+}
+.prices__forms_prom .prices__checkradio:first-child:hover{
+  
+}
+.prices__forms_prom .prices__checkradio:first-child:hover label{
+  padding-left: 6px;
+  padding-right: 6px;
+}
+.prices__forms_prom .prices__checkradio{
+  margin-bottom: 5px;
+}
+.prices__forms_prom .prices__form-checkboxes{
+  padding-top: 18px;
+}
+.prices__forms_prom .prices__checkradio_image-text{
+  padding-bottom: 62px!important;
+}
+.hexagon-block{
+  margin-top: 0px!important;
+}
+.prices__forms_prom .hexagon-block{
+  height: 120px;
+  margin-top: 0px!important;
+}
+.prices__forms_prom .prices__form-secondslidemargin{
+  padding-top: 24px!important;
+  padding-bottom: 51px!important;
+}
+.prices__forms_prom .prices__last-slide-columns{
+  margin-top: 64px;
+}
+.prices__forms_screed .prices__last-slide-columns{
+  margin-top: 99px;
+}
+.prices__forms_prom .prices__table-column:first-child,
+.prices__forms_screed .prices__table-column:first-child{
+  padding-left: 15px;
+}
+.prices__forms_screed .prices__inputblock-label, .prices__forms_prom .prices__inputblock-label{
+  margin-bottom: 5px;
+}
+.window-select-color{
+  position: absolute;
+  width: 200%;
+  right: -27%;
+  top: 110%;
+  background-color: #fff;
+  z-index: 111;
+  box-shadow:0 0 7px 0 rgba(0,0,0,0.5);
+  -moz-box-shadow:0 0 7px 0 rgba(0,0,0,0.5);
+  -webkit-box-shadow:0 0 7px 0 rgba(0,0,0,0.5);
+  display: none;
+}
+.list-radio_colors{
+  padding: 15px 10px!important;
+  text-align: center;
+  border-top: 0px!important;
+}
+.list-radio_colors .list-radio__item{
+  width: 59px;
+  display: inline-block;
+  float: none;
+  border: 0px;
+  padding: 0px;
+  height: auto;
+  /*margin-right: -10px;
+  margin-bottom: -10px;*/
+  margin-right: 0px;
+}
+.list-radio_colors .list-radio__label:hover{
+  cursor: pointer;
+}
+.list-radio_colors .list-radio__item.active{
+  border: 0px;
+}
+.window-select-color.active{
+  display: block;
+}
+
+.prices__form-wrapper{
+    position: relative;
+}
+.prices__form-slide{
+  position: absolute;
+  left: 100%;
+  top: 0px;
+  opacity: 0;
+}
+.prices__form-slide.active{
+  position: relative;
+  opacity: 1;
+}
+.prices__inputblock_not-required:after,
+.prices__inputblock_not-required:before{
+  display: none;
+} 
+.burden-radio-block{
+  position: relative;
+}
+.burden-radio-block .error-message{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  font-size: 14px;
+  color: #bd3a1b;
+  transition: opacity .25s ease-in-out;
+  letter-spacing: -0.025em;
+  display: none;
+}
+.burden-radio-block.error-radio .list-radio{
+  border-top: 1px solid #bd3a1b;
+}
+.burden-radio-block.error-radio .error-message{
+  display: block;
+}
+
+.prices__forms_prom .prices__checkradio:after{
+  content: "";
+  position: absolute;
+  top: 8%;
+  right: 0px;
+  width: 1px;
+  height: 86%;
+  z-index: -1;
+  background-color: #b8b8b8;
+}
+.prices__forms_prom .prices__checkradio:last-child:after{
+  display: none;
+}
+/*===========MEDIA============*/
+.prices__table-column{
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+    display: table!important;
+  }
+  .single-content .prices__table-row p{
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+@media screen and (max-width: 991px) {
+  
+  .prices__forms_prom .prices__checkradio_image-text span{
+    font-size: 14px;
+  }
+  .prices__forms_prom .prices__checkradio{
+    width: 140px!important;
+  }
+  .prices__forms_prom .prices__last-slide-column:last-child, .prices__forms_screed .prices__last-slide-column:last-child{
+    padding-right: 0px;
+  }
+  .prices__last-slide-container{
+    padding-top: 10px;
+  }
+  .prices__forms_prom .prices__last-slide-columns{
+    margin-top: 40px;
+  }
+  .prices__forms_screed .prices__last-slide-columns{
+    margin-top: 40px;
+  }
+  .single-content .prices__form-heading{
+    margin-top: 15px;
+  }
+  .prices__forms_prom .prices__inputblock_left, .prices__forms_screed .prices__inputblock_left{
+    width: 50%;
+    margin-bottom: 15px;
+  }
+  .prices__forms_prom .prices__last-slide-column:first-child, .prices__forms_screed .prices__last-slide-column:first-child{
+    padding-left: 0px;
+  }
+  .prices__forms_screed .list-check__item{
+    width: 33.333%;
+  }
+  .prices__forms_screed .list-check__item:last-child{
+    width: 33.333%;
+  }
+  .prices__forms_screed .label-text{
+    font-size: 16px;
+  }
+  .window-select-color{
+    left: 3px;
+    width: 100%;
+  }
+  .prices__forms_prom .prices__inputblock_left:last-child{
+    width: 50%;
+  }
+  .single-content .prices__tabs{
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 920px) and (min-width: 768px){
+  .single-content .prices__table-row p{
+    font-size: 16px;
+  }
+  .prices__forms_screed .list-check{
+    margin-top: 0px;
+  }
+  .prices__forms_prom .prices__form-secondslidemargin{
+    padding-bottom: 15px!important;
+  }
+  .prices__form-secondslidemargin{
+    padding-bottom: 15px!important;
+  }
+  .prices__categories-item{
+    min-height: 194px!important;
+  }
+  .single-content .prices__table-column:last-child{
+    padding-left: 15px!important;
+    padding-right: 5px!important;
+  }
+  .prices__forms_prom .prices__table-column:first-child, .prices__forms_screed .prices__table-column:first-child{
+    padding-left: 10px;
+  }
+  .single-content .prices__table-column{
+    padding-right: 5px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .single-content .prices__table-column:first-child{
+    padding-left: 4px!important;
+    padding-right: 3px!important;
+  }
+  .prices__forms_prom .prices__checkradio{
+    margin-right: -4px!important;
+  }
+  .prices__categories{
+    margin-top: 20px!important;
+  }
+  .window-select-color{
+    width: 90%;
+    left: 5%;
+  }
+  .prices__forms_screed .list-check__item{
+    width: 100%;
+  }
+  .prices__forms_screed .list-check__item:last-child{
+    width: 100%;
+  }
+  .prices__categories{
+    display: inline-block!important;
+    margin-right: 0px!important;
+  }
+  .single-content .prices__table-row p{
+    font-size: 16px;
+  }
+  .prices__categories-item{
+    display: block!important;
+    float: none;
+    width: 100%!important;
+    min-height: 112px!important;
+  }
+  .prices__categories-item:after{
+    display: none;
+  }
+  .single-content .prices__tabs li{
+    display: block;
+    width: 100%;
+    border: 0px;
+  }
+  .single-content .prices__table-column{
+    padding-right: 5px;
+  }
+  .single-content .prices__table-column:first-child{
+    padding-left: 5px;
+  }
+  .single-content .prices__table-column:last-child{
+    padding-left: 5px;
+  }
+  .single-content .prices__last-slide-column:nth-of-type(2n+1){
+    padding-right: 25px;
+  }
+  .single-content .prices__last-slide-column{
+    padding-right: 25px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .single-content .prices__checkradio{
+    width: 130px;
+    margin: 0px;
+  }
+  .single-content .prices__checkradio_image-text span{
+    font-size: 14px;
+  }
+  .prices__forms_prom .prices__checkradio:first-child{
+    width: 130px;
+  }
+  .single-content br{
+    display: block;
+  }
+  .prices__forms_prom .hexagon-block{
+    height: 90px;
+  }
+  .prices__forms_prom .prices__checkradio_image-text{
+    padding-bottom: 55px;
+  }
+  .prices__forms_prom .prices__inputblock_left, .prices__forms_screed .prices__inputblock_left{
+    width: 100%;
+    padding-right: 25px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-bottom: 15px;
+  }
+  .prices__forms_screed .prices__inputblock:before, .prices__forms_prom .prices__inputblock:before{
+    left: auto;
+    right: 5px;
+  }
+  .prices__forms_screed .prices__inputblock:after, .prices__forms_prom .prices__inputblock:after{
+    left: auto;
+    right: 5px;
+  }
+  .single-content .prices__inputblock input, .single-content .prices__inputblock select, .single-content .prices__inputblock textarea{
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+  .jq-selectbox{
+    width: 100%;
+  }
+  .jq-selectbox__select{
+    width: 100%;
+    box-sizing: border-box;
+    -webkit- box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+  .jq-selectbox__select-text{
+    box-sizing: border-box;
+    -webkit- box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-top: -1px;
+  }
+  .prices__inputblock .button-color{
+    width: 100%;
+  }
+  .prices__forms_prom .prices__inputblock_left:last-child{
+    width: 100%;
+  }
+  .burden-radio-block{
+    width: 100%;
+    float: none;
+  }
+  .burden-checkboxes-block{
+    display: inline-block;
+    width: 100%;
+    float: none;
+    margin-left: 0px;
+    margin-top: 25px;
+    overflow: hidden;
+  }
+  .prices__forms_prom .list-check__item{
+    padding-left: 50px;
+    height: 43px;
+    margin-bottom: 7px;
+    float: left;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-right: 15px;
+    padding-top: 10px;
+  } 
+  .prices__forms_prom .list-check__item .jq-checkbox{
+    left: 0px;
+    top: 0px;
+    margin-left: 0px;
+  }
+  .prices__forms_prom .prices__table, .prices__forms_screed .prices__table{
+    width: 100%;
+    float: none;
+    margin-bottom: -1px;
+  }
+  .prices__forms_prom .prices__last-slide-column:first-child, .prices__forms_screed .prices__last-slide-column:first-child{
+    padding-left: 0px;
+  }
+  .prices__forms_prom .prices__last-slide-column:last-child, .prices__forms_screed .prices__last-slide-column:last-child{
+    padding-right: 25px;
+  }
+  .prices__forms_screed .prices__inputblock_left:last-child{
+    width: 100%;
+  }
+  .prices__forms_screed .list-check__item{
+    margin-bottom: 7px;
+  }
+  .prices__forms_prom .prices__last-slide-columns, .prices__forms_screed .prices__last-slide-columns{
+    margin-top: 15px;
+  }
+  .prices__forms_screed .prices__form-secondslidemargin {
+    padding-bottom: 15px!important;
+  }
+  .prices__forms_screed .list-check{
+    margin-top: 0px;
+  }
+  .prices__last-slide-container{
+    padding-top: 15px;
+  }
+  .single-content .prices__form-heading{
+    margin-top: 15px;
+  }
+  .prices-content{
+    padding-bottom: 10px;
+  }
+  .prices__forms_prom .prices__form-secondslidemargin{
+    padding-bottom: 10px!important;
+  }
+}
+@media screen and (max-width: 639px) {
+  .list-radio_colors .list-radio__item{
+    width: 59px!important;
+    height: auto!important;
+  }
+  .prices__forms_prom .list-radio__item{
+    width: 100%;
+    margin-right: 0px;
+    height: auto;
+    padding-bottom: 10px;
+    padding-right: 50px;
+  }
+  .list-radio__label{
+    padding-bottom: 0px;
+  }
+  .jq-radio{
+    left: auto;
+    right: 5px;
+    top: 50%;
+    margin-top: -18px;
+  }
+  .last-slide-actions{
+    min-height: 325px;
+  }
+  .last-slide-actions-list__item-text strong{
+    font-size: 36px;
+    line-height: 36px;
+  }
+  .last-slide-actions-list__item-text{
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .last-slide-actions-list__item-text span{
+    margin: 0px!important;
+  }
+}
+@media screen and (max-width: 479px) {
+  .prices__forms_prom .prices__checkradio:before{
+    content: "";
+    position: absolute;
+    top: 8%;
+    left: 0px;
+    width: 1px;
+    height: 86%;
+    z-index: -1;
+    background-color: #b8b8b8;
+  }
+  .prices__forms_prom .prices__checkradio:last-child:before{
+    display: none;
+  }
+  .last-slide-actions-list__item-text{
+    margin-bottom: 5px;
+  }
+  .last-slide-actions-list__item{
+    width: 80%;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 25px;
+  }
+  .prices__button{
+    width: 100%;
+  }
+  .prices__table-column p{
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .single-content .prices__table-row_final .prices__table-column:first-child{
+    min-height: 33px;
+  }
+  .single-content .prices__table-column:last-child{
+  }
+  .single-content .prices__table-row p{
+    line-height: 100%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .prices__forms_prom .prices__checkradio{
+    margin-right: -3px!important;
+  }
+  .single-content .prices__table-row_final .prices__table-column:first-child{
+
+  }
+  .single-content .prices__table-column:last-child{
+    
+  }
+}
+input[type="number"], input[type="name"], input[type="tel"], input[type="email"], , input[type="text"]{
+  padding-top: 7px;
+  padding-bottom: 7px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 40px!important;
+}
+
+.prices__last-slide-column .label-text{
+  font-size: 18px;
+}
+.prices__button.to-order:visited{
+  color: #fff!important;
+}
+.prices__button.to-order:hover{
+  opacity: 0.7;
+  color: #fff;
+}
+.prices__inputblock_small_mail:after,
+.prices__inputblock_small_mail:before{
+  display: none;  
+}
+.prices__last-slide-column:last-child .prices__button{
+  margin-top: 12px;
+}
+.center{
+  text-align: center;
+}
+.list-radio_colors .label-text{
+  font-size: 10px;
+  display: block;
+  margin-top: 21px;
+}
+.window-select-color__close{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  display: block;
+  transition: all 0.2s linear;
+}
+.window-select-color__close:hover{
+  opacity: 0.7;
+}
+.window-select-color__close:after, .window-select-color__close:before{
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: #333;
+  border-radius: 2px;
+  content: "";
+  position: absolute;
+  top: 9px;
+}
+.window-select-color__close:after{
+  transform: rotate(90deg);
+  -webkit-transform: rotate(45deg);
+}
+.window-select-color__close:before{
+  transform: rotate(90deg);
+  -webkit-transform: rotate(-45deg);
+}
+.list-radio_colors .list-radio__item.active .list-radio__label{
+  border-color: #ff6600;
+}

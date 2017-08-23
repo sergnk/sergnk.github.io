@@ -1,0 +1,254 @@
+.customSelect { 
+	border:1px solid #5a5a5a;
+	color:#555555;		
+	font:normal 15px/15px 'Open Sans', Arial, Helvetica, sans-serif; 
+	background:#f7f7f7;
+	height:30px;
+	width:100%;
+	cursor:pointer;
+	border-radius: 6px;
+}	
+.select-open.customSelect{
+	border-color:#f7f7f7;
+	background:#fcfcfc;
+	border-radius:6px 6px 0 0;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.18);
+}
+
+.b-page__tools-select .customSelect {
+	background:none;
+	height:60px;
+	padding:13px 9px 0;
+	border:0px;
+	border-radius:0px;
+	color:#fff;
+	font-size:17px;
+	line-height:17px;
+	font-weight:300;
+}
+.b-page__tools-select .select-open.customSelect{
+	background:#825dad;
+	border:0px;
+	box-shadow:none;
+	border-radius:0px;	
+}
+
+.b-form__select .customSelect {
+	border:1px solid #c9c8c8;
+	background:#fff;
+	color:#555555;
+	font:300 15px 'Open Sans', Arial, Helvetica, sans-serif;
+	height:43px;
+	border-radius:2px;
+	width:100%;
+	box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
+}
+.b-form__select_cpm .customSelect {
+	height:35px;
+	font-size:14px;
+}
+
+
+.account-lang .customSelect {
+	padding-left:13px;
+}
+	
+.customSelect .selectedValue {
+  padding: 6px 7px 0;
+	height:30px;
+	box-sizing:border-box;
+}
+.b-page__tools-select .customSelect .selectedValue {
+	height:46px;
+}
+.b-form__select .customSelect .selectedValue {
+	padding:10px 14px 0;
+	height:43px;
+}
+
+.b-form__select_cpm .customSelect .selectedValue {
+	padding:7px 10px 0;
+	height:35px;
+	white-space:nowrap;
+	max-width:90%;
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+
+.customSelect .selectList {
+	z-index: 100;
+	position: absolute;
+	left: -1px;
+	top: -999em;
+  margin: -1px 0 0;
+  list-style: none;
+	width:100%;
+	border-radius:0 0 6px 6px;
+	background: #fcfcfc; /* Old browsers */
+	background: -moz-linear-gradient(top,  #fcfcfc 0%, #f3f3f3 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #fcfcfc 0%,#f3f3f3 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #fcfcfc 0%,#f3f3f3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#f3f3f3',GradientType=0 ); /* IE6-9 */
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.18);
+}
+
+.b-page__tools-select .customSelect .selectList {
+	background:#825dad;
+	box-shadow:none;
+	margin:0px;
+}
+.b-form__select .customSelect .selectList {
+	border:1px solid #c9c8c8;
+	background:#fff;
+	border-radius:2px;
+	box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.customSelect.select-open .selectList {
+	left: 0px !important;
+	top: auto !important;
+}
+.customSelect .selectList dl {
+	padding:5px 0 2px;
+}
+
+.b-page__tools-select .customSelect .selectList dl {
+	padding-bottom:0px;
+	padding-top:0px;
+}
+
+.customSelect .selectList dl.defaultScrollbar {
+	overflow-x: hidden;
+	overflow-y: scroll;	
+}
+.customSelect dl, .customSelect dd {
+	margin: 0;
+}
+.customSelect dd {
+	zoom: 1;
+	cursor: pointer;
+}
+
+.customSelect .selected {
+	display:none;
+}
+.b-form__select .customSelect .selected {
+	display:block;
+}
+
+
+.customSelect .selectList dd.hovered {
+	background: none;
+}
+	
+.customSelect dt,
+.customSelect dd {
+	padding: 3px 9px;
+} 
+
+.b-page__tools-select .customSelect dd{
+	padding:11px 15px 16px;
+	border-top:1px solid #a183c5;
+}
+
+.b-form__select .customSelect dd{
+	padding:6px 14px;
+}
+.b-form__select .customSelect dd:hover{
+	color:#663399;
+}
+
+.b-form__select_cpm .customSelect dd{
+	padding-left:11px;
+	padding-right:11px;
+}
+
+.account-lang .customSelect dd{
+	padding-left:20px;
+}
+
+.hasJS select.custom {
+	position: absolute;
+	left: -999em;
+}
+.customSelect.disabled .selectedValue {
+	border: 1px solid #ccc;
+	color: #ccc;
+	cursor: default;
+}
+
+.customSelect .selectValueWrap .caret {
+	background:url(../img/icons.png) no-repeat 0 0;
+	height:6px;
+	width:9px;
+	position: absolute;
+	top: 12px;
+	right: 7px;
+	cursor: pointer;
+	padding:0px;
+}
+.customSelect .selectValueWrap .caret:before{
+	content:'';
+	background:#e4e4e4;
+	height:19px;
+	width:1px;
+	position:absolute;
+	top:-8px;
+	right:15px;
+}
+.customSelect select:disabled + selectValueWrap {
+	cursor: default;
+}
+.customSelect select:disabled ~ .selectList  {
+	display: none !important
+}
+.select-open.customSelect .selectValueWrap .caret {
+	background-position:-10px 0;
+}
+
+.b-page__tools-select .customSelect .selectValueWrap .caret,
+.b-page__tools-select .select-open.customSelect .selectValueWrap .caret{
+	background-position:0 -613px !important;
+	top:27px;
+	right:13px;
+}
+.b-page__tools-select .customSelect .selectValueWrap .caret:before,
+.b-form__select .customSelect .selectValueWrap .caret:before{
+	background:none;
+}
+
+.b-form__select .customSelect .selectValueWrap .caret {
+	background:url(../img/icons.png) no-repeat 0 -891px;
+	height:7px;
+	width:12px;
+	top:19px;
+	right:10px;
+}
+
+.b-form__select_cpm .customSelect .selectValueWrap .caret {
+	top:15px;
+	right:9px;
+}
+
+.customSelect .jspPane {
+	overflow-x: hidden;
+	margin-left:0px !important;
+}
+.customSelect .jspVerticalBar {
+	background: none;
+	width: 8px;
+}
+.customSelect .jspHorizontalBar {
+	height: 0;
+	overflow: hidden;
+}
+.customSelect .jspTrack {
+	background: none;
+	right: 5px;
+	border-radius: 5px;
+}
+.customSelect .jspDrag {
+	border-radius: 5px;
+	color: #ffffff;
+	background-color: #4b4b4c;
+}

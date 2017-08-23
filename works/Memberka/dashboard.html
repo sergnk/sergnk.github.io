@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+        <title>Главная</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery-ui.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery-ui.theme.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    </head>
+    <body class="loaded">
+        <!-- BEGIN BODY -->
+        <div class="main-wrapper dashboard-page">
+            <!-- BEGIN CONTENT -->
+            <main class="content">
+                <div class="content-wrap">
+                    <div class="content-head">
+                        <div class="wrapper clearfix">
+                            <div class="row">
+                                    <div class="content-head__left col-md-8 col-xs-12">
+                                        <a href="#" class="btn btn-line js-menu-btn">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        </a>
+                                        <ul class="content-head-list">
+                                            <li class="content-head-list__item">
+                                                <i class="icon icon-graph"></i>
+                                                <a href="#" class="js-add-funds">
+                                                Balance: <strong>0.00 $</strong>                                         
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="content-head__right col-md-4">                                   
+                                        <div class="box-user">
+                                            <a href="#" class="user-link js-user nowrap">
+                                                <i class="icon icon-user"></i>
+                                                <span class="user-link__name">Maxim Emelyanenko</span>
+                                                <i class="icon icon-arrow-down"></i>
+                                                <span class="user-id">ID 261891</span>
+                                            </a>
+                                            <div class="user-inf">
+                                                 <a href="#" class="user-inf__title">Go to Profile</a>
+                                                <a href="#" class="log-out"><i class="icon icon-log-out"></i>Log Out</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="wrapper">
+
+                            <div class="col col-80 col-graph">
+                                <div class="row-title row">
+                                    <div class="row-title__left col-sm-4 col-xs-12">
+                                    <h1>Dashboard</h1>
+                                </div>
+                                <div class="row-title__right col-sm-8 col-xs-12">
+                                    <div class="box-filter"> 
+                                        <div class="filter__title">
+                                            current month<br> Revenue (usd)
+                                        </div>   
+                                        <div class="filter__item">
+                                            <span class="filter__price">786.05</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                    <div class="col-lg-8 col-sm-12 row-title__center">
+                                        <a href="#" class="open-mob-filt js-open-mob-filt">Filter</a>
+                                        <div class="box-filter">
+                                            <span class="visible-mob mob-filter__title">Filter</span>
+                                            <a href="#" class="visible-mob close-filter js-close-mob-filt"></a>
+                                            <form>
+                                                <span class="filter__title">GROUP BY</span>
+                                                <ul class="filter-link-list visible-mob">
+                                                    <li class="filter-link-list__item active">
+                                                        <a href="#" class="filter-link-list__link js-active-link">Creative</a>
+                                                    </li>
+                                                    <li class="filter-link-list__item">
+                                                        <a href="#" class="filter-link-list__link js-active-link">Date</a>
+                                                    </li>
+                                                    <li class="filter-link-list__item">
+                                                        <a href="#" class="filter-link-list__link js-active-link">Offer</a>
+                                                    </li>
+                                                    <li class="filter-link-list__item">
+                                                        <a href="#" class="filter-link-list__link js-active-link">Campaign</a>
+                                                    </li>                                             
+                                                </ul>
+                                                <div class="filter__item">
+                                                    <select class="styled">
+                                                        <option>All Campaigns</option>
+                                                        <option>Campaign </option>
+                                                        <option>Offer</option>
+                                                        <option>Date</option>
+                                                    </select>
+                                                </div>
+                                                <div class="filter__item visible-mob">
+                                                    <div class="list-radio__title">Period</div>
+                                                    <ul class="list-radio">
+                                                        <li class="list-radio__item">
+                                                            <label class="list-radio__label">
+                                                            <input type="radio" name="name_1">
+                                                            <span class="list-radio__icon"></span>
+                                                            <span class="label-text">Yesterday</span>
+                                                            </label>
+                                                        </li>
+                                                        <li class="list-radio__item">
+                                                            <label class="list-radio__label">
+                                                            <input type="radio" name="name_1">
+                                                            <span class="list-radio__icon"></span>
+                                                            <span class="label-text">From</span>
+                                                            </label>
+                                                        </li>
+                                                        <li class="list-radio__item">
+                                                            <label class="list-radio__label">
+                                                            <input type="radio" name="name_1" checked>
+                                                            <span class="list-radio__icon"></span>
+                                                            <span class="label-text">All Time</span>
+                                                            </label>
+                                                        </li>
+                                                        <li class="list-radio__item">
+                                                            <label class="list-radio__label">
+                                                            <input type="radio" name="name_1">
+                                                            <span class="list-radio__icon"></span>
+                                                            <span class="label-text">Monday</span>
+                                                            </label>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                               <div class="filter__item hide-mob">
+                                                    <div class="select-date-wrap">
+                                                        <div class="select-date">
+                                                            <div class="select-date__title js-select-date">Yesterday </div>
+                                                            <div class="select-date-list">
+                                                                <div class="select-date-list__item active">
+                                                                    <a href="#" class="select-date-list__link" ><span class="select-date-list__text">From monday</span></a>
+                                                                </div>
+                                                                <div class="select-date-list__item">
+                                                                    <a href="#" class="select-date-list__link" ><span class="select-date-list__text">All time</span></a>
+                                                                </div>
+                                                                <div class="select-date-list__item">
+                                                                    <a href="#" class="select-date-list__link" ><span class="select-date-list__text">Today</span></a>
+                                                                </div>
+                                                                <div class="select-date-list-period">
+                                                                    <div class="select-date-list-period__title">Choose Period</div>
+                                                                    <div class="select-date-list-period__input">
+                                                                        <input type="text" placeholder="DD.MM.YY" id="datepicker" class="period-input"> 
+                                                                    </div>
+                                                                    <span class="select-date-list-period__line">-</span>
+                                                                    <div class="select-date-list-period__input">
+                                                                        <input type="text" placeholder="DD.MM.YY" id="datepicker2" class="period-input">
+                                                                    </div>
+                                                                    <div class="select-date-list-period__button">
+                                                                        <input type="submit" value="Choose period" class="btn btn-updat">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                 <div class="filter__item visible-mob">
+                                                    <div class="select-date-list-period">
+                                                        <div class="select-date-list-period__input">
+                                                            <input type="text" placeholder="DD.MM.YY" id="datepicker3" class="period-input"> 
+                                                        </div>
+                                                        <span class="select-date-list-period__line">-</span>
+                                                        <div class="select-date-list-period__input">
+                                                            <input type="text" placeholder="DD.MM.YY" id="datepicker4" class="period-input">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="filter__item">
+                                                    <button class="btn btn-updat"><i class="icon icon-resize"></i>Update</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box-graph">
+                                    <div id="graph"></div>
+                                </div>
+                            </div>
+                            <div class="col col-20 col-statistics">
+                                <div class="row-title">
+                                    <span class="col-statistics__title">Quick Statistics</span>
+                                </div>
+                                <ul class="col-statistics-list">
+                                    <li class="col-statistics-list__item">
+                                        <span class="col-statistics-list__icon"></span>
+                                        <div class="col-statistics-list__number">98.80<span>usd</span></div>
+                                        <span  class="col-statistics-list__text">Today revenue</span>
+                                    </li>
+                                    <li class="col-statistics-list__item col-statistics-list__item-2">
+                                        <span class="col-statistics-list__icon"></span>
+                                        <div class="col-statistics-list__number">98.80<span>usd</span></div>
+                                        <span  class="col-statistics-list__text">Yesterday revenue</span>
+                                    </li>
+                                    <li class="col-statistics-list__item col-statistics-list__item-3">
+                                        <span class="col-statistics-list__icon"></span>
+                                        <div class="col-statistics-list__number">8 988</div>
+                                        <span  class="col-statistics-list__text">Today impressions</span>
+                                    </li>
+                                    <li class="col-statistics-list__item col-statistics-list__item-4">
+                                        <span class="col-statistics-list__icon"></span>
+                                        <div class="col-statistics-list__number">5 988</div>
+                                        <span  class="col-statistics-list__text">Yesterday impressions</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                    </div>
+                </div>
+            </main>
+            <!-- CONTENT EOF   -->
+            <!-- BEGIN HEADER -->
+            <header>
+                <div class="box-logo">
+                    <a href="#" class="logo">
+                    <img src="img/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="box-main-nav">
+                    <nav class="main-nav">
+                        <ul class="main-nav-list">
+                            <li class="main-nav-list__item ">
+                                <a href="#" class="main-nav-list__link nowrap">
+                                <span class="icon-nav-wrap"><span class="icon-nav icon-nav-1"></span></span><span class="main-nav-list__text">Dashboard</span></a>
+                            </li>
+                            <li class="main-nav-list__item ">
+                                <a href="#" class="main-nav-list__link nowrap">
+                                <span class="icon-nav-wrap"><span class="icon-nav icon-nav-2"></span></span><span class="main-nav-list__text">Sites</span></a>
+                            </li>
+                            <li class="main-nav-list__item">
+                                <a href="#" class="main-nav-list__link nowrap">
+                                <span class="icon-nav-wrap"><span class="icon-nav icon-nav-4"></span></span><span class="main-nav-list__text">Statistics</span></a>
+                            </li>
+                            <li class="main-nav-list__item ">
+                                <a href="#" class="main-nav-list__link nowrap">
+                                <span class="icon-nav-wrap"><span class="icon-nav icon-nav-3"></span></span><span class="main-nav-list__text">Tickets<span class="tickets-sum">5</span></span></a>
+                            </li>
+                            <li class="main-nav-list__item active">
+                                <a href="#" class="main-nav-list__link nowrap">
+                                <span class="icon-nav-wrap"><span class="icon-nav icon-nav-5"></span></span><span class="main-nav-list__text">Balance</span></a>
+                            </li>
+                            <li class="main-nav-list__item">
+                                <a href="#" class="main-nav-list__link nowrap">
+                                <span class="icon-nav-wrap"><span class="icon-nav icon-nav-6"></span></span><span class="main-nav-list__text">Support</span></a>
+                            </li>
+                            <li class="main-nav-list__item">
+                                <a href="#" class="main-nav-list__link nowrap">
+                                <span class="icon-nav-wrap"><span class="icon-nav icon-nav-7"></span></span><span class="main-nav-list__text">FAQ</span></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <a href="#" class="btn btn-line js-button-nav">
+                <span></span>
+                <span></span>
+                <span></span>
+                </a>
+            </header>
+            <!-- HEADER EOF   --> 
+            <!-- BEGIN FOOTER -->	
+            <footer>
+                <div class="content-wrap">
+                    <div class="copyright">Copyright © AdPop 2010-2017. All rights reserved</div>
+                </div>
+            </footer>
+            <!-- FOOTER EOF   -->
+        </div>
+        <div class="icon-load"></div>
+        <!-- BODY EOF   -->
+        <script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>		
+        <script type="text/javascript" src="js/jquery-migrate-1.4.1.min.js" ></script>
+        <script type="text/javascript" src="js/components/jquery.formstyler.js" ></script>
+        <script type="text/javascript" src="js/components/highcharts.js" ></script>
+        <script type="text/javascript" src="js/components/jquery-ui.min.js" ></script>
+        <script type="text/javascript" src="js/components/jquery.ui.touch-punch.min.js" ></script>
+        <script type="text/javascript" src="js/custom.js" ></script>
+    </body>
+</html>

@@ -1,0 +1,513 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+		<meta name = "format-detection" content = "telephone=no" />
+		<meta name="viewport" content="width=960, initial-scale=1">
+		<title>Web - Payment</title>
+		<meta name="Description" content="">
+		<meta name="Keywords" content="">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/customSelectBox.css" />
+		<link rel="stylesheet" type="text/css" href="css/media-queries.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet"> 
+	</head>
+  
+  <body class="account_page scale-page">
+ 		<div class="b-page">
+    	
+      <div class="mobile_menu_toggle"><span></span></div>
+ 			
+ 			<header class="b-header">
+      	<div class="b-wrap-account">
+        	
+          <div class="b-header-left">
+            <div class="account_menu_toggle"><span></span></div>
+            
+            <a href="#" class="b-header__logo"><img src="img/logo_temp_2.png" alt="" class="b-header__logo-image"></a>
+          </div>
+          
+          <div class="b-page__tools-select">
+          	<select class="custom">
+            	<option>Рекламодатель</option>
+              <option>Вебмастера</option>
+            </select>
+          </div>
+          
+          <div class="b-page__tools-select account-lang">
+          	<select class="custom">
+            	<option>Russian</option>
+              <option>English</option>
+              <option>Spain</option>
+            </select>
+          </div>
+          
+          <div class="b-header-left__user-wrap">
+            <div class="b-header-left__user">
+              <div class="b-header-left__user-settings">
+                <b>nagibator666@mail.com</b> <span class="b-header-left__user-mail__inbox">11</span>
+              </div>
+              <div class="b-header-left__user-settings__tools">
+                <a href="#" class="settings__tools-info"><span>Информация</span></a>
+                <a href="#" class="settings__tools-logout"><span>Выход</span></a>
+              </div>
+            </div>
+            
+            <div class="b-header-left__balance">$ 2370.23</div>
+          </div>
+          
+ 				</div>
+ 			</header>
+      
+      <div class="b-wrap-account">
+      
+            <aside class="b-sidebar close" id="sidebar_nav">
+              <ul class="b-sidebar__nav-list">
+                <li class="b-sidebar__nav"><a href="#" class="b-sidebar__nav-link nav-link__panel"><span>Панель управления </span></a><span class="b-sidebar__ivents">27</span></li>
+                <li class="b-sidebar__nav">
+                	<a href="#" class="b-sidebar__nav-link nav-link__companies">
+                  	<span>Сайты и <br>рекламные зоны </span>
+                  </a>
+                  <span class="b-sidebar__ivents">19</span>
+                </li>
+                <li class="b-sidebar__nav">
+                	<a href="#" class="b-sidebar__nav-link nav-link__new-company">
+                  	<span>Новый сайт и <br>рекламная зона</span>
+                  </a>
+                  
+                  <ul class="b-submenu">
+                  	<li class="b-submenu__item"><a href="#new_site" class="b-submenu__item-link item-link__new-site"><span>Новый сайт</span></a></li>
+                    <li class="b-submenu__item"><a href="#new_region" class="b-submenu__item-link item-link__new-region"><span>Новая <br>рекламная зона</span></a></li>
+                    <li class="b-submenu__item"><a href="#add_settings" class="b-submenu__item-link item-link__new-settings"><span>Доп. настройки</span></a></li>
+                  </ul>
+                </li>
+                <li class="b-sidebar__nav"><a href="#" class="b-sidebar__nav-link nav-link__stat"><span>Статистика</span></a></li>
+                <li class="b-sidebar__nav active"><a href="#" class="b-sidebar__nav-link nav-link__payment"><span>Оплата</span></a></li>
+              </ul>
+            </aside>
+            
+          <div class="b-content active">
+            <div class="b-content-payment">
+              
+              <div class="b-heading">
+                <i class="icon-web-payment"></i>
+                <h2>Оплата</h2></div>
+                
+                <div class="b-payment-info">
+                <form>
+                  <div class="b-payment-info-field">
+                    <label class="b-form__label">
+                      <span>
+                        Статус аккаунта 
+                        <b class="label-note have-tooltip">
+                          <span class="tooltip tooltip-top">
+                            I'm a tooltip!
+                            <i class="tooltip-arrow"></i>
+                          </span>
+                        </b>
+                      </span>
+                    </label>
+                    <span class="b-payment-status status-approved"><i class="i-payment-status"></i>Одобрен</span>
+                  </div>
+                  
+                  <div class="b-payment-info-left">
+                    <div class="b-payment-info-field">
+                      <label class="b-form__label">
+                        <span> 
+                          Дата очередной <br> выплаты 
+                          <b class="label-note have-tooltip">
+                            <span class="tooltip tooltip-top">
+                              I'm a tooltip!
+                              <i class="tooltip-arrow"></i>
+                            </span>
+                          </b>
+                        </span>
+                      </label>
+                      <span class="b-payment-info__input">
+                      <input class="b-input" type="text" readonly value="Пн  /  03.10.2016"></span>
+                    </div>
+                    <div class="b-payment-info-field">
+                      <label class="b-form__label">
+                        <span>
+                          К выплате на <br> следующий период 
+                          <b class="label-note have-tooltip">
+                            <span class="tooltip tooltip-top">
+                              I'm a tooltip!
+                              <i class="tooltip-arrow"></i>
+                            </span>
+                          </b>
+                        </span>
+                      </label>
+                      <span class="b-payment-info__input b-payment__input-sum">
+                      <input class="b-input" type="text" readonly value="0.00"></span>
+                    </div>
+                    <div class="b-payment-info-field">
+                      <label class="b-form__label">
+                        <span> 
+                          Итого к оплате 
+                          <b class="label-note have-tooltip">
+                            <span class="tooltip tooltip-top">
+                              I'm a tooltip!
+                              <i class="tooltip-arrow"></i>
+                            </span>
+                          </b>
+                        </span>
+                      </label>
+                      <span class="b-payment-info__input b-payment__input-sum">
+                      <input class="b-input" type="text" readonly value="0.00"></span>
+                    </div>
+                  </div>
+                  
+                  <div class="b-payment-info-right">
+                    <div class="b-payment-info-field">
+                      <label class="b-form__label">
+                        <span>
+                          Минимальная <br> выплата 
+                          <b class="label-note have-tooltip">
+                            <span class="tooltip tooltip-top">
+                              I'm a tooltip!
+                              <i class="tooltip-arrow"></i>
+                            </span>
+                          </b>
+                        </span>
+                      </label>
+                      <span class="b-payment-info__input">
+                      <input class="b-input" type="text" readonly value="Отключено"></span>
+                    </div>
+                    <div class="b-payment-info-field">
+                      <label class="b-form__label">
+                        <span>
+                          Условия оплаты 
+                          <b class="label-note have-tooltip">
+                            <span class="tooltip tooltip-top">
+                              I'm a tooltip!
+                              <i class="tooltip-arrow"></i>
+                            </span>
+                          </b>
+                        </span>
+                      </label>
+                      <span class="b-payment-info__input">
+                      <input class="b-input" type="text" readonly value="Еженедельно"></span>
+                    </div>
+                    <div class="b-payment-info-field">
+                      <label class="b-form__label">
+                        <span>
+                          Следующий период <br> к оплате 
+                          <b class="label-note have-tooltip">
+                            <span class="tooltip tooltip-top">
+                              I'm a tooltip!
+                              <i class="tooltip-arrow"></i>
+                            </span>
+                          </b>
+                        </span>
+                      </label>
+                      <span class="b-payment-info__input">
+                      <input class="b-input" type="text" readonly value="01.01.2016  -  02.02.2016"></span>
+                    </div>
+                  </div>
+                </form>
+                </div>
+              
+              <div class="t-payment">
+              <div class="t-payment-innerwrap">
+                <div class="t-payment-row__heading">
+                  <div class="t-payment-cell">Период</div>
+                  <div class="t-payment-cell">Сумма</div>
+                  <div class="t-payment-cell">Реферальные</div>
+                  <div class="t-payment-cell">НДС 21%</div>
+                  <div class="t-payment-cell">Всего</div>
+                  <div class="t-payment-cell">Дата оплаты</div>
+                  <div class="t-payment-cell">Статус</div>
+                </div>
+                
+                <div class="t-payment-row__subheading">
+                  <p>2016</p>
+                </div>
+                
+                <div class="t-payment-row">
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                </div>
+                <div class="t-payment-row">
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                </div>
+                <div class="t-payment-row">
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                </div>
+                <div class="t-payment-row">
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                </div>
+                <div class="t-payment-row">
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                </div>
+                <div class="t-payment-row">
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                </div>
+                <div class="t-payment-row">
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                </div>
+                <div class="t-payment-row">
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                </div>
+                <div class="t-payment-row">
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                </div>
+                <div class="t-payment-row">
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                </div>
+                <div class="t-payment-row">
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                </div>
+                <div class="t-payment-row">
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                </div>
+                <div class="t-payment-row">
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                </div>
+                <div class="t-payment-row">
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                </div>
+                
+                <div class="t-payment-row__subheading">
+                  <p>2015</p>
+                </div>
+                
+                <div class="t-payment-row">
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                </div>
+                <div class="t-payment-row">
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                </div>
+                <div class="t-payment-row">
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                </div>
+                <div class="t-payment-row">
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                </div>
+                <div class="t-payment-row">
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                </div>
+                <div class="t-payment-row">
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                </div>
+                <div class="t-payment-row">
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                </div>
+                <div class="t-payment-row">
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                  <div class="t-payment-cell">1</div>
+                </div>
+                
+                
+              </div></div>
+              <div class="clear"></div>
+              
+            </div></div>
+            
+      
+      	<div class="clear"></div>
+        
+      </div>
+ 			
+ 			
+ 			<div class="b-push"></div>
+ 		</div>
+  	
+  	<footer class="b-footer active">
+    	<div class="b-wrap">
+      	
+        <div class="b-footer-wrap-in">
+			
+          <div class="b-footer__nav">
+            <a href="#" class="b-footer__nav-logo"><img src="img/logo_temp_2.png" alt="" class="b-footer__nav-logo__img"></a>
+            <div class="b-footer__nav-links">
+              <a href="mailto:companyname@mail.com" class="nav-links__mail">companyname@mail.com</a>
+              <a href="#" class="nav-links__skype">skypename</a>
+            </div>
+            <span class="copy">&copy; Copyright 2016 example.com<br> All rights reserved</span>
+          </div>
+          
+          <div class="b-footer__nav">
+            <h4 class="b-footer__nav-hd">О компании</h4>
+            <ul class="b-footer__nav-list">
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Рекламодатели</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Вебмастера</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Объем трафика</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Контакты</a></li>
+            </ul>
+          </div>
+          
+          <div class="b-footer__nav">
+            <h4 class="b-footer__nav-hd">Рекламодатель</h4>
+            <ul class="b-footer__nav-list">
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Панель управления</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Кампании</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Новая кампания</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Статистика</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Объем трафика</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Оплата</a></li>
+            </ul>
+          </div>
+          
+          <div class="b-footer__nav">
+            <h4 class="b-footer__nav-hd">Вебмастер</h4>
+            <ul class="b-footer__nav-list">
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Панель управления</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Сайты и рекламные зоны</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Новый сайт и рекламная зона</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Статистика</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Оплата</a></li>
+            </ul>
+          </div>
+          
+        </div>
+      
+      </div>
+  	</footer>
+    
+        
+		<script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>  
+		<script type="text/javascript" src="js/slick.js"></script>
+    <script type="text/javascript" src="js/SelectBox.js"></script>  
+    <script type="text/javascript" src="js/jquery.scrollTo-1.4.3.1-min.js"></script>  
+    <script type="text/javascript" src="js/jquery.mCustomScrollbar.js"></script>  
+    <script type="text/javascript" src="js/scripts.js"></script> 
+		
+  </body>
+</html>
+

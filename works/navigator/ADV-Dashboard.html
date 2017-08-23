@@ -1,0 +1,1072 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+        <meta name = "format-detection" content = "telephone=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+        <title>Adv - Dashboard</title>
+        <meta name="Description" content="">
+        <meta name="Keywords" content="">
+        <link rel="stylesheet" type="text/css" href="css/base.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery-ui.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery-ui.theme.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/slick.css" />
+        <link rel="stylesheet" type="text/css" href="css/customSelectBox.css" />
+        <link rel="stylesheet" type="text/css" href="css/media-queries.css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+    </head>
+    <body class="account_page">
+        <div class="b-page">
+            <div class="mobile_menu_toggle"><span></span></div>
+            <header class="b-header">
+                <div class="b-wrap-account">
+                    <div class="b-header-left">
+                        <div class="account_menu_toggle"><span></span></div>
+                        <a href="#" class="b-header__logo"><img src="img/logo_temp_2.png" alt="" class="b-header__logo-image"></a>
+                    </div>
+                    <div class="b-page__tools-select">
+                        <select class="custom">
+                            <option>Рекламодатель</option>
+                            <option>Вебмастера</option>
+                        </select>
+                    </div>
+                    <div class="b-page__tools-select account-lang">
+                        <select class="custom">
+                            <option>Russian</option>
+                            <option>English</option>
+                            <option>Spain</option>
+                        </select>
+                    </div>
+                    <div class="b-header-left__user-wrap">
+                        <div class="b-header-left__user">
+                            <div class="b-header-left__user-settings">
+                                <b>nagibator666@mail.com</b> <span class="b-header-left__user-mail__inbox">11</span>
+                            </div>
+                            <div class="b-header-left__user-settings__tools">
+                                <a href="#" class="settings__tools-info"><span>Информация</span></a>
+                                <a href="#" class="settings__tools-logout"><span>Выход</span></a>
+                            </div>
+                        </div>
+                        <div class="b-header-left__balance">$ 2370.23</div>
+                    </div>
+                </div>
+            </header>
+            <div class="b-wrap-account">
+                <aside class="b-sidebar close" id="sidebar_nav">
+                    <ul class="b-sidebar__nav-list">
+                        <li class="b-sidebar__nav active"><a href="#" class="b-sidebar__nav-link nav-link__panel"><span>Панель управления</span></a><span class="b-sidebar__ivents">27</span></li>
+                        <li class="b-sidebar__nav"><a href="#" class="b-sidebar__nav-link nav-link__companies"><span>Кампании</span> </a><span class="b-sidebar__ivents">19</span></li>
+                        <li class="b-sidebar__nav"><a href="#" class="b-sidebar__nav-link nav-link__new-company"><span>Новая кампания</span></a></li>
+                        <li class="b-sidebar__nav"><a href="#" class="b-sidebar__nav-link nav-link__stat"><span>Статистика</span></a></li>
+                        <li class="b-sidebar__nav"><a href="#" class="b-sidebar__nav-link nav-link__traffic"><span>Объем трафика</span></a></li>
+                        <li class="b-sidebar__nav"><a href="#" class="b-sidebar__nav-link nav-link__payment"><span>Оплата</span></a></li>
+                    </ul>
+                </aside>
+                <div class="b-content b-content-dashboard active">
+                    <div class="b-heading">
+                        <i class="icon-dashboard"></i>
+                        <h2>Панель управления</h2>
+                    </div>
+                    <!-- boxes -->
+                    <div class="dashboard-box-place" id="sortable">
+                        <div class="dashbox b-login-info dashbox-size-smaller" data-size="dashbox-size-smaller">
+                            <div class="dashbox-heading">
+                                <i class="icon-drag"></i>
+                                <div class="dashbox-size">
+                                    <i class="icon-size"></i>
+                                    <div class="dashbox-size-select">
+                                        <p>Размер блока</p>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-small"><i></i>Мелкий</div>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-wide"><i></i>Широкий</div>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-long"><i></i>Длинный</div>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-large"><i></i>Большой</div>
+                                    </div>
+                                </div>
+                                <div class="dashbox-settings">
+                                    <i class="icon-settings"></i>
+                                    <div class="dashbox-settings-select">
+                                        <p>Содержимое блока</p>
+                                        <form>
+                                            <div class="dashbox-settings-field">
+                                                <label>Тип данных</label>
+                                                <span class="b-form__select">
+                                                    <select class="custom">
+                                                        <option>Уведомления</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <div class="dashbox-settings-field">
+                                                <label>First filter </label>
+                                                <span class="b-form__select">
+                                                    <select class="custom">
+                                                        <option>Sample text</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <div class="dashbox-settings-field">
+                                                <label>Second filter second</label>
+                                                <span class="b-form__select">
+                                                    <select class="custom">
+                                                        <option>Sample text</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <button>Применить</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="dashbox-heading-text">Последний логин</div>
+                            </div>
+                            <div class="dashbox-content js-scroll">
+                                <div class="dashbox-content-inner">
+                                    <div class="dashbox-info__field">
+                                        <p class="b-login-info__label">Дата</p>
+                                        <p class="b-login-info__data">
+                                            <span class="login-date">26.09.2016</span>    
+                                            <span class="login-time">16:15</span>
+                                        </p>
+                                    </div>
+                                    <div class="dashbox-info__field">
+                                        <p class="b-login-info__label">IP адрес</p>
+                                        <p class="b-login-info__data">192.265.468.111</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dashbox b-notifications dashbox-size-small" data-size="dashbox-size-small">
+                            <div class="dashbox-heading">
+                                <i class="icon-drag"></i>
+                                <div class="dashbox-size">
+                                    <i class="icon-size"></i>
+                                    <div class="dashbox-size-select">
+                                        <p>Размер блока</p>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-small"><i></i>Мелкий</div>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-wide"><i></i>Широкий</div>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-long"><i></i>Длинный</div>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-large"><i></i>Большой</div>
+                                    </div>
+                                </div>
+                                <div class="dashbox-settings">
+                                    <i class="icon-settings"></i>
+                                    <div class="dashbox-settings-select">
+                                        <p>Содержимое блока</p>
+                                        <form>
+                                            <div class="dashbox-settings-field">
+                                                <label>Тип данных</label>
+                                                <span class="b-form__select">
+                                                    <select class="custom">
+                                                        <option>Уведомления</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <div class="dashbox-settings-field">
+                                                <label>First filter </label>
+                                                <span class="b-form__select">
+                                                    <select class="custom">
+                                                        <option>Sample text</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <div class="dashbox-settings-field">
+                                                <label>Second filter second</label>
+                                                <span class="b-form__select">
+                                                    <select class="custom">
+                                                        <option>Sample text</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <button>Применить</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="dashbox-heading-text">Уведомления</div>
+                            </div>
+                            <div class="dashbox-content js-scroll">
+                                <div class="dashbox-content-inner">
+                                    <div class="dashbox-info__field">
+                                        <div class="notification notification-success">
+                                            <i></i>
+                                            Кампания #1234567  <a href="#">одобрена</a>
+                                        </div>
+                                    </div>
+                                    <div class="dashbox-info__field">
+                                        <div class="notification   notification-error">
+                                            <i></i>
+                                            Error notification
+                                        </div>
+                                    </div>
+                                    <div class="dashbox-info__field">
+                                        <div class="notification notification-alert">
+                                            <i class="icon-alert"></i>
+                                            Alert notification
+                                        </div>
+                                    </div>
+                                    <div class="dashbox-info__field">
+                                        <div class="notification notification-success">
+                                            <i></i>
+                                            Success notification <a href="#">одобрена</a>
+                                        </div>
+                                    </div>
+                                    <div class="dashbox-info__field">
+                                        <div class="notification  notification-info">
+                                            <i></i>
+                                            Information notification
+                                        </div>
+                                    </div>
+                                    <div class="dashbox-info__field">
+                                        <div class="notification notification-error">
+                                            <i></i>
+                                            Error notification <a href="#">link</a>
+                                        </div>
+                                    </div>
+                                    <div class="dashbox-info__field">
+                                        <div class="notification  notification-alert">
+                                            <i></i>
+                                            Alert notification
+                                        </div>
+                                    </div>
+                                    <div class="dashbox-info__field">
+                                        <div class="notification notification-success">
+                                            <i></i>
+                                            Success notification
+                                        </div>
+                                    </div>
+                                    <div class="dashbox-info__field">
+                                        <div class="notification  notification-info">
+                                            <i></i>
+                                            Information notification
+                                        </div>
+                                    </div>
+                                    <div class="dashbox-info__field">
+                                        <div class="notification notification-alert">
+                                            <i></i>
+                                            Alert notification <a href="#">link</a>
+                                        </div>
+                                    </div>
+                                    <div class="dashbox-info__field">
+                                        <div class="notification notification-success">
+                                            <i></i>
+                                            Success notification <a href="#">link</a>
+                                        </div>
+                                    </div>
+                                    <div class="dashbox-info__field">
+                                        <div class="notification  notification-info">
+                                            <i></i>
+                                            Information notification <a href="#">link</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dashbox b-news dashbox-size-long" data-size="dashbox-size-long">
+                            <div class="dashbox-heading">
+                                <i class="icon-drag"></i>
+                                <div class="dashbox-size">
+                                    <i class="icon-size"></i>
+                                    <div class="dashbox-size-select">
+                                        <p>Размер блока</p>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-small"><i></i>Мелкий</div>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-wide"><i></i>Широкий</div>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-long"><i></i>Длинный</div>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-large"><i></i>Большой</div>
+                                    </div>
+                                </div>
+                                <div class="dashbox-settings">
+                                    <i class="icon-settings"></i>
+                                    <div class="dashbox-settings-select">
+                                        <p>Содержимое блока</p>
+                                        <form>
+                                            <div class="dashbox-settings-field">
+                                                <label>Тип данных</label>
+                                                <span class="b-form__select">
+                                                    <select class="custom">
+                                                        <option>Уведомления</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <div class="dashbox-settings-field">
+                                                <label>First filter </label>
+                                                <span class="b-form__select">
+                                                    <select class="custom">
+                                                        <option>Sample text</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <div class="dashbox-settings-field">
+                                                <label>Second filter second</label>
+                                                <span class="b-form__select">
+                                                    <select class="custom">
+                                                        <option>Sample text</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <button>Применить</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="dashbox-heading-text">Новости</div>
+                            </div>
+                            <div class="dashbox-content js-scroll">
+                                <div class="dashbox-content-inner js-v-scroll">
+                                    <div class="dashbox-news-item">
+                                        <div class="news-item__image"><img src="img/news-img.jpg" alt=""></div>
+                                        <div class="news-item__text">
+                                            <h4>Super News 1</h4>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                        </div>
+                                        <a href="#" class="news-item-link"></a>
+                                    </div>
+                                    <div class="dashbox-news-item">
+                                        <div class="news-item__image"><img src="img/news-img.jpg" alt=""></div>
+                                        <div class="news-item__text">
+                                            <h4>Super News 1</h4>
+                                            <p>Lorem Ipsum is simply dummy text. </p>
+                                        </div>
+                                        <a href="#" class="news-item-link"></a>
+                                    </div>
+                                    <div class="dashbox-news-item">
+                                        <div class="news-item__image"><img src="img/news-img.jpg" alt=""></div>
+                                        <div class="news-item__text">
+                                            <h4>Super News 1</h4>
+                                            <p>Lorem Ipsum is simply. </p>
+                                        </div>
+                                        <a href="#" class="news-item-link"></a>
+                                    </div>
+                                    <div class="dashbox-news-item">
+                                        <div class="news-item__image"><img src="img/news-img.jpg" alt=""></div>
+                                        <div class="news-item__text">
+                                            <h4>Super News 1</h4>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                        </div>
+                                        <a href="#" class="news-item-link"></a>
+                                    </div>
+                                    <div class="dashbox-news-item">
+                                        <div class="news-item__image"><img src="img/news-img.jpg" alt=""></div>
+                                        <div class="news-item__text">
+                                            <h4>Super News 1</h4>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                        </div>
+                                        <a href="#" class="news-item-link"></a>
+                                    </div>
+                                    <div class="dashbox-news-item">
+                                        <div class="news-item__image"><img src="img/news-img.jpg" alt=""></div>
+                                        <div class="news-item__text">
+                                            <h4>Super News 1</h4>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                        </div>
+                                        <a href="#" class="news-item-link"></a>
+                                    </div>
+                                    <div class="dashbox-news-item">
+                                        <div class="news-item__image"><img src="img/news-img.jpg" alt=""></div>
+                                        <div class="news-item__text">
+                                            <h4>Super News 1</h4>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                        </div>
+                                        <a href="#" class="news-item-link"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dashbox b-manager dashbox-size-smaller" data-size="dashbox-size-smaller">
+                            <div class="dashbox-heading">
+                                <i class="icon-drag"></i>
+                                <div class="dashbox-settings">
+                                    <i class="icon-settings"></i>
+                                    <div class="dashbox-settings-select">
+                                        <p>Содержимое блока</p>
+                                        <form>
+                                            <div class="dashbox-settings-field">
+                                                <label>Тип данных</label>
+                                                <span class="b-form__select">
+                                                    <select class="custom">
+                                                        <option>Уведомления</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <div class="dashbox-settings-field">
+                                                <label>First filter </label>
+                                                <span class="b-form__select">
+                                                    <select class="custom">
+                                                        <option>Sample text</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <div class="dashbox-settings-field">
+                                                <label>Second filter second</label>
+                                                <span class="b-form__select">
+                                                    <select class="custom">
+                                                        <option>Sample text</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <button>Применить</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="dashbox-heading-text">Ваш менеджер</div>
+                            </div>
+                            <div class="dashbox-content js-scroll">
+                                <div class="dashbox-content-inner">
+                                    <div class="block-manager">
+                                        <div class="manager-photo"><img src="img/manager-photo.jpg" alt=""></div>
+                                        <div class="manager-info">
+                                            <div class="manager-name">Candy Sweet</div>
+                                            <div class="manager-email"><a href="#">manager01@mail.com</a></div>
+                                            <div class="manager-skype"><a href="#">manager_xxx</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        <div class="dashbox b-budget-info dashbox-size-wide" data-size="dashbox-size-wide">
+                            <div class="dashbox-heading">
+                                <i class="icon-drag"></i>
+                                <div class="dashbox-size">
+                                    <i class="icon-size"></i>
+                                    <div class="dashbox-size-select">
+                                        <p>Размер блока</p>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-small"><i></i>Мелкий</div>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-wide"><i></i>Широкий</div>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-long"><i></i>Длинный</div>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-large"><i></i>Большой</div>
+                                    </div>
+                                </div>
+                                <div class="dashbox-settings">
+                                    <i class="icon-settings"></i>
+                                    <div class="dashbox-settings-select">
+                                        <p>Содержимое блока</p>
+                                        <form>
+                                            <div class="dashbox-settings-field">
+                                                <label>Тип данных</label>
+                                                <span class="b-form__select">
+                                                    <select class="custom">
+                                                        <option>Уведомления</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <div class="dashbox-settings-field">
+                                                <label>First filter </label>
+                                                <span class="b-form__select">
+                                                    <select class="custom">
+                                                        <option>Sample text</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <div class="dashbox-settings-field">
+                                                <label>Second filter second</label>
+                                                <span class="b-form__select">
+                                                    <select class="custom">
+                                                        <option>Sample text</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <button>Применить</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="dashbox-heading-text">Бюджет</div>
+                            </div>
+                            <div class="dashbox-content js-scroll">
+                                <div class="dashbox-content-inner">
+                                    <div class="budget-with-graph">
+                                        <div class="chart-pos">
+                                            <div id="budget"></div>
+                                        </div>
+                                        <div class="graph-text">
+                                            <p> 
+                                                <span class="numbers-total"><span class="currency">$</span> 84 570.00</span>
+                                                общий бюджет
+                                            </p>
+                                            <hr>
+                                            <p> 
+                                                <span><span class="currency">$</span> 18 770.00</span>
+                                                этот месяц
+                                            </p>
+                                            <p> 
+                                                <span><span class="currency">$</span> 151.27</span>
+                                                сегодня
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dashbox dashbox-size-small" data-size="dashbox-size-small">
+                            <div class="dashbox-heading">
+                                <i class="icon-drag"></i>
+                                <div class="dashbox-size">
+                                    <i class="icon-size"></i>
+                                    <div class="dashbox-size-select">
+                                        <p>Размер блока</p>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-small"><i></i>Мелкий</div>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-wide"><i></i>Широкий</div>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-long"><i></i>Длинный</div>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-large"><i></i>Большой</div>
+                                    </div>
+                                </div>
+                                <div class="dashbox-settings">
+                                    <i class="icon-settings"></i>
+                                    <div class="dashbox-settings-select">
+                                        <p>Содержимое блока</p>
+                                        <form>
+                                            <div class="dashbox-settings-field">
+                                                <label>Тип данных</label>
+                                                <span class="b-form__select">
+                                                    <select class="custom">
+                                                        <option>Уведомления</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <div class="dashbox-settings-field">
+                                                <label>First filter </label>
+                                                <span class="b-form__select">
+                                                    <select class="custom">
+                                                        <option>Sample text</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <div class="dashbox-settings-field">
+                                                <label>Second filter second</label>
+                                                <span class="b-form__select">
+                                                    <select class="custom">
+                                                        <option>Sample text</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <button>Применить</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="dashbox-heading-text">Block 01</div>
+                            </div>
+                            <div class="dashbox-content js-scroll">
+                                <div class="dashbox-content-inner">
+                                    <div class="pie-chart-pos">
+                                        <div id="pie-chart-dashbox2"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dashbox dashbox-size-small" data-size="dashbox-size-small">
+                            <div class="dashbox-heading">
+                                <i class="icon-drag"></i>
+                                <div class="dashbox-size">
+                                    <i class="icon-size"></i>
+                                    <div class="dashbox-size-select">
+                                        <p>Размер блока</p>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-small"><i></i>Мелкий</div>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-wide"><i></i>Широкий</div>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-long"><i></i>Длинный</div>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-large"><i></i>Большой</div>
+                                    </div>
+                                </div>
+                                <div class="dashbox-settings">
+                                    <i class="icon-settings"></i>
+                                    <div class="dashbox-settings-select">
+                                        <p>Содержимое блока</p>
+                                        <form>
+                                            <div class="dashbox-settings-field">
+                                                <label>Тип данных</label>
+                                                <span class="b-form__select">
+                                                    <select class="custom">
+                                                        <option>Уведомления</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <div class="dashbox-settings-field">
+                                                <label>First filter </label>
+                                                <span class="b-form__select">
+                                                    <select class="custom">
+                                                        <option>Sample text</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <div class="dashbox-settings-field">
+                                                <label>Second filter second</label>
+                                                <span class="b-form__select">
+                                                    <select class="custom">
+                                                        <option>Sample text</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <button>Применить</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="dashbox-heading-text">Block 02</div>
+                            </div>
+                            <div class="dashbox-content js-scroll">
+                                <div class="dashbox-content-inner">
+                                    <div class="pie-chart-pos">
+                                        <div id="pie-chart-dashbox1"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dashbox dashbox-size-small" data-size="dashbox-size-small">
+                            <div class="dashbox-heading">
+                                <i class="icon-drag"></i>
+                                <div class="dashbox-size">
+                                    <i class="icon-size"></i>
+                                    <div class="dashbox-size-select">
+                                        <p>Размер блока</p>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-small"><i></i>Мелкий</div>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-wide"><i></i>Широкий</div>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-long"><i></i>Длинный</div>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-large"><i></i>Большой</div>
+                                    </div>
+                                </div>
+                                <div class="dashbox-settings">
+                                    <i class="icon-settings"></i>
+                                    <div class="dashbox-settings-select">
+                                        <p>Содержимое блока</p>
+                                        <form>
+                                            <div class="dashbox-settings-field">
+                                                <label>Тип данных</label>
+                                                <span class="b-form__select">
+                                                    <select class="custom">
+                                                        <option>Уведомления</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <div class="dashbox-settings-field">
+                                                <label>First filter </label>
+                                                <span class="b-form__select">
+                                                    <select class="custom">
+                                                        <option>Sample text</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <div class="dashbox-settings-field">
+                                                <label>Second filter second</label>
+                                                <span class="b-form__select">
+                                                    <select class="custom">
+                                                        <option>Sample text</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <button>Применить</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="dashbox-heading-text">Block 03</div>
+                            </div>
+                            <div class="dashbox-content js-scroll">
+                                <div class="dashbox-content-inner"> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dashbox dashbox-size-small" data-size="dashbox-size-small">
+                            <div class="dashbox-heading">
+                                <i class="icon-drag"></i>
+                                <div class="dashbox-size">
+                                    <i class="icon-size"></i>
+                                    <div class="dashbox-size-select">
+                                        <p>Размер блока</p>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-small"><i></i>Мелкий</div>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-wide"><i></i>Широкий</div>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-long"><i></i>Длинный</div>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-large"><i></i>Большой</div>
+                                    </div>
+                                </div>
+                                <div class="dashbox-settings">
+                                    <i class="icon-settings"></i>
+                                    <div class="dashbox-settings-select">
+                                        <p>Содержимое блока</p>
+                                        <form>
+                                            <div class="dashbox-settings-field">
+                                                <label>Тип данных</label>
+                                                <span class="b-form__select">
+                                                    <select class="custom">
+                                                        <option>Уведомления</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <div class="dashbox-settings-field">
+                                                <label>First filter </label>
+                                                <span class="b-form__select">
+                                                    <select class="custom">
+                                                        <option>Sample text</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <div class="dashbox-settings-field">
+                                                <label>Second filter second</label>
+                                                <span class="b-form__select">
+                                                    <select class="custom">
+                                                        <option>Sample text</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <button>Применить</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="dashbox-heading-text">Block 04</div>
+                            </div>
+                            <div class="dashbox-content js-scroll">
+                                <div class="dashbox-content-inner"> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dashbox dashbox-size-small" data-size="dashbox-size-small">
+                            <div class="dashbox-heading">
+                                <i class="icon-drag"></i>
+                                <div class="dashbox-size">
+                                    <i class="icon-size"></i>
+                                    <div class="dashbox-size-select">
+                                        <p>Размер блока</p>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-small"><i></i>Мелкий</div>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-wide"><i></i>Широкий</div>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-long"><i></i>Длинный</div>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-large"><i></i>Большой</div>
+                                    </div>
+                                </div>
+                                <div class="dashbox-settings">
+                                    <i class="icon-settings"></i>
+                                    <div class="dashbox-settings-select">
+                                        <p>Содержимое блока</p>
+                                        <form>
+                                            <div class="dashbox-settings-field">
+                                                <label>Тип данных</label>
+                                                <span class="b-form__select">
+                                                    <select class="custom">
+                                                        <option>Уведомления</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <div class="dashbox-settings-field">
+                                                <label>First filter </label>
+                                                <span class="b-form__select">
+                                                    <select class="custom">
+                                                        <option>Sample text</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <div class="dashbox-settings-field">
+                                                <label>Second filter second</label>
+                                                <span class="b-form__select">
+                                                    <select class="custom">
+                                                        <option>Sample text</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <button>Применить</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="dashbox-heading-text">Block 05</div>
+                            </div>
+                            <div class="dashbox-content js-scroll">
+                                <div class="dashbox-content-inner"> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dashbox dashbox-size-large" data-size="dashbox-size-large">
+                            <div class="dashbox-heading">
+                                <i class="icon-drag"></i>
+                                <div class="dashbox-size">
+                                    <i class="icon-size"></i>
+                                    <div class="dashbox-size-select">
+                                        <p>Размер блока</p>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-small"><i></i>Мелкий</div>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-wide"><i></i>Широкий</div>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-long"><i></i>Длинный</div>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-large"><i></i>Большой</div>
+                                    </div>
+                                </div>
+                                <div class="dashbox-settings">
+                                    <i class="icon-settings"></i>
+                                    <div class="dashbox-settings-select">
+                                        <p>Содержимое блока</p>
+                                        <form>
+                                            <div class="dashbox-settings-field">
+                                                <label>Тип данных</label>
+                                                <span class="b-form__select">
+                                                    <select class="custom">
+                                                        <option>Уведомления</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <div class="dashbox-settings-field">
+                                                <label>First filter </label>
+                                                <span class="b-form__select">
+                                                    <select class="custom">
+                                                        <option>Sample text</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <div class="dashbox-settings-field">
+                                                <label>Second filter second</label>
+                                                <span class="b-form__select">
+                                                    <select class="custom">
+                                                        <option>Sample text</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <button>Применить</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="dashbox-heading-text">Block 07</div>
+                            </div>
+                            <div class="dashbox-content js-scroll">
+                                <div class="dashbox-content-inner"> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dashbox dashbox-size-small" data-size="dashbox-size-small">
+                            <div class="dashbox-heading">
+                                <i class="icon-drag"></i>
+                                <div class="dashbox-size">
+                                    <i class="icon-size"></i>
+                                    <div class="dashbox-size-select">
+                                        <p>Размер блока</p>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-small"><i></i>Мелкий</div>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-wide"><i></i>Широкий</div>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-long"><i></i>Длинный</div>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-large"><i></i>Большой</div>
+                                    </div>
+                                </div>
+                                <div class="dashbox-settings">
+                                    <i class="icon-settings"></i>
+                                    <div class="dashbox-settings-select">
+                                        <p>Содержимое блока</p>
+                                        <form>
+                                            <div class="dashbox-settings-field">
+                                                <label>Тип данных</label>
+                                                <span class="b-form__select">
+                                                    <select class="custom">
+                                                        <option>Уведомления</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <div class="dashbox-settings-field">
+                                                <label>First filter </label>
+                                                <span class="b-form__select">
+                                                    <select class="custom">
+                                                        <option>Sample text</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <div class="dashbox-settings-field">
+                                                <label>Second filter second</label>
+                                                <span class="b-form__select">
+                                                    <select class="custom">
+                                                        <option>Sample text</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <button>Применить</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="dashbox-heading-text">Block 08</div>
+                            </div>
+                            <div class="dashbox-content js-scroll">
+                                <div class="dashbox-content-inner"> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dashbox dashbox-size-small" data-size="dashbox-size-small">
+                            <div class="dashbox-heading">
+                                <i class="icon-drag"></i>
+                                <div class="dashbox-size">
+                                    <i class="icon-size"></i>
+                                    <div class="dashbox-size-select">
+                                        <p>Размер блока</p>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-small"><i></i>Мелкий</div>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-wide"><i></i>Широкий</div>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-long"><i></i>Длинный</div>
+                                        <div class="dashbox-size-option" data-size="dashbox-size-large"><i></i>Большой</div>
+                                    </div>
+                                </div>
+                                <div class="dashbox-settings">
+                                    <i class="icon-settings"></i>
+                                    <div class="dashbox-settings-select">
+                                        <p>Содержимое блока</p>
+                                        <form>
+                                            <div class="dashbox-settings-field">
+                                                <label>Тип данных</label>
+                                                <span class="b-form__select">
+                                                    <select class="custom">
+                                                        <option>Уведомления</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <div class="dashbox-settings-field">
+                                                <label>First filter </label>
+                                                <span class="b-form__select">
+                                                    <select class="custom">
+                                                        <option>Sample text</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <div class="dashbox-settings-field">
+                                                <label>Second filter second</label>
+                                                <span class="b-form__select">
+                                                    <select class="custom">
+                                                        <option>Sample text</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <button>Применить</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="dashbox-heading-text">Block 09</div>
+                            </div>
+                            <div class="dashbox-content js-scroll">
+                                <div class="dashbox-content-inner"> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <!-- boxes END -->
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="b-push"></div>
+        </div>
+        <footer class="b-footer active">
+            <div class="b-wrap">
+                <div class="b-footer-wrap-in">
+                    <div class="b-footer__nav">
+                        <a href="#" class="b-footer__nav-logo"><img src="img/logo_temp_2.png" alt="" class="b-footer__nav-logo__img"></a>
+                        <div class="b-footer__nav-links">
+                            <a href="mailto:companyname@mail.com" class="nav-links__mail">companyname@mail.com</a>
+                            <a href="#" class="nav-links__skype">skypename</a>
+                        </div>
+                        <span class="copy">&copy; Copyright 2016 example.com<br> All rights reserved</span>
+                    </div>
+                    <div class="b-footer__nav">
+                        <h4 class="b-footer__nav-hd">О компании</h4>
+                        <ul class="b-footer__nav-list">
+                            <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Рекламодатели</a></li>
+                            <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Вебмастера</a></li>
+                            <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Объем трафика</a></li>
+                            <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="b-footer__nav">
+                        <h4 class="b-footer__nav-hd">Рекламодатель</h4>
+                        <ul class="b-footer__nav-list">
+                            <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Панель управления</a></li>
+                            <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Кампании</a></li>
+                            <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Новая кампания</a></li>
+                            <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Статистика</a></li>
+                            <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Объем трафика</a></li>
+                            <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Оплата</a></li>
+                        </ul>
+                    </div>
+                    <div class="b-footer__nav">
+                        <h4 class="b-footer__nav-hd">Вебмастер</h4>
+                        <ul class="b-footer__nav-list">
+                            <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Панель управления</a></li>
+                            <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Сайты и рекламные зоны</a></li>
+                            <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Новый сайт и рекламная зона</a></li>
+                            <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Статистика</a></li>
+                            <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Оплата</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+        <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>  
+        <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="js/jquery.datepicker.extension.range.min.js"></script>
+        <script type="text/javascript" src="js/slick.js"></script>
+        <script type="text/javascript" src="js/SelectBox.js"></script>  
+        <script type="text/javascript" src="js/highcharts.js"></script> 
+        <script type="text/javascript" src="js/jquery.mCustomScrollbar.js"></script>  
+        <script type="text/javascript" src="js/jquery.formstyler.min.js"></script> 
+        <script type="text/javascript" src="js/packery.pkgd.min.js"></script> 
+        <script type="text/javascript" src="js/scripts.js"></script>  
+    </body>
+</html>

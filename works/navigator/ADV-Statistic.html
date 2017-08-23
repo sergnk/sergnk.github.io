@@ -1,0 +1,508 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+		<meta name = "format-detection" content = "telephone=no" />
+		<meta name="viewport" content="width=960, initial-scale=1">
+		<title>Adv - Statistic</title>
+		<meta name="Description" content="">
+		<meta name="Keywords" content="">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.css" />
+		<link rel="stylesheet" type="text/css" href="css/jquery-ui.css" />
+		<link rel="stylesheet" type="text/css" href="css/jquery-ui.theme.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/customSelectBox.css" />
+		<link rel="stylesheet" type="text/css" href="css/media-queries.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet"> 
+
+
+    <script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>  
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/jquery.datepicker.extension.range.min.js"></script>
+    <script type="text/javascript" src="js/slick.js"></script>
+    <script type="text/javascript" src="js/SelectBox.js"></script>  
+    <script type="text/javascript" src="js/highcharts.js"></script> 
+    <script type="text/javascript" src="js/jquery.mCustomScrollbar.js"></script>  
+    <script type="text/javascript" src="js/jquery.formstyler.min.js"></script> 
+    <script type="text/javascript" src="js/scripts.js"></script>  
+	</head>
+  
+  <body class="account_page">
+ 		<div class="b-page">
+    	
+      <div class="mobile_menu_toggle"><span></span></div>
+ 			
+ 			<header class="b-header">
+      	<div class="b-wrap-account">
+        	
+          <div class="b-header-left">
+            <div class="account_menu_toggle"><span></span></div>
+            
+            <a href="#" class="b-header__logo"><img src="img/logo_temp_2.png" alt="" class="b-header__logo-image"></a>
+          </div>
+          
+          <div class="b-page__tools-select">
+          	<select class="custom">
+            	<option>Рекламодатель</option>
+              <option>Вебмастера</option>
+            </select>
+          </div>
+          
+          <div class="b-page__tools-select account-lang">
+          	<select class="custom">
+            	<option>Russian</option>
+              <option>English</option>
+              <option>Spain</option>
+            </select>
+          </div>
+          
+          <div class="b-header-left__user-wrap">
+            <div class="b-header-left__user">
+              <div class="b-header-left__user-settings">
+                <b>nagibator666@mail.com</b> <span class="b-header-left__user-mail__inbox">11</span>
+              </div>
+              <div class="b-header-left__user-settings__tools">
+                <a href="#" class="settings__tools-info"><span>Информация</span></a>
+                <a href="#" class="settings__tools-logout"><span>Выход</span></a>
+              </div>
+            </div>
+            
+            <div class="b-header-left__balance">$ 2370.23</div>
+          </div>
+          
+ 				</div>
+ 			</header>
+      
+      <div class="b-wrap-account">
+      
+        <aside class="b-sidebar close" id="sidebar_nav">
+          <ul class="b-sidebar__nav-list">
+            <li class="b-sidebar__nav"><a href="#" class="b-sidebar__nav-link nav-link__panel"><span>Панель управления</span></a><span class="b-sidebar__ivents">27</span></li>
+            <li class="b-sidebar__nav"><a href="#" class="b-sidebar__nav-link nav-link__companies"><span>Кампании</span> </a><span class="b-sidebar__ivents">19</span></li>
+            <li class="b-sidebar__nav"><a href="#" class="b-sidebar__nav-link nav-link__new-company"><span>Новая кампания</span></a></li>
+            <li class="b-sidebar__nav active"><a href="#" class="b-sidebar__nav-link nav-link__stat"><span>Статистика</span></a></li>
+            <li class="b-sidebar__nav"><a href="#" class="b-sidebar__nav-link nav-link__traffic"><span>Объем трафика</span></a></li>
+            <li class="b-sidebar__nav"><a href="#" class="b-sidebar__nav-link nav-link__payment"><span>Оплата</span></a></li>
+          </ul>
+        </aside>
+            
+          <div class="b-content active">
+            <div class="b-content-statistic">
+              
+              <div class="b-heading">
+                <i class="icon-web-statistic"></i>
+                <h2>Статистика</h2></div>
+                
+                <div class="b-statistic-filters">
+                <form>
+                  <div class="b-statistic-filters-pos">
+                      <div class="b-statistic-filters__input b-statistic-filters__main">
+                        <input type="text" placeholder="Выберите период" id="datepicker" class="form-control" >
+                      </div>
+                      
+                      <div class="b-form__select b-statistic-filters__webmaster">	
+                        <select class="custom">
+                          <option>Вебмастер</option>
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                        </select>
+                      </div>
+                      <div class="b-form__select b-statistic-filters__torrent">	
+                        <select class="custom">
+                          <option>Поток</option>
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                        </select>
+                      </div>
+                      <div class="b-form__select b-statistic-filters__offers">	
+                        <select class="custom">
+                          <option>Офферы</option>
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                        </select>
+                      </div>
+                      <div class="b-form__select b-statistic-filters__countries">	
+                        <select class="custom">
+                          <option>Страны</option>
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                        </select>
+                      </div>
+                      
+                      <div class="b-form__select b-statistic-filters__more">	
+                        <select class="custom">
+                          <option>Filter 1</option>
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                        </select>
+                      </div>
+                      <div class="b-form__select b-statistic-filters__more">	
+                        <select class="custom">
+                          <option>Filter 2</option>
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                        </select>
+                      </div>
+                      <div class="b-form__select b-statistic-filters__more">	
+                        <select class="custom">
+                          <option>Filter 3</option>
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                        </select>
+                      </div>
+                      <div class="b-form__select b-statistic-filters__more">	
+                        <select class="custom">
+                          <option>Filter 4</option>
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                        </select>
+                      </div>
+                      <div class="b-form__select b-statistic-filters__more">	
+                        <select class="custom">
+                          <option>Filter 5</option>
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                        </select>
+                      </div>
+                      <div class="b-form__select b-statistic-filters__more">	
+                        <select class="custom">
+                          <option>Filter 6</option>
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                        </select>
+                      </div>
+                  </div>
+                  <div class="b-statistic-filters__button">
+                    <button class="button_apply">Применить</button>
+                  </div>
+                </form>
+                </div>
+                
+              
+              <div class="b-statistic-graph">
+                <div id="statistic-line-chart"></div>
+              </div>
+              
+              
+              <div class="t-statistic">
+              <div class="t-statistic-innerwrap">
+                
+                <div class="t-statistic-row__heading">
+                  <div class="t-statistic-cell"> </div>
+                  <div class="t-statistic-cell"> Трафик </div>
+                  <div class="t-statistic-cell"> Коэффиценты </div>
+                  <div class="t-statistic-cell"> Конверсия </div>
+                  <div class="t-statistic-cell"> Вебмастеру </div>
+                  <div class="t-statistic-cell"> Доход </div>
+                </div>
+                    <div class="t-statistic-row__subheading">
+                      <div class="t-statistic-cell"> Дата </div>
+                      <div class="t-statistic-cell"> Клики </div>
+                      <div class="t-statistic-cell"> Хиты </div>
+                      <div class="t-statistic-cell"> Traffback </div>
+                      <div class="t-statistic-cell"> CR (%) </div>
+                      <div class="t-statistic-cell"> Все </div>
+                      <div class="t-statistic-cell"> Принят </div>
+                      <div class="t-statistic-cell"> Ожид. </div>
+                      <div class="t-statistic-cell"> Отмена </div>                      
+                      <div class="t-statistic-cell"> Принят </div>
+                      <div class="t-statistic-cell"> Ожид. </div>
+                      <div class="t-statistic-cell"> Отмена </div>                      
+                      <div class="t-statistic-cell"> Принят </div>
+                      <div class="t-statistic-cell"> Ожид. </div>
+                      <div class="t-statistic-cell"> Отмена </div>
+                    </div>
+                
+                <div class="t-statistic-row">
+                  <div class="t-statistic-cell"> 01.11.2016 </div>
+                  <div class="t-statistic-cell"> 1 </div>
+                  <div class="t-statistic-cell"> 1 </div>
+                  <div class="t-statistic-cell"> 1 </div>
+                  <div class="t-statistic-cell"> 0.00 </div>
+                  <div class="t-statistic-cell"> 0 </div>
+                  <div class="t-statistic-cell"> 0 </div>
+                  <div class="t-statistic-cell"> 0 </div>
+                  <div class="t-statistic-cell"> 0 </div>
+                  <div class="t-statistic-cell"> 0.00 </div>
+                  <div class="t-statistic-cell"> 0.00 </div>
+                  <div class="t-statistic-cell"> 0.00 </div>
+                  <div class="t-statistic-cell"> 0.00 </div>
+                  <div class="t-statistic-cell"> 0.00 </div>
+                  <div class="t-statistic-cell"> 0.00 </div>
+                  
+                  <div class="t-statistic-row__details">
+                    <div class="t-statistic-row">
+                      <div class="t-statistic-cell"> 22:00 </div>
+                      <div class="t-statistic-cell"> 1 </div>
+                      <div class="t-statistic-cell"> 1 </div>
+                      <div class="t-statistic-cell"> 1 </div>
+                      <div class="t-statistic-cell"> 0.00 </div>
+                      <div class="t-statistic-cell"> 0 </div>
+                      <div class="t-statistic-cell"> 0 </div>
+                      <div class="t-statistic-cell"> 0 </div>
+                      <div class="t-statistic-cell"> 0 </div>
+                      <div class="t-statistic-cell"> 0.00 </div>
+                      <div class="t-statistic-cell"> 0.00 </div>
+                      <div class="t-statistic-cell"> 0.00 </div>
+                      <div class="t-statistic-cell"> 0.00 </div>
+                      <div class="t-statistic-cell"> 0.00 </div>
+                      <div class="t-statistic-cell"> 0.00 </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="t-statistic-row__subheading2">
+                  <p>Октябрь</p>
+                </div>
+                
+                <div class="t-statistic-row">
+                  <div class="t-statistic-cell"> 30.10.2016 </div>
+                  <div class="t-statistic-cell"> 1 </div>
+                  <div class="t-statistic-cell"> 1 </div>
+                  <div class="t-statistic-cell"> 1 </div>
+                  <div class="t-statistic-cell"> 0.00 </div>
+                  <div class="t-statistic-cell"> 0 </div>
+                  <div class="t-statistic-cell"> 0 </div>
+                  <div class="t-statistic-cell"> 0 </div>
+                  <div class="t-statistic-cell"> 0 </div>
+                  <div class="t-statistic-cell"> 0.00 </div>
+                  <div class="t-statistic-cell"> 0.00 </div>
+                  <div class="t-statistic-cell"> 0.00 </div>
+                  <div class="t-statistic-cell"> 0.00 </div>
+                  <div class="t-statistic-cell"> 0.00 </div>
+                  <div class="t-statistic-cell"> 0.00 </div>
+                  
+                  <div class="t-statistic-row__details">
+                      <div class="t-statistic-row">
+                        <div class="t-statistic-cell"> 22:00 </div>
+                        <div class="t-statistic-cell"> 1 </div>
+                        <div class="t-statistic-cell"> 1 </div>
+                        <div class="t-statistic-cell"> 1 </div>
+                        <div class="t-statistic-cell"> 0.00 </div>
+                        <div class="t-statistic-cell"> 0 </div>
+                        <div class="t-statistic-cell"> 0 </div>
+                        <div class="t-statistic-cell"> 0 </div>
+                        <div class="t-statistic-cell"> 0 </div>
+                        <div class="t-statistic-cell"> 0.00 </div>
+                        <div class="t-statistic-cell"> 0.00 </div>
+                        <div class="t-statistic-cell"> 0.00 </div>
+                        <div class="t-statistic-cell"> 0.00 </div>
+                        <div class="t-statistic-cell"> 0.00 </div>
+                        <div class="t-statistic-cell"> 0.00 </div>
+                      </div>
+                  </div>
+                </div>
+                
+                <div class="t-statistic-row">
+                  <div class="t-statistic-cell"> 29.10.2016 </div>
+                  <div class="t-statistic-cell"> 1 </div>
+                  <div class="t-statistic-cell"> 1 </div>
+                  <div class="t-statistic-cell"> 1 </div>
+                  <div class="t-statistic-cell"> 0.00 </div>
+                  <div class="t-statistic-cell"> 0 </div>
+                  <div class="t-statistic-cell"> 0 </div>
+                  <div class="t-statistic-cell"> 0 </div>
+                  <div class="t-statistic-cell"> 0 </div>
+                  <div class="t-statistic-cell"> 0.00 </div>
+                  <div class="t-statistic-cell"> 0.00 </div>
+                  <div class="t-statistic-cell"> 0.00 </div>
+                  <div class="t-statistic-cell"> 0.00 </div>
+                  <div class="t-statistic-cell"> 0.00 </div>
+                  <div class="t-statistic-cell"> 0.00 </div>
+                  
+                  <div class="t-statistic-row__details">
+                      <div class="t-statistic-row">
+                        <div class="t-statistic-cell"> 22:00 </div>
+                        <div class="t-statistic-cell"> 1 </div>
+                        <div class="t-statistic-cell"> 1 </div>
+                        <div class="t-statistic-cell"> 1 </div>
+                        <div class="t-statistic-cell"> 0.00 </div>
+                        <div class="t-statistic-cell"> 0 </div>
+                        <div class="t-statistic-cell"> 0 </div>
+                        <div class="t-statistic-cell"> 0 </div>
+                        <div class="t-statistic-cell"> 0 </div>
+                        <div class="t-statistic-cell"> 0.00 </div>
+                        <div class="t-statistic-cell"> 0.00 </div>
+                        <div class="t-statistic-cell"> 0.00 </div>
+                        <div class="t-statistic-cell"> 0.00 </div>
+                        <div class="t-statistic-cell"> 0.00 </div>
+                        <div class="t-statistic-cell"> 0.00 </div>
+                      </div>
+                      <div class="t-statistic-row">
+                        <div class="t-statistic-cell"> 23:00 </div>
+                        <div class="t-statistic-cell"> 1 </div>
+                        <div class="t-statistic-cell"> 1 </div>
+                        <div class="t-statistic-cell"> 1 </div>
+                        <div class="t-statistic-cell"> 0.00 </div>
+                        <div class="t-statistic-cell"> 0 </div>
+                        <div class="t-statistic-cell"> 0 </div>
+                        <div class="t-statistic-cell"> 0 </div>
+                        <div class="t-statistic-cell"> 0 </div>
+                        <div class="t-statistic-cell"> 0.00 </div>
+                        <div class="t-statistic-cell"> 0.00 </div>
+                        <div class="t-statistic-cell"> 0.00 </div>
+                        <div class="t-statistic-cell"> 0.00 </div>
+                        <div class="t-statistic-cell"> 0.00 </div>
+                        <div class="t-statistic-cell"> 0.00 </div>
+                      </div>
+                      <div class="t-statistic-row">
+                        <div class="t-statistic-cell"> 02:00 </div>
+                        <div class="t-statistic-cell"> 1 </div>
+                        <div class="t-statistic-cell"> 1 </div>
+                        <div class="t-statistic-cell"> 1 </div>
+                        <div class="t-statistic-cell"> 0.00 </div>
+                        <div class="t-statistic-cell"> 0 </div>
+                        <div class="t-statistic-cell"> 0 </div>
+                        <div class="t-statistic-cell"> 0 </div>
+                        <div class="t-statistic-cell"> 0 </div>
+                        <div class="t-statistic-cell"> 0.00 </div>
+                        <div class="t-statistic-cell"> 0.00 </div>
+                        <div class="t-statistic-cell"> 0.00 </div>
+                        <div class="t-statistic-cell"> 0.00 </div>
+                        <div class="t-statistic-cell"> 0.00 </div>
+                        <div class="t-statistic-cell"> 0.00 </div>
+                      </div>
+                  </div>
+                </div>
+                
+                <div class="t-statistic-row">
+                  <div class="t-statistic-cell"> 28.10.2016 </div>
+                  <div class="t-statistic-cell"> 1 </div>
+                  <div class="t-statistic-cell"> 1 </div>
+                  <div class="t-statistic-cell"> 1 </div>
+                  <div class="t-statistic-cell"> 0.00 </div>
+                  <div class="t-statistic-cell"> 0 </div>
+                  <div class="t-statistic-cell"> 0 </div>
+                  <div class="t-statistic-cell"> 0 </div>
+                  <div class="t-statistic-cell"> 0 </div>
+                  <div class="t-statistic-cell"> 0.00 </div>
+                  <div class="t-statistic-cell"> 0.00 </div>
+                  <div class="t-statistic-cell"> 0.00 </div>
+                  <div class="t-statistic-cell"> 0.00 </div>
+                  <div class="t-statistic-cell"> 0.00 </div>
+                  <div class="t-statistic-cell"> 0.00 </div>
+                  
+                  <div class="t-statistic-row__details">
+                      <div class="t-statistic-row">
+                        <div class="t-statistic-cell"> 22:00 </div>
+                        <div class="t-statistic-cell"> 1 </div>
+                        <div class="t-statistic-cell"> 1 </div>
+                        <div class="t-statistic-cell"> 1 </div>
+                        <div class="t-statistic-cell"> 0.00 </div>
+                        <div class="t-statistic-cell"> 0 </div>
+                        <div class="t-statistic-cell"> 0 </div>
+                        <div class="t-statistic-cell"> 0 </div>
+                        <div class="t-statistic-cell"> 0 </div>
+                        <div class="t-statistic-cell"> 0.00 </div>
+                        <div class="t-statistic-cell"> 0.00 </div>
+                        <div class="t-statistic-cell"> 0.00 </div>
+                        <div class="t-statistic-cell"> 0.00 </div>
+                        <div class="t-statistic-cell"> 0.00 </div>
+                        <div class="t-statistic-cell"> 0.00 </div>
+                      </div>
+                  </div>
+                </div>
+                
+                <div class="t-statistic-row__total">
+                  <div class="t-statistic-cell">Всего</div>
+                  <div class="t-statistic-cell"> 1 </div>
+                  <div class="t-statistic-cell"> 1 </div>
+                  <div class="t-statistic-cell"> 1 </div>
+                  <div class="t-statistic-cell"> 0.00 </div>
+                  <div class="t-statistic-cell"> 0 </div>
+                  <div class="t-statistic-cell"> 0 </div>
+                  <div class="t-statistic-cell"> 0 </div>
+                  <div class="t-statistic-cell"> 0 </div>
+                  <div class="t-statistic-cell"> 0.00 </div>
+                  <div class="t-statistic-cell"> 0.00 </div>
+                  <div class="t-statistic-cell"> 0.00 </div>
+                  <div class="t-statistic-cell"> 0.00 </div>
+                  <div class="t-statistic-cell"> 0.00 </div>
+                  <div class="t-statistic-cell"> 0.00 </div>
+                </div>
+                
+              </div></div>
+              
+              
+      	<div class="clear"></div>
+            </div></div>
+      
+        
+      </div>
+ 			
+ 			
+ 			<div class="b-push"></div>
+ 		</div>
+  	
+  	<footer class="b-footer active">
+    	<div class="b-wrap">
+      	
+        <div class="b-footer-wrap-in">
+			
+          <div class="b-footer__nav">
+            <a href="#" class="b-footer__nav-logo"><img src="img/logo_temp_2.png" alt="" class="b-footer__nav-logo__img"></a>
+            <div class="b-footer__nav-links">
+              <a href="mailto:companyname@mail.com" class="nav-links__mail">companyname@mail.com</a>
+              <a href="#" class="nav-links__skype">skypename</a>
+            </div>
+            <span class="copy">&copy; Copyright 2016 example.com<br> All rights reserved</span>
+          </div>
+          
+          <div class="b-footer__nav">
+            <h4 class="b-footer__nav-hd">О компании</h4>
+            <ul class="b-footer__nav-list">
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Рекламодатели</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Вебмастера</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Объем трафика</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Контакты</a></li>
+            </ul>
+          </div>
+          
+          <div class="b-footer__nav">
+            <h4 class="b-footer__nav-hd">Рекламодатель</h4>
+            <ul class="b-footer__nav-list">
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Панель управления</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Кампании</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Новая кампания</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Статистика</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Объем трафика</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Оплата</a></li>
+            </ul>
+          </div>
+          
+          <div class="b-footer__nav">
+            <h4 class="b-footer__nav-hd">Вебмастер</h4>
+            <ul class="b-footer__nav-list">
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Панель управления</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Сайты и рекламные зоны</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Новый сайт и рекламная зона</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Статистика</a></li>
+              <li class="b-footer__nav-list__item"><a href="#" class="b-footer__nav-list__item-link">Оплата</a></li>
+            </ul>
+          </div>
+          
+        </div>
+      
+      </div>
+  	</footer>
+    
+        
+		
+		
+  </body>
+</html>
+
