@@ -72,7 +72,7 @@ $(window).on('load', changeScale);
 	});
 
 	// scale animation
-	$('#range').on('input', function() {
+	$('#range').on('input change', function() {
 		changeScale();
 	});
 })();
