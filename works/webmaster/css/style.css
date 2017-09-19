@@ -545,6 +545,14 @@ input[type=range] {
   cursor: pointer;
   opacity: 0; }
 
+input[type=range]::-webkit-slider-thumb {
+  width: 50px;
+  height: 30px;
+  margin-top: 0;
+  -webkit-appearance: none;
+  cursor: pointer;
+  background-color: #000; }
+
 input[type="range"]::-ms-tooltip {
   display: none; }
 
@@ -804,4 +812,6 @@ textarea {
   .jq-selectbox__select-text {
     font-size: 16px; }
   .jq-selectbox__dropdown li {
-    font-size: 16px; } }
+    font-size: 16px; }
+  input[type=range] {
+    width: 107%; } }
