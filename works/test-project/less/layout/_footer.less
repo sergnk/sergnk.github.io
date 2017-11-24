@@ -1,0 +1,59 @@
+
+/*
+================================================================================
+|                                     FOOTER                                   |
+================================================================================
+*/
+footer{
+	text-align:left;
+	width:100%;
+	min-width: @min-width;
+	order: 3;
+	-webkit-order: 3;	
+	padding: 0px 15px;
+
+	.container{
+    	max-width: 1320px;
+    	padding-left: 0px;
+    	padding-right: 0px;
+    	background-color: #181e2c;
+    	border-bottom-right-radius: 5px;
+    	border-bottom-left-radius: 5px;
+    	overflow: hidden;
+    }
+
+    .btn{
+    	float: right;
+    	display: block;
+    	width: 55px;
+    	height: 45px;
+    	background-color: #1f2637;
+    	border-radius: 0px;
+    	padding-left: 0px;
+
+    	&:hover{
+    		background-color: #15a4fa;
+    		opacity: 1;
+    	}
+
+    	&:before{
+    		display: block;
+    		content: '';
+    		width: 14px;
+    		height: 15px;
+    		position: absolute;
+    		top: 50%;
+    		left: 50%;
+    		margin-top: -7px;
+    		margin-left: -7px;
+    		background-image: url('../img/sprite.png');
+    		background-position: -114px 0px;
+    		background-repeat: no-repeat;
+    	}
+    }
+}
+.btn_settings:before{
+	background-position: -96px 0px!important;
+}
+
+
